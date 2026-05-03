@@ -41,3 +41,6 @@ app-example
 # generated native folders
 /ios
 /android
+
+# Worktree clones (live elsewhere on disk)
+trees/
