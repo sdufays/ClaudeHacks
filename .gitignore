@@ -42,6 +42,9 @@ next-env.d.ts
 # Local Claude state
 .claude/settings.local.json
 
+# Worktree directories (registered via git worktree, not tracked content)
+/trees/
+
 # Worktree-local scratch
 /tmp-*/
 *.scratch.md

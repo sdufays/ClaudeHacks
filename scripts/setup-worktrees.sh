@@ -5,7 +5,8 @@
 set -euo pipefail
 
 REPO_ROOT="$(git rev-parse --show-toplevel)"
-PARENT="$(cd "$REPO_ROOT/.." && pwd)"
+TREES_DIR="$REPO_ROOT/trees"
+mkdir -p "$TREES_DIR"
 
 if ! git -C "$REPO_ROOT" rev-parse --verify HEAD >/dev/null 2>&1; then
   echo "Error: main has no commits. Make an initial commit first." >&2
@@ -15,7 +16,7 @@ fi
 create_tree() {
   local name="$1"
   local branch="$2"
-  local path="$PARENT/ClaudeHacks-$name"
+  local path="$TREES_DIR/$name"
 
   if [ -d "$path" ]; then
     echo "  [skip]    $path already exists"
