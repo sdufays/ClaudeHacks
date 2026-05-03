@@ -1,0 +1,124 @@
+[
+  {
+    "itemId": "AR-2026-06",
+    "meetingId": 451,
+    "meetingDate": "2026-02-09",
+    "docKind": "AR",
+    "title": "Calendar: prepare new home rule petition for a Real Estate Transfer Fee — Tabled as Amended",
+    "summary": "A previously charter-righted communication from the City Manager on Awaiting Report 25-69, requesting a review of the prior home rule petition and preparation of a new petition that would allow Cambridge to enact a Real Estate Transfer Fee. At this meeting the item was Tabled as Amended 6-3-0, with Councillors Al-Zubi, Nolan, and Sobrinho-Wheeler voting nay.",
+    "body": "A communication transmitted from Yi-An Huang, City Manager, relative to Awaiting Report Item Number 25-69, regarding a review of the previous home rule petition and prepare a new petition that would allow Cambridge to enact a Real Estate Transfer Fee to be sent to the state legislature. CHARTER RIGHT EXERCISED BY COUNCILLOR NOLAN IN COUNCIL JANUARY 26, 2026 TABLED AS AMENDED IN COUNCIL FEBRUARY 9, 2026. RESULT: Tabled as Amended [6-3-0]",
+    "sponsors": [],
+    "status": "tabled",
+    "vote": {
+      "result": "Tabled as Amended [6-3-0]",
+      "yeas": ["azeem", "flaherty", "mcgovern", "simmons", "zusy", "siddiqui"],
+      "nays": ["al_zubi", "nolan", "sobrinho_wheeler"],
+      "absent": [],
+      "present": []
+    },
+    "amendments": ["Tabled as Amended"],
+    "history": [
+      {"date": "2026-01-26", "action": "Charter Right Exercised by Councillor Nolan"},
+      {"date": "2026-02-09", "action": "Tabled as Amended"}
+    ],
+    "tags": [
+      "doc.kind:AR",
+      "doc.item_id:ar-2026-06",
+      "doc.meeting_date:2026-02-09",
+      "doc.status:tabled",
+      "doc.stage:tabled",
+      "doc.stage:carryover",
+      "geo.scope:citywide",
+      "housing.tenure:any",
+      "topic.area:housing_zoning",
+      "fiscal.kind:transfer_fee",
+      "civic.flag:home_rule_petition",
+      "civic.councillor_vote:azeem:yea",
+      "civic.councillor_vote:flaherty:yea",
+      "civic.councillor_vote:mcgovern:yea",
+      "civic.councillor_vote:simmons:yea",
+      "civic.councillor_vote:zusy:yea",
+      "civic.councillor_vote:siddiqui:yea",
+      "civic.councillor_vote:al_zubi:nay",
+      "civic.councillor_vote:nolan:nay",
+      "civic.councillor_vote:sobrinho_wheeler:nay"
+    ],
+    "rationale": {
+      "doc.kind:AR": "originated as Awaiting Report 25-69 / now AR-2026-06",
+      "doc.item_id:ar-2026-06": "Awaiting Report 25-69 corresponds to AR 2026-06 in the AR list",
+      "doc.meeting_date:2026-02-09": "cover page: AGENDA February 09, 2026",
+      "doc.status:tabled": "RESULT: Tabled as Amended [6-3-0]",
+      "doc.stage:tabled": "TABLED AS AMENDED IN COUNCIL FEBRUARY 9, 2026",
+      "doc.stage:carryover": "Charter Right exercised at prior meeting; reappears on Calendar",
+      "fiscal.kind:transfer_fee": "Real Estate Transfer Fee",
+      "topic.area:housing_zoning": "real estate transfer fee directly affects housing transactions",
+      "housing.tenure:any": "transfer fee affects owners and indirectly market for renters",
+      "civic.flag:home_rule_petition": "new petition...to be sent to the state legislature",
+      "geo.scope:citywide": "citywide transfer fee",
+      "civic.councillor_vote:al_zubi:nay": "NAYS: Councillor Al-Zubi"
+    },
+    "citation": {
+      "sourceFile": "scrape/city_council/2026-02-17_Agenda_451.pdf",
+      "page": 4,
+      "anchor": "VII.CR.1"
+    }
+  },
+  {
+    "itemId": "POR-2026-CR2",
+    "meetingId": 451,
+    "meetingDate": "2026-02-09",
+    "docKind": "POR",
+    "title": "Calendar: review digital equity work and internet access programs — Adopted as Amended",
+    "summary": "A previously charter-righted policy order asking the City Manager to review the city's digital equity work and existing internet access programs, assess whether residents' digital needs are being met, and report back by June 2026. Adopted as amended unanimously at this meeting.",
+    "body": "That the City Manager ask the appropriate departments to review the city's digital equity work to date, including the study's recommendations and all steps taken since the study conclusion in order to update the evaluation of existing internet access programs, assessing whether residents' digital needs are or could be better provided for and to propose how we can better meet their needs and to report back to the Council by June 2026 on internet access programs. CHARTER RIGHT EXERCISED BY COUNCILLOR AL-ZUBI IN COUNCIL JANUARY 26, 2026. RESULT: Adopted as Amended [9-0-0]",
+    "sponsors": [],
+    "status": "adopted_amended",
+    "vote": {
+      "result": "Adopted as Amended [9-0-0]",
+      "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+      "nays": [],
+      "absent": [],
+      "present": []
+    },
+    "amendments": ["Adopted as Amended"],
+    "history": [
+      {"date": "2026-01-26", "action": "Charter Right Exercised by Councillor Al-Zubi"},
+      {"date": "2026-02-09", "action": "Adopted as Amended"}
+    ],
+    "tags": [
+      "doc.kind:POR",
+      "doc.item_id:por-2026-cr2",
+      "doc.meeting_date:2026-02-09",
+      "doc.status:adopted_amended",
+      "doc.stage:carryover",
+      "geo.scope:citywide",
+      "topic.area:civil_liberties",
+      "demo.income:low",
+      "civic.councillor_vote:al_zubi:yea",
+      "civic.councillor_vote:azeem:yea",
+      "civic.councillor_vote:flaherty:yea",
+      "civic.councillor_vote:mcgovern:yea",
+      "civic.councillor_vote:nolan:yea",
+      "civic.councillor_vote:simmons:yea",
+      "civic.councillor_vote:sobrinho_wheeler:yea",
+      "civic.councillor_vote:zusy:yea",
+      "civic.councillor_vote:siddiqui:yea"
+    ],
+    "rationale": {
+      "doc.kind:POR": "Calendar item originating as a Policy Order on digital equity",
+      "doc.item_id:por-2026-cr2": "no canonical POR ID printed on this calendar item; using carryover slug",
+      "doc.meeting_date:2026-02-09": "cover page: AGENDA February 09, 2026",
+      "doc.status:adopted_amended": "RESULT: Adopted as Amended [9-0-0]",
+      "doc.stage:carryover": "Charter Right exercised at prior meeting; reappears on Calendar",
+      "topic.area:civil_liberties": "digital equity / internet access as a public-rights issue",
+      "demo.income:low": "internet access programs typically focus on low-income households",
+      "geo.scope:citywide": "citywide review of internet access programs",
+      "civic.councillor_vote:al_zubi:yea": "YEAS list includes Councillor Al-Zubi"
+    },
+    "citation": {
+      "sourceFile": "scrape/city_council/2026-02-17_Agenda_451.pdf",
+      "page": 4,
+      "anchor": "VII.CR.2"
+    }
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "meetingId": 450,
+  "meetingDate": "2026-02-02",
+  "meetingType": "Roundtable/Working Meeting",
+  "sourceFiles": [
+    "scrape/city_council/2026-02-02_Agenda_450.pdf"
+  ],
+  "items": [
+    {
+      "itemId": "COM-450-1",
+      "meetingId": 450,
+      "meetingDate": "2026-02-02",
+      "docKind": "COM",
+      "title": "Presentation from the City and Polity Research Consulting: 2025 Resident Opinion Survey",
+      "summary": "At a Roundtable/Working Meeting, the City and Polity Research Consulting presented results of the 2025 Resident Opinion Survey to the City Council. Roundtable meetings are for discussion only and produce no votes or formal actions.",
+      "body": "Presentation from the City and Polity Research Consulting \"2025 Resident Opinion Survey\"",
+      "sponsors": [],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:COM",
+        "doc.item_id:com-450-1",
+        "doc.meeting_date:2026-02-02",
+        "geo.scope:citywide"
+      ],
+      "rationale": {
+        "doc.kind:COM": "Presentation/communication received by the City Council at a Roundtable/Working Meeting",
+        "doc.item_id:com-450-1": "First presentation item under Roll Call section of meeting 450",
+        "doc.meeting_date:2026-02-02": "Cover page: 'AGENDA • FEBRUARY 02, 2026'",
+        "geo.scope:citywide": "Resident opinion survey covers all Cambridge residents citywide"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-02-02_Agenda_450.pdf",
+        "page": 1,
+        "anchor": "I.1"
+      }
+    },
+    {
+      "itemId": "COM-450-2",
+      "meetingId": 450,
+      "meetingDate": "2026-02-02",
+      "docKind": "COM",
+      "title": "Presentation from the City and Polity Research Consulting: 2025 Resident Survey Roundtable",
+      "summary": "Companion presentation for the Council Roundtable on the 2025 Resident Survey, framing the discussion with the City Council that follows the data overview. Roundtable meetings are for discussion only and produce no votes or formal actions.",
+      "body": "Presentation from the City and Polity Research Consulting \"2025 Resident Survey Roundtable\"",
+      "sponsors": [],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:COM",
+        "doc.item_id:com-450-2",
+        "doc.meeting_date:2026-02-02",
+        "geo.scope:citywide"
+      ],
+      "rationale": {
+        "doc.kind:COM": "Presentation/communication received by the City Council at a Roundtable/Working Meeting",
+        "doc.item_id:com-450-2": "Second presentation item under Roll Call section of meeting 450",
+        "doc.meeting_date:2026-02-02": "Cover page: 'AGENDA • FEBRUARY 02, 2026'",
+        "geo.scope:citywide": "Resident survey roundtable discussion covers all Cambridge residents citywide"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-02-02_Agenda_450.pdf",
+        "page": 1,
+        "anchor": "I.2"
+      }
+    }
+  ]
+}

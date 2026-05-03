@@ -1,0 +1,94 @@
+{
+  "meetingId": 2087,
+  "meetingDate": "2026-03-09",
+  "meetingType": "Public Hearing",
+  "sourceFiles": [
+    "scrape/city_council/2026-03-11_Agenda_2087.pdf",
+    "scrape/city_council/2026-03-11_FinalActions_2087.pdf"
+  ],
+  "items": [
+    {
+      "itemId": "CMA-2026-24",
+      "meetingId": 2087,
+      "meetingDate": "2026-03-09",
+      "docKind": "CMA",
+      "title": "Plan to consolidate Cambridge housing and homeless services into a unified Housing Department",
+      "summary": "City Manager Yi-An Huang's plan to reorganize and consolidate housing and homeless service programs currently spread across three City departments into a single, unified Housing Department. The Council held a public hearing under Article 5, Section 5-1 of the City Charter and approved the plan 8-0-1 (Councillor Simmons absent), placing the communication on file.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to a plan to align all housing and homeless services and programs into a unified Housing Department. TABLED IN COUNCIL FEBRUARY 9, 2026.",
+      "sponsors": [],
+      "status": "approved",
+      "vote": {
+        "result": "Approved and CMA Placed on File [8-0-1]",
+        "yeas": [
+          "al_zubi",
+          "azeem",
+          "flaherty",
+          "mcgovern",
+          "nolan",
+          "sobrinho_wheeler",
+          "zusy",
+          "siddiqui"
+        ],
+        "nays": [],
+        "absent": ["simmons"],
+        "present": []
+      },
+      "amendments": [],
+      "history": [
+        {"date": "2026-02-09", "action": "Tabled in Council"},
+        {"date": "2026-03-09", "action": "Approved and CMA Placed on File [8-0-1]"}
+      ],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-24",
+        "doc.meeting_date:2026-03-09",
+        "doc.status:approved",
+        "doc.stage:unfinished_business",
+        "geo.scope:citywide",
+        "housing.tenure:any",
+        "housing.affordability:public_housing",
+        "topic.area:housing_zoning",
+        "topic.area:public_health",
+        "demo.income:low",
+        "civic.flag:public_comment_open",
+        "civic.councillor_vote:al_zubi:yea",
+        "civic.councillor_vote:azeem:yea",
+        "civic.councillor_vote:flaherty:yea",
+        "civic.councillor_vote:mcgovern:yea",
+        "civic.councillor_vote:nolan:yea",
+        "civic.councillor_vote:sobrinho_wheeler:yea",
+        "civic.councillor_vote:zusy:yea",
+        "civic.councillor_vote:siddiqui:yea",
+        "civic.councillor_vote:simmons:absent"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA, item 1 (CMA 2026-24)",
+        "doc.item_id:cma-2026-24": "Bold ID line: CMA 2026-24",
+        "doc.meeting_date:2026-03-09": "Cover page: 'AGENDA - MARCH 09, 2026' (filename publish date is March 11)",
+        "doc.status:approved": "RESULT: Approved and CMA Placed on File [8-0-1]",
+        "doc.stage:unfinished_business": "TABLED IN COUNCIL FEBRUARY 9, 2026 — carried over to March 9 hearing",
+        "geo.scope:citywide": "Department reorganization affects all City housing and homeless service programs; no neighborhood named",
+        "housing.tenure:any": "Housing Department serves both renter- and owner-side programs across the city",
+        "housing.affordability:public_housing": "Consolidation includes City housing programs (e.g. CHA-adjacent / public housing administration) into one department",
+        "topic.area:housing_zoning": "Reorganization of the Housing Department",
+        "topic.area:public_health": "Consolidates homeless service programs, a public-health-adjacent service area",
+        "demo.income:low": "Homeless services and City housing programs serve low-income residents",
+        "civic.flag:public_comment_open": "Public hearing pursuant to Article 5, Section 5-1 of the Charter",
+        "civic.councillor_vote:al_zubi:yea": "YEAS: Councillor Al-Zubi",
+        "civic.councillor_vote:azeem:yea": "YEAS: Vice Mayor Azeem",
+        "civic.councillor_vote:flaherty:yea": "YEAS: Councillor Flaherty",
+        "civic.councillor_vote:mcgovern:yea": "YEAS: Councillor McGovern",
+        "civic.councillor_vote:nolan:yea": "YEAS: Councillor Nolan",
+        "civic.councillor_vote:sobrinho_wheeler:yea": "YEAS: Councillor Sobrinho-Wheeler",
+        "civic.councillor_vote:zusy:yea": "YEAS: Councillor Zusy",
+        "civic.councillor_vote:siddiqui:yea": "YEAS: Mayor Siddiqui",
+        "civic.councillor_vote:simmons:absent": "ABSENT: Councillor Simmons"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-03-11_Agenda_2087.pdf",
+        "page": 1,
+        "anchor": "V.1"
+      }
+    }
+  ]
+}

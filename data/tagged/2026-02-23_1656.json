@@ -1,0 +1,54 @@
+{
+  "meetingId": 1656,
+  "meetingDate": "2026-02-23",
+  "meetingType": "Joint Roundtable/Working Meeting",
+  "sourceFiles": [
+    "scrape/city_council/2026-02-22_Agenda_1656.pdf"
+  ],
+  "items": [
+    {
+      "itemId": "COF-2026-15",
+      "meetingId": 1656,
+      "meetingDate": "2026-02-23",
+      "docKind": "COF",
+      "title": "CPS Superintendent communication on FY27 operating budget priorities",
+      "summary": "A communication from David Murphy, Superintendent of Cambridge Public Schools, outlining the priorities driving the FY27 operating budget for the district. Submitted for a Joint Roundtable/Working meeting between the City Council and School Committee. The meeting itself was cancelled, so no Council action was taken.",
+      "body": "A COMMUNICATION HAS BEEN RECEIVED FROM DAVID MURPHY, SUPERINTENDENT CAMBRIDGE PUBLIC SCHOOLS. REGARDING PRIORITIES DRIVING OUR FY27 OPERATING BUDGET FOR THE CAMBRIDGE PUBLIC SCHOOLS\nCOF 2026-15",
+      "sponsors": [],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [
+        {
+          "date": "2026-02-23",
+          "action": "Joint Roundtable/Working Meeting with the School Committee CANCELLED"
+        }
+      ],
+      "tags": [
+        "doc.kind:COF",
+        "doc.item_id:cof-2026-15",
+        "doc.meeting_date:2026-02-23",
+        "geo.scope:citywide",
+        "household.kids:k12",
+        "household.school:cps",
+        "topic.area:schools",
+        "fiscal.kind:appropriation"
+      ],
+      "rationale": {
+        "doc.kind:COF": "Item ID prefix 'COF 2026-15' indicates a Communication from Other City Officers (the CPS Superintendent)",
+        "doc.item_id:cof-2026-15": "Bold ID line 'COF 2026-15' at end of agenda entry",
+        "doc.meeting_date:2026-02-23": "Cover page lists 'AGENDA - FEBRUARY 23, 2026' as the meeting date (filename publish date is Feb 22)",
+        "geo.scope:citywide": "FY27 operating budget covers the entire Cambridge Public Schools district; no specific school or neighborhood named",
+        "household.kids:k12": "Cambridge Public Schools serves K-12 students",
+        "household.school:cps": "Item is explicitly about 'CAMBRIDGE PUBLIC SCHOOLS'",
+        "topic.area:schools": "Item subject is the CPS operating budget priorities",
+        "fiscal.kind:appropriation": "Item concerns the 'FY27 OPERATING BUDGET' for the school district"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-02-22_Agenda_1656.pdf",
+        "page": 1,
+        "anchor": "II.1"
+      }
+    }
+  ]
+}

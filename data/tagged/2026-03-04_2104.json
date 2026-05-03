@@ -1,0 +1,51 @@
+{
+  "meetingId": 2104,
+  "meetingDate": "2026-03-04",
+  "meetingType": "Joint Roundtable/Working Meeting",
+  "sourceFiles": [
+    "scrape/city_council/2026-03-02_Agenda_2104.pdf"
+  ],
+  "items": [
+    {
+      "itemId": "COF-2026-15",
+      "meetingId": 2104,
+      "meetingDate": "2026-03-04",
+      "docKind": "COF",
+      "title": "Superintendent Murphy communication on FY27 Cambridge Public Schools operating budget priorities",
+      "summary": "Superintendent David Murphy submitted a communication to the joint Council/School Committee roundtable outlining the priorities driving the FY27 operating budget for the Cambridge Public Schools. The document is the basis for a working discussion between the City Council and School Committee about CPS budget direction for the upcoming fiscal year. No vote is scheduled at this working meeting.",
+      "body": "A COMMUNICATION HAS BEEN RECEIVED FROM DAVID MURPHY, SUPERINTENDENT CAMBRIDGE PUBLIC SCHOOLS. REGARDING PRIORITIES DRIVING OUR FY27 OPERATING BUDGET FOR THE CAMBRIDGE PUBLIC SCHOOLS\nCOF 2026-15",
+      "sponsors": [],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:COF",
+        "doc.item_id:cof-2026-15",
+        "doc.meeting_date:2026-03-04",
+        "geo.scope:citywide",
+        "household.kids:k12",
+        "household.kids:under_5",
+        "household.school:cps",
+        "topic.area:schools",
+        "fiscal.kind:appropriation"
+      ],
+      "rationale": {
+        "doc.kind:COF": "Section VII. COMMUNICATIONS FROM OTHER CITY OFFICERS",
+        "doc.item_id:cof-2026-15": "item id printed in agenda: COF 2026-15",
+        "doc.meeting_date:2026-03-04": "agenda cover page: 'AGENDA - MARCH 04, 2026'",
+        "geo.scope:citywide": "CPS operating budget applies to the whole district, no specific school named",
+        "household.kids:k12": "operating budget for Cambridge Public Schools (K-12 system)",
+        "household.kids:under_5": "CPS operating budget includes Junior Kindergarten/preschool programs serving under-5",
+        "household.school:cps": "explicit subject: Cambridge Public Schools",
+        "topic.area:schools": "joint working meeting on CPS budget priorities",
+        "fiscal.kind:appropriation": "subject is the FY27 OPERATING BUDGET for Cambridge Public Schools"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-03-02_Agenda_2104.pdf",
+        "page": 1,
+        "anchor": "VII.1"
+      }
+    }
+  ]
+}

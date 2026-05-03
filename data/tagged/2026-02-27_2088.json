@@ -1,0 +1,41 @@
+{
+  "meetingId": 2088,
+  "meetingDate": "2026-02-27",
+  "meetingType": "Executive Session",
+  "sourceFiles": [
+    "scrape/city_council/2026-02-24_Agenda_2088.pdf"
+  ],
+  "items": [
+    {
+      "itemId": "COM-2026-ES01",
+      "meetingId": 2088,
+      "meetingDate": "2026-02-27",
+      "docKind": "COM",
+      "title": "Executive session to discuss litigation strategy in Ahern v. City of Cambridge",
+      "summary": "The City Council convened in open session and then moved to executive session to discuss litigation strategy regarding Ahern v. City of Cambridge, et al. (Docket No. 1:21-cv-11007-DJC), a civil case pending in the U.S. District Court of Massachusetts. The Council cited potential detriment to the City's litigating position as the reason for closing the discussion to the public.",
+      "body": "The City Council will meet in open session, and then move to go into executive session to discuss strategy with respect to litigation known as Ahern v. City of Cambridge, et al., Docket Number 1:21-cv-11007-DJC, which is a civil case in the U.S. District Court of Massachusetts. Discussing this matter in an open session may have a detrimental effect on the litigating position of the City.",
+      "sponsors": [],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:COM",
+        "doc.item_id:com-2026-es01",
+        "doc.meeting_date:2026-02-27",
+        "geo.scope:citywide"
+      ],
+      "rationale": {
+        "doc.kind:COM": "Published meeting communication / notice describing executive-session purpose",
+        "doc.item_id:com-2026-es01": "Synthetic ID for the sole executive-session notice in this agenda",
+        "doc.meeting_date:2026-02-27": "Cover page: 'AGENDA - FEBRUARY 27, 2026'",
+        "geo.scope:citywide": "Litigation against the City as a whole; no neighborhood named"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-02-24_Agenda_2088.pdf",
+        "page": 1,
+        "anchor": "Executive Session"
+      }
+    }
+  ]
+}

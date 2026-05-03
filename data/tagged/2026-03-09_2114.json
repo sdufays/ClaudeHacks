@@ -1,0 +1,11 @@
+{
+  "meetingId": 2114,
+  "meetingDate": "2026-03-09",
+  "meetingType": "Executive Session",
+  "sourceFiles": [
+    "scrape/city_council/2026-03-11_Agenda_2114.pdf",
+    "scrape/city_council/2026-03-11_FinalActions_2114.pdf"
+  ],
+  "notes": "Executive Session meeting (closed) to discuss strategy with respect to litigation Columbia St LLC v. City, Land Court Docket 25 MISC 0007469. Agenda contained only ROLL CALL; no agenda items in any tagged section (CMA/POR/RES/ORD/AR/COF/COM/HR/CC/MIN). Roll call excluded per runbook.",
+  "items": []
+}

@@ -1,0 +1,49 @@
+{
+  "meetingId": 455,
+  "meetingDate": "2026-01-27",
+  "meetingType": "Special Meeting",
+  "sourceFiles": [
+    "scrape/city_council/2026-01-29_Agenda_455.pdf",
+    "scrape/city_council/2026-01-29_FinalActions_455.pdf"
+  ],
+  "items": [
+    {
+      "itemId": "COF-2026-455-01",
+      "meetingId": 455,
+      "meetingDate": "2026-01-27",
+      "docKind": "COF",
+      "title": "Special Meeting: Council goal setting for 2026-2027 term and Council/City Staff work process",
+      "summary": "The City Council held a Special Meeting facilitated by the City Manager and Mayor to set 3-5 goals for the 2026-2027 council term, reviewing which 2024/2025 goals have been achieved, need modification, or are no longer relevant. The session also covered a structured discussion with City Staff about Policy Orders/Awaiting Reports, use of committees, and constituent services. A 25-minute public comment window was scheduled at the start of the meeting.",
+      "body": "Special Meeting of the City Council on Tuesday, January 27, 2026, at 9:00 am in the Sullivan Chamber, Cambridge City Hall, 795 Massachusetts Ave. Cambridge MA. to discuss Goal Setting for the 2026-2027 council term and City Council / City Staff work process.\n\nAgenda:\n9:00-9:05 Welcome and desired outcomes for the session (City Manager and Mayor)\n9:05-9:30 Public Comment (Mayor)\n9:30-11:00 In a large group, discuss: (1) Which of these 2024/2025 goals have been achieved and therefore should come off the list for 2026/2027? (2) Which of these 2024/2025 goals need to be modified to reflect progress made, but not completion? (3) Which of these 2024/2025 goals are no longer relevant? (4) What goals should be added for 2026/2027 if any? (5) Review and agree on 3-5 goals for 2026/2027 (Facilitator)\n11:00-11:15 Break\n11:15-12:45 Council and City Staff discuss what's working well and what needs to be adjusted/improved? Yi-An to offer updates and status on the below 3 topics followed by conversation with the full group: (1) Policy Orders/Awaiting Reports, (2) Use of Committees, (3) Constituent Services (City Manager/Facilitator)\n12:45-1:00 Closing (City Manager and Mayor)",
+      "sponsors": [],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [
+        {
+          "date": "2026-01-27",
+          "action": "Special Meeting held; all 9 councillors present (Al-Zubi remote, Azeem in person at 9:25 AM, Flaherty in person at 9:27 AM, others in person)"
+        }
+      ],
+      "tags": [
+        "doc.kind:COF",
+        "doc.item_id:cof-2026-455-01",
+        "doc.meeting_date:2026-01-27",
+        "geo.scope:citywide",
+        "civic.flag:public_comment_open"
+      ],
+      "rationale": {
+        "doc.kind:COF": "Special Meeting communication from the City Manager and Mayor (City Officers) facilitating a council working session",
+        "doc.item_id:cof-2026-455-01": "synthetic ID for the single working-session item in Special Meeting 455 (no numbered agenda items)",
+        "doc.meeting_date:2026-01-27": "cover page: 'Special Meeting of the City Council on Tuesday, January 27, 2026'",
+        "geo.scope:citywide": "council goal setting for the 2026-2027 term applies to the entire city; no neighborhood named",
+        "civic.flag:public_comment_open": "agenda block '9:05 - 9:30 Public Comment' (Mayor)"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-01-29_Agenda_455.pdf",
+        "page": 1,
+        "anchor": "Special Meeting Agenda"
+      }
+    }
+  ]
+}

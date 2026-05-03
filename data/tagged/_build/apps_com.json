@@ -1,0 +1,165 @@
+[
+  {
+    "itemId": "APP-2026-07",
+    "meetingId": 451,
+    "meetingDate": "2026-02-09",
+    "docKind": "COM",
+    "title": "Application for projecting blade sign at 358 Huron Avenue (IMAGINE)",
+    "summary": "Nick Zappia, representing IMAGINE, applied for permission to install a projecting blade sign at 358 Huron Avenue. Approval received from Inspectional Services, DPW, CDD, and abutters. Adopted unanimously.",
+    "body": "An application was received from Nick Zappia representing IMAGINE, requesting permission for a one (1) projecting blade sign at the premises numbered 358 Huron Avenue. approval has been received from Inspectional Services, Department of Public Works, Community Development Department and abutters. RESULT: Adopted [9-0-0]",
+    "sponsors": [],
+    "status": "adopted",
+    "vote": {
+      "result": "Adopted [9-0-0]",
+      "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+      "nays": [],
+      "absent": [],
+      "present": []
+    },
+    "amendments": [],
+    "history": [],
+    "tags": [
+      "doc.kind:COM",
+      "doc.item_id:app-2026-07",
+      "doc.meeting_date:2026-02-09",
+      "doc.status:adopted",
+      "geo.scope:corridor",
+      "geo.corridor:huron_ave",
+      "geo.neighborhood:west_cambridge",
+      "topic.area:small_business",
+      "work.employer:small_business",
+      "civic.councillor_vote:al_zubi:yea",
+      "civic.councillor_vote:azeem:yea",
+      "civic.councillor_vote:flaherty:yea",
+      "civic.councillor_vote:mcgovern:yea",
+      "civic.councillor_vote:nolan:yea",
+      "civic.councillor_vote:simmons:yea",
+      "civic.councillor_vote:sobrinho_wheeler:yea",
+      "civic.councillor_vote:zusy:yea",
+      "civic.councillor_vote:siddiqui:yea"
+    ],
+    "rationale": {
+      "doc.kind:COM": "VIII. APPLICATIONS — sign/awning permit communications",
+      "doc.item_id:app-2026-07": "APP 2026-07 in source",
+      "doc.meeting_date:2026-02-09": "cover page: AGENDA February 09, 2026",
+      "doc.status:adopted": "RESULT: Adopted [9-0-0]",
+      "geo.scope:corridor": "specific street address provided",
+      "geo.corridor:huron_ave": "premises numbered 358 Huron Avenue",
+      "geo.neighborhood:west_cambridge": "Huron Avenue at #358 is in West Cambridge / Neighborhood Nine area; using west_cambridge",
+      "topic.area:small_business": "permit for small business signage",
+      "work.employer:small_business": "applicant is a small business",
+      "civic.councillor_vote:al_zubi:yea": "YEAS list includes Councillor Al-Zubi"
+    },
+    "citation": {
+      "sourceFile": "scrape/city_council/2026-02-17_Agenda_451.pdf",
+      "page": 4,
+      "anchor": "VIII.1"
+    }
+  },
+  {
+    "itemId": "APP-2026-09",
+    "meetingId": 451,
+    "meetingDate": "2026-02-09",
+    "docKind": "COM",
+    "title": "Application for awning at 359 Huron Avenue (Sumi House)",
+    "summary": "Donger Lei, representing Sumi House, applied for permission to install an awning at 359 Huron Avenue. Approval received from Inspectional Services, DPW, CDD, and abutters. Adopted unanimously.",
+    "body": "An application was received from Donger Lei representing Sumi House, requesting permission for a one (1) awning at the premises numbered 359 Huron Avenue. approval has been received from Inspectional Services, Department of Public Works, Community Development Department and abutters. RESULT: Adopted [9-0-0]",
+    "sponsors": [],
+    "status": "adopted",
+    "vote": {
+      "result": "Adopted [9-0-0]",
+      "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+      "nays": [],
+      "absent": [],
+      "present": []
+    },
+    "amendments": [],
+    "history": [],
+    "tags": [
+      "doc.kind:COM",
+      "doc.item_id:app-2026-09",
+      "doc.meeting_date:2026-02-09",
+      "doc.status:adopted",
+      "geo.scope:corridor",
+      "geo.corridor:huron_ave",
+      "geo.neighborhood:west_cambridge",
+      "topic.area:small_business",
+      "work.employer:small_business",
+      "civic.councillor_vote:al_zubi:yea",
+      "civic.councillor_vote:azeem:yea",
+      "civic.councillor_vote:flaherty:yea",
+      "civic.councillor_vote:mcgovern:yea",
+      "civic.councillor_vote:nolan:yea",
+      "civic.councillor_vote:simmons:yea",
+      "civic.councillor_vote:sobrinho_wheeler:yea",
+      "civic.councillor_vote:zusy:yea",
+      "civic.councillor_vote:siddiqui:yea"
+    ],
+    "rationale": {
+      "doc.kind:COM": "VIII. APPLICATIONS — sign/awning permit communications",
+      "doc.item_id:app-2026-09": "APP 2026-09 in source",
+      "doc.meeting_date:2026-02-09": "cover page: AGENDA February 09, 2026",
+      "doc.status:adopted": "RESULT: Adopted [9-0-0]",
+      "geo.scope:corridor": "specific street address provided",
+      "geo.corridor:huron_ave": "premises numbered 359 Huron Avenue",
+      "geo.neighborhood:west_cambridge": "Huron Avenue at #359 is in West Cambridge",
+      "topic.area:small_business": "permit for small business awning",
+      "work.employer:small_business": "applicant is a small business",
+      "civic.councillor_vote:al_zubi:yea": "YEAS list includes Councillor Al-Zubi"
+    },
+    "citation": {
+      "sourceFile": "scrape/city_council/2026-02-17_Agenda_451.pdf",
+      "page": 5,
+      "anchor": "VIII.2"
+    }
+  },
+  {
+    "itemId": "COM-2026-09",
+    "meetingId": 451,
+    "meetingDate": "2026-02-09",
+    "docKind": "COM",
+    "title": "Communications received for the February 9, 2026 Regular City Council meeting",
+    "summary": "Bundle of public communications received for the February 9, 2026 Regular City Council meeting. Placed on file 8-1-0, with Councillor Al-Zubi voting nay.",
+    "body": "Communications for the Regular City Council meeting on February 9, 2026. RESULT: Placed on File [8-1-0]",
+    "sponsors": [],
+    "status": "placed_on_file",
+    "vote": {
+      "result": "Placed on File [8-1-0]",
+      "yeas": ["azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+      "nays": ["al_zubi"],
+      "absent": [],
+      "present": []
+    },
+    "amendments": [],
+    "history": [],
+    "tags": [
+      "doc.kind:COM",
+      "doc.item_id:com-2026-09",
+      "doc.meeting_date:2026-02-09",
+      "doc.status:placed_on_file",
+      "geo.scope:citywide",
+      "civic.councillor_vote:azeem:yea",
+      "civic.councillor_vote:flaherty:yea",
+      "civic.councillor_vote:mcgovern:yea",
+      "civic.councillor_vote:nolan:yea",
+      "civic.councillor_vote:simmons:yea",
+      "civic.councillor_vote:sobrinho_wheeler:yea",
+      "civic.councillor_vote:zusy:yea",
+      "civic.councillor_vote:siddiqui:yea",
+      "civic.councillor_vote:al_zubi:nay"
+    ],
+    "rationale": {
+      "doc.kind:COM": "Section IX. COMMUNICATIONS",
+      "doc.item_id:com-2026-09": "COM 2026-09 in source",
+      "doc.meeting_date:2026-02-09": "cover page: AGENDA February 09, 2026",
+      "doc.status:placed_on_file": "RESULT: Placed on File [8-1-0]",
+      "geo.scope:citywide": "general public communications bundle",
+      "civic.councillor_vote:al_zubi:nay": "NAYS: Councillor Al-Zubi"
+    },
+    "citation": {
+      "sourceFile": "scrape/city_council/2026-02-17_Agenda_451.pdf",
+      "page": 5,
+      "anchor": "IX.1"
+    }
+  }
+]
