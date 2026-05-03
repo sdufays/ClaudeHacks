@@ -4,10 +4,10 @@ import {
   ScrollView,
   Text,
   StyleSheet,
-  SafeAreaView,
   Modal,
   Pressable,
 } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useChat } from '@ai-sdk/react';
 import { DefaultChatTransport, UIMessage } from 'ai';
 
@@ -26,6 +26,7 @@ import {
 import { colors, fonts, spacing, radius } from '@/lib/theme';
 
 export default function HomeScreen() {
+  const insets = useSafeAreaInsets();
   const [chatOpen, setChatOpen] = useState(false);
   const [profileModalOpen, setProfileModalOpen] = useState(false);
 
@@ -45,21 +46,30 @@ export default function HomeScreen() {
     [sendMessage]
   );
 
-  const relevanceMap = Object.fromEntries(
-    MOCK_RELEVANCE.map((r) => [r.itemId, r])
+  // Memoize derived data — mock data is stable but pattern matters for real data
+  // (js-index-maps: build Map once; rerender-derived-state-no-effect)
+  const relevanceMap = useMemo(
+    () => Object.fromEntries(MOCK_RELEVANCE.map((r) => [r.itemId, r])),
+    []
   );
 
-  // Sort items by relevance score descending
-  const sortedItems = [...MOCK_ITEMS].sort((a, b) => {
-    const scoreA = relevanceMap[a.id]?.score ?? 0;
-    const scoreB = relevanceMap[b.id]?.score ?? 0;
-    return scoreB - scoreA;
-  });
+  const sortedItems = useMemo(
+    () =>
+      [...MOCK_ITEMS].sort((a, b) => {
+        const scoreA = relevanceMap[a.id]?.score ?? 0;
+        const scoreB = relevanceMap[b.id]?.score ?? 0;
+        return scoreB - scoreA;
+      }),
+    [relevanceMap]
+  );
 
-  const highRelevanceCount = MOCK_RELEVANCE.filter((r) => r.score >= 0.8).length;
+  const highRelevanceCount = useMemo(
+    () => MOCK_RELEVANCE.filter((r) => r.score >= 0.8).length,
+    []
+  );
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <View style={[styles.root, { paddingTop: insets.top }]}>
       {/* Sticky top bar */}
       <TopBar
         profile={DEMO_PROFILE}
@@ -69,7 +79,10 @@ export default function HomeScreen() {
       {/* Main scroll */}
       <ScrollView
         style={styles.scroll}
-        contentContainerStyle={styles.scrollContent}
+        contentContainerStyle={[
+          styles.scrollContent,
+          { paddingBottom: insets.bottom + spacing.xxl },
+        ]}
         showsVerticalScrollIndicator={false}
         keyboardShouldPersistTaps="handled"
       >
@@ -80,7 +93,10 @@ export default function HomeScreen() {
               Tonight's Briefing · Cambridge
             </Eyebrow>
             <Text style={styles.heroHeadline}>
-              This week in Cambridge — {MOCK_ITEMS.length} items,{' '}
+              This week in Cambridge
+            </Text>
+            <Text style={styles.heroSub}>
+              {MOCK_ITEMS.length} items tracked —{' '}
               {highRelevanceCount > 0
                 ? `${highRelevanceCount} affect${highRelevanceCount === 1 ? 's' : ''} you directly`
                 : 'all tracked for you'}
@@ -100,9 +116,6 @@ export default function HomeScreen() {
             actions={MOCK_ACTIONS[item.id]}
           />
         ))}
-
-        {/* Bottom spacer so last card clears the composer */}
-        <View style={{ height: spacing.xxl }} />
       </ScrollView>
 
       {/* Chat panel (inline, slides up above composer) */}
@@ -116,27 +129,36 @@ export default function HomeScreen() {
       ) : null}
 
       {/* Chat composer — fixed at bottom */}
-      <ChatComposer onSend={handleSend} disabled={isLoading} />
+      <View style={{ paddingBottom: insets.bottom }}>
+        <ChatComposer onSend={handleSend} disabled={isLoading} />
+      </View>
 
-      {/* Profile modal (stub — just shows affordance) */}
+      {/* Profile modal */}
       <Modal
         visible={profileModalOpen}
         animationType="slide"
         presentationStyle="pageSheet"
         onRequestClose={() => setProfileModalOpen(false)}
       >
-        <SafeAreaView style={styles.modalSafe}>
+        <View style={[styles.modalRoot, { paddingTop: insets.top }]}>
           <View style={styles.modalHeader}>
             <Text style={styles.modalTitle}>Your Profile</Text>
             <Pressable
               style={styles.modalClose}
               onPress={() => setProfileModalOpen(false)}
               accessibilityLabel="Close profile"
+              hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
             >
               <Text style={styles.modalCloseText}>Done</Text>
             </Pressable>
           </View>
-          <View style={styles.modalBody}>
+          <ScrollView
+            style={styles.modalScroll}
+            contentContainerStyle={[
+              styles.modalBody,
+              { paddingBottom: insets.bottom + spacing.xl },
+            ]}
+          >
             <ProfileRow label="Name" value={DEMO_PROFILE.name} />
             <ProfileRow label="Address" value={DEMO_PROFILE.address} />
             <ProfileRow
@@ -160,10 +182,10 @@ export default function HomeScreen() {
                 They are never shared with council in any form that identifies you.
               </Text>
             </View>
-          </View>
-        </SafeAreaView>
+          </ScrollView>
+        </View>
       </Modal>
-    </SafeAreaView>
+    </View>
   );
 }
 
@@ -177,7 +199,7 @@ function ProfileRow({ label, value }: { label: string; value: string }) {
 }
 
 const styles = StyleSheet.create({
-  safe: {
+  root: {
     flex: 1,
     backgroundColor: colors.page,
   },
@@ -193,11 +215,19 @@ const styles = StyleSheet.create({
   },
   heroHeadline: {
     fontFamily: fonts.serifBold,
-    fontSize: 26,
-    lineHeight: 33,
+    fontSize: 34,
+    lineHeight: 40,
     color: '#FFFFFF',
-    letterSpacing: -0.4,
-    marginBottom: spacing.sm,
+    letterSpacing: -0.5,
+    marginBottom: spacing.xs,
+  },
+  heroSub: {
+    fontFamily: fonts.sansBold,
+    fontSize: 13,
+    letterSpacing: 1.2,
+    textTransform: 'uppercase',
+    color: 'rgba(255,255,255,0.65)',
+    marginBottom: spacing.md,
   },
   heroBody: {
     fontFamily: fonts.sans,
@@ -206,9 +236,12 @@ const styles = StyleSheet.create({
     lineHeight: 22,
   },
   // Profile modal
-  modalSafe: {
+  modalRoot: {
     flex: 1,
     backgroundColor: colors.page,
+  },
+  modalScroll: {
+    flex: 1,
   },
   modalHeader: {
     flexDirection: 'row',
@@ -225,8 +258,10 @@ const styles = StyleSheet.create({
     color: colors.headline.light,
   },
   modalClose: {
-    paddingVertical: 4,
-    paddingHorizontal: 8,
+    paddingVertical: 6,
+    paddingHorizontal: 10,
+    minHeight: 44,
+    justifyContent: 'center',
   },
   modalCloseText: {
     fontFamily: fonts.sansSemibold,
@@ -240,20 +275,21 @@ const styles = StyleSheet.create({
   profileRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    paddingVertical: spacing.sm,
+    alignItems: 'baseline',
+    paddingVertical: spacing.sm + 2,
     borderBottomWidth: 1,
     borderBottomColor: colors.muted.light + '15',
   },
   profileLabel: {
     fontFamily: fonts.sansBold,
-    fontSize: 13,
-    letterSpacing: 0.5,
+    fontSize: 11,
+    letterSpacing: 1.4,
     textTransform: 'uppercase',
     color: colors.muted.light,
   },
   profileValue: {
-    fontFamily: fonts.sans,
-    fontSize: 15,
+    fontFamily: fonts.serif,
+    fontSize: 16,
     color: colors.body.light,
   },
   modalNote: {

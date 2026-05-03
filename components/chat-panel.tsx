@@ -5,9 +5,14 @@ import {
   ScrollView,
   Pressable,
   StyleSheet,
-  Animated,
   ActivityIndicator,
 } from 'react-native';
+import Animated, {
+  useSharedValue,
+  useAnimatedStyle,
+  withTiming,
+  Easing,
+} from 'react-native-reanimated';
 import { Ionicons } from '@expo/vector-icons';
 import { UIMessage } from 'ai';
 import { colors, fonts, radius, spacing, shadows } from '@/lib/theme';
@@ -29,7 +34,6 @@ function getMessageText(msg: UIMessage): string {
 }
 
 function parseContent(text: string): Array<{ text: string; citation?: string }> {
-  // Split on [1], [2], etc. superscript markers
   const parts = text.split(/(\[\d+\])/g);
   return parts.map((part) => {
     const citMatch = part.match(/^\[(\d+)\]$/);
@@ -60,31 +64,33 @@ function AssistantBubble({ content }: { content: string }) {
 }
 
 export function ChatPanel({ messages, isLoading, error, onClose }: ChatPanelProps) {
-  const slideAnim = useRef(new Animated.Value(0)).current;
+  const translateY = useSharedValue(320);
   const scrollRef = useRef<ScrollView>(null);
 
   useEffect(() => {
-    Animated.spring(slideAnim, {
-      toValue: 1,
-      useNativeDriver: true,
-      tension: 80,
-      friction: 12,
-    }).start();
-  }, []);
+    translateY.value = withTiming(0, {
+      duration: 300,
+      easing: Easing.out(Easing.cubic),
+    });
+  }, [translateY]);
 
   useEffect(() => {
     if (messages.length > 0) {
-      setTimeout(() => scrollRef.current?.scrollToEnd({ animated: true }), 100);
+      const timer = setTimeout(
+        () => scrollRef.current?.scrollToEnd({ animated: true }),
+        80
+      );
+      return () => clearTimeout(timer);
     }
+    return undefined;
   }, [messages]);
 
-  const translateY = slideAnim.interpolate({
-    inputRange: [0, 1],
-    outputRange: [300, 0],
-  });
+  const animatedStyle = useAnimatedStyle(() => ({
+    transform: [{ translateY: translateY.value }],
+  }));
 
   return (
-    <Animated.View style={[styles.panel, { transform: [{ translateY }] }]}>
+    <Animated.View style={[styles.panel, animatedStyle]}>
       {/* Header */}
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Ask about Cambridge</Text>
@@ -93,8 +99,9 @@ export function ChatPanel({ messages, isLoading, error, onClose }: ChatPanelProp
           onPress={onClose}
           accessibilityLabel="Close chat"
           accessibilityRole="button"
+          hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
         >
-          <Ionicons name="close" size={20} color={colors.muted.light} />
+          <Ionicons name="close" size={22} color={colors.muted.light} />
         </Pressable>
       </View>
 
@@ -104,6 +111,7 @@ export function ChatPanel({ messages, isLoading, error, onClose }: ChatPanelProp
         style={styles.messages}
         contentContainerStyle={styles.messagesContent}
         showsVerticalScrollIndicator={false}
+        keyboardShouldPersistTaps="handled"
       >
         {messages.length === 0 && !isLoading && !error ? (
           <View style={styles.emptyState}>
@@ -243,9 +251,9 @@ const styles = StyleSheet.create({
   },
   citation: {
     fontFamily: fonts.sansBold,
-    fontSize: 11,
+    fontSize: 10,
     color: colors.accent.light,
-    lineHeight: 16,
+    lineHeight: 14,
   },
   loadingRow: {
     flexDirection: 'row',

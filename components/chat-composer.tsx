@@ -8,6 +8,7 @@ import {
   Platform,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
 import { colors, fonts, radius, spacing, shadows } from '@/lib/theme';
 
 interface ChatComposerProps {
@@ -18,9 +19,12 @@ interface ChatComposerProps {
 export function ChatComposer({ onSend, disabled }: ChatComposerProps) {
   const [text, setText] = useState('');
 
+  const canSend = Boolean(text.trim()) && !disabled;
+
   const handleSend = () => {
     const trimmed = text.trim();
     if (!trimmed || disabled) return;
+    Haptics.selectionAsync();
     onSend(trimmed);
     setText('');
   };
@@ -30,6 +34,8 @@ export function ChatComposer({ onSend, disabled }: ChatComposerProps) {
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       keyboardVerticalOffset={0}
     >
+      {/* Soft separator */}
+      <View style={styles.separator} />
       <View style={styles.container}>
         <View style={styles.inputRow}>
           <TextInput
@@ -39,6 +45,7 @@ export function ChatComposer({ onSend, disabled }: ChatComposerProps) {
             placeholder="Ask about any item…"
             placeholderTextColor={colors.muted.light + '90'}
             multiline
+            numberOfLines={undefined}
             returnKeyType="send"
             onSubmitEditing={handleSend}
             blurOnSubmit={false}
@@ -47,18 +54,18 @@ export function ChatComposer({ onSend, disabled }: ChatComposerProps) {
           <Pressable
             style={({ pressed }) => [
               styles.sendButton,
-              (!text.trim() || disabled) && styles.sendButtonDisabled,
-              pressed && styles.sendButtonPressed,
+              !canSend && styles.sendButtonDisabled,
+              pressed && canSend && styles.sendButtonPressed,
             ]}
             onPress={handleSend}
-            disabled={!text.trim() || disabled}
+            disabled={!canSend}
             accessibilityLabel="Send message"
             accessibilityRole="button"
           >
             <Ionicons
               name="arrow-up"
               size={18}
-              color={text.trim() && !disabled ? '#FFFFFF' : colors.muted.light}
+              color={canSend ? '#FFFFFF' : colors.muted.light + '80'}
             />
           </Pressable>
         </View>
@@ -68,10 +75,13 @@ export function ChatComposer({ onSend, disabled }: ChatComposerProps) {
 }
 
 const styles = StyleSheet.create({
+  separator: {
+    height: 1,
+    backgroundColor: colors.muted.light,
+    opacity: 0.15,
+  },
   container: {
     backgroundColor: colors.page,
-    borderTopWidth: 1,
-    borderTopColor: colors.muted.light + '20',
     paddingHorizontal: spacing.lg,
     paddingTop: spacing.sm,
     paddingBottom: spacing.lg,
@@ -106,7 +116,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   sendButtonDisabled: {
-    backgroundColor: colors.muted.light + '30',
+    // Reduce opacity instead of gray fill — cleaner signal
+    backgroundColor: colors.accent.light,
+    opacity: 0.4,
   },
   sendButtonPressed: {
     opacity: 0.8,

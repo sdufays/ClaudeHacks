@@ -12,7 +12,9 @@ interface TopBarProps {
 export function TopBar({ profile, onProfilePress }: TopBarProps) {
   return (
     <View style={styles.bar}>
-      <Text style={styles.wordmark}>Civic Signal</Text>
+      <Text style={styles.wordmark} accessibilityRole="header">
+        Civic Signal
+      </Text>
       <ProfileChip profile={profile} onPress={onProfilePress} />
     </View>
   );
@@ -24,13 +26,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingHorizontal: spacing.lg,
-    paddingVertical: spacing.md,
+    paddingVertical: spacing.sm,
     backgroundColor: colors.page,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.muted.light + '15',
   },
   wordmark: {
     fontFamily: fonts.serifBold,
     fontSize: 22,
     color: colors.headline.light,
     letterSpacing: -0.3,
+    // Align with profile chip baseline via lineHeight
+    lineHeight: 28,
   },
 });

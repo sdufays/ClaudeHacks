@@ -11,6 +11,7 @@ import {
   Nunito_600SemiBold,
   Nunito_700Bold,
 } from '@expo-google-fonts/nunito';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import 'react-native-reanimated';
 
 export default function RootLayout() {
@@ -26,11 +27,11 @@ export default function RootLayout() {
   if (!loaded) return null;
 
   return (
-    <>
+    <SafeAreaProvider>
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="index" />
       </Stack>
       <StatusBar style="dark" />
-    </>
+    </SafeAreaProvider>
   );
 }

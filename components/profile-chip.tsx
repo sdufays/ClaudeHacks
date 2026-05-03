@@ -1,8 +1,9 @@
 import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
 import type { Profile } from '@/lib/types/shared';
-import { colors, fonts, radius, spacing } from '@/lib/theme';
+import { colors, fonts, radius } from '@/lib/theme';
 
 interface ProfileChipProps {
   profile: Profile;
@@ -31,12 +32,18 @@ function housingIcon(status: Profile['housing']): keyof typeof Ionicons.glyphMap
 export function ProfileChip({ profile, onPress }: ProfileChipProps) {
   const firstName = profile.name.split(' ')[0];
 
+  const handlePress = () => {
+    Haptics.selectionAsync();
+    onPress?.();
+  };
+
   return (
     <Pressable
       style={({ pressed }) => [styles.chip, pressed && styles.chipPressed]}
-      onPress={onPress}
+      onPress={handlePress}
       accessibilityLabel={`Profile: ${firstName}`}
       accessibilityRole="button"
+      hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
     >
       <Ionicons
         name={housingIcon(profile.housing)}
@@ -61,14 +68,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: colors.card.white,
     borderRadius: radius.pill,
-    paddingHorizontal: 12,
-    paddingVertical: 6,
+    // Min hit area 44pt per Apple HIG — hitSlop covers the rest
+    minHeight: 44,
+    paddingHorizontal: 14,
+    paddingVertical: 8,
     borderWidth: 1,
     borderColor: colors.muted.light + '30',
     gap: 2,
   },
   chipPressed: {
-    opacity: 0.75,
+    opacity: 0.7,
   },
   name: {
     fontFamily: fonts.sansSemibold,

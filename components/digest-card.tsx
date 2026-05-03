@@ -7,6 +7,7 @@ import {
   Linking,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
 import type { Item, RelevanceLine, Action } from '@/lib/types/shared';
 import { AccentStripe, Eyebrow, TopicPill } from './design';
 import { ReactionStrip } from './reaction-strip';
@@ -20,11 +21,13 @@ interface DigestCardProps {
 
 function formatDate(iso: string): string {
   const d = new Date(iso);
-  return d.toLocaleDateString('en-US', {
-    month: 'short',
-    day: 'numeric',
-    year: 'numeric',
-  }).toUpperCase();
+  return d
+    .toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+    })
+    .toUpperCase();
 }
 
 function kindLabel(kind: Item['kind']): string {
@@ -56,6 +59,7 @@ export function DigestCard({ item, relevance, actions }: DigestCardProps) {
 
   const handleSource = () => {
     if (item.sourceUrl) {
+      Haptics.selectionAsync();
       Linking.openURL(item.sourceUrl).catch(() => null);
     }
   };
@@ -68,26 +72,38 @@ export function DigestCard({ item, relevance, actions }: DigestCardProps) {
 
   return (
     <View style={styles.card}>
-      <AccentStripe topic={primaryTopic} tone="light">
+      {/* AccentStripe spans full card height */}
+      <AccentStripe topic={primaryTopic} tone="light" style={styles.stripe}>
         <View style={styles.inner}>
           {/* Eyebrow: kind + date */}
-          <Eyebrow tone="light" style={{ marginBottom: spacing.xs }}>
+          <Eyebrow tone="light" style={{ marginBottom: spacing.sm }}>
             {kindLabel(item.kind)} · {formatDate(item.date)}
           </Eyebrow>
 
-          {/* Serif headline */}
+          {/* Serif headline — at least 1.6× body (24/15) */}
           <Text style={styles.headline} numberOfLines={3}>
             {item.title}
           </Text>
 
-          {/* Relevance one-liner */}
+          {/* Relevance one-liner — emotional payoff, serif italic, accented */}
           {relevance?.oneLiner ? (
-            <Text style={styles.relevance}>{relevance.oneLiner}</Text>
+            <View style={styles.relevanceBlock}>
+              <Text style={styles.relevance}>{relevance.oneLiner}</Text>
+            </View>
           ) : null}
 
           {/* Summary paragraph */}
           {item.summary ? (
             <Text style={styles.summary}>{item.summary}</Text>
+          ) : null}
+
+          {/* Topic pills — just above the reaction strip */}
+          {item.topics && item.topics.length > 0 ? (
+            <View style={styles.pillsRow}>
+              {item.topics.map((t) => (
+                <TopicPill key={t} topic={t} tone="light" />
+              ))}
+            </View>
           ) : null}
 
           {/* First action */}
@@ -113,26 +129,20 @@ export function DigestCard({ item, relevance, actions }: DigestCardProps) {
             </Pressable>
           ) : null}
 
-          {/* Topic pills */}
-          {item.topics && item.topics.length > 0 ? (
-            <View style={styles.pillsRow}>
-              {item.topics.map((t) => (
-                <TopicPill key={t} topic={t} tone="light" />
-              ))}
-            </View>
-          ) : null}
-
-          {/* Source chip */}
+          {/* Source chip — quiet button style */}
           {item.sourceUrl ? (
             <Pressable
-              style={styles.sourceChip}
+              style={({ pressed }) => [
+                styles.sourceChip,
+                pressed && styles.sourceChipPressed,
+              ]}
               onPress={handleSource}
               accessibilityRole="link"
               accessibilityLabel="Open source"
             >
               <Ionicons
                 name="link-outline"
-                size={12}
+                size={11}
                 color={colors.muted.light}
               />
               <Text style={styles.sourceText} numberOfLines={1}>
@@ -155,30 +165,38 @@ const styles = StyleSheet.create({
     borderRadius: radius.card,
     marginHorizontal: spacing.lg,
     marginBottom: spacing.lg,
+    overflow: 'hidden',
+    ...shadows.cardSoft,
+  },
+  // Make AccentStripe fill the full card height by stretching
+  stripe: {
+    alignSelf: 'stretch',
     paddingVertical: spacing.lg,
     paddingRight: spacing.lg,
-    paddingLeft: 0, // AccentStripe handles left spacing
-    ...shadows.cardSoft,
-    overflow: 'hidden',
   },
   inner: {
-    // AccentStripe content area
+    // content area provided by AccentStripe
   },
   headline: {
     fontFamily: fonts.serifBold,
-    fontSize: 22,
-    lineHeight: 28,
+    fontSize: 24,
+    lineHeight: 30,
     color: colors.headline.light,
     letterSpacing: -0.3,
+    marginBottom: spacing.sm,
+  },
+  relevanceBlock: {
+    borderLeftWidth: 2,
+    borderLeftColor: colors.accent.light + '50',
+    paddingLeft: spacing.sm,
     marginBottom: spacing.sm,
   },
   relevance: {
     fontFamily: fonts.serif,
     fontStyle: 'italic',
-    fontSize: 16,
-    lineHeight: 22,
-    color: colors.body.light,
-    marginBottom: spacing.sm,
+    fontSize: 17,
+    lineHeight: 24,
+    color: colors.accent.light,
   },
   summary: {
     fontFamily: fonts.sans,
@@ -187,12 +205,18 @@ const styles = StyleSheet.create({
     color: colors.muted.light,
     marginBottom: spacing.sm,
   },
+  pillsRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: spacing.xs,
+    marginBottom: spacing.sm,
+  },
   actionRow: {
     flexDirection: 'row',
     alignItems: 'flex-start',
     gap: 6,
     marginBottom: spacing.sm,
-    paddingVertical: 6,
+    paddingVertical: 7,
     paddingHorizontal: 10,
     backgroundColor: colors.accent.light + '10',
     borderRadius: radius.mini,
@@ -207,23 +231,26 @@ const styles = StyleSheet.create({
     flex: 1,
     lineHeight: 18,
   },
-  pillsRow: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: spacing.xs,
-    marginBottom: spacing.sm,
-  },
+  // Source chip: quiet rounded button
   sourceChip: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 4,
     alignSelf: 'flex-start',
-    marginBottom: spacing.xs,
+    marginBottom: spacing.sm,
+    borderRadius: radius.mini,
+    borderWidth: 1,
+    borderColor: colors.muted.light + '30',
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    backgroundColor: colors.page,
+  },
+  sourceChipPressed: {
+    opacity: 0.6,
   },
   sourceText: {
     fontFamily: fonts.sans,
-    fontSize: 12,
+    fontSize: 11,
     color: colors.muted.light,
-    textDecorationLine: 'underline',
   },
 });
