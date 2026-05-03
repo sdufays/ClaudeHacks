@@ -1,41 +1,43 @@
-import type { IssueTag } from "@/lib/types/shared";
-import { TOPIC_COLORS } from "@/lib/topics";
-import { cn } from "@/lib/cn";
+import React from 'react';
+import { View, StyleSheet, StyleProp, ViewStyle } from 'react-native';
+import type { IssueTag } from '@/lib/types/shared';
+import { TOPIC_COLORS } from '@/lib/topics';
+import { colors } from '@/lib/theme';
 
 interface AccentStripeProps {
-  children: React.ReactNode;
-  /** Topic colors the 4pt bar. Omit for the default brand-accent navy. */
   topic?: IssueTag;
-  tone?: "light" | "dark";
-  className?: string;
+  tone?: 'light' | 'dark';
+  children: React.ReactNode;
+  style?: StyleProp<ViewStyle>;
 }
 
-/**
- * Magazine-style story block: a 4px vertical bar flush against the left edge.
- * Cheap, distinctive, very on-brand.
- */
-export function AccentStripe({
-  children,
-  topic,
-  tone = "light",
-  className,
-}: AccentStripeProps) {
-  const stripeColor = topic
-    ? tone === "dark"
-      ? TOPIC_COLORS[topic].dark
-      : TOPIC_COLORS[topic].light
-    : tone === "dark"
-      ? "#619EDB"
-      : "#304D63";
+export function AccentStripe({ topic, tone = 'light', children, style }: AccentStripeProps) {
+  let stripeColor: string;
+  if (topic) {
+    stripeColor = tone === 'dark' ? TOPIC_COLORS[topic].dark : TOPIC_COLORS[topic].light;
+  } else {
+    stripeColor = tone === 'dark' ? colors.accent.dark : colors.accent.light;
+  }
 
   return (
-    <div className={cn("flex items-stretch gap-5", className)}>
-      <div
-        aria-hidden
-        className="w-[4px] shrink-0 rounded-full"
-        style={{ backgroundColor: stripeColor }}
-      />
-      <div className="flex-1">{children}</div>
-    </div>
+    <View style={[styles.row, style]}>
+      <View style={[styles.stripe, { backgroundColor: stripeColor }]} />
+      <View style={styles.content}>{children}</View>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  row: {
+    flexDirection: 'row',
+    alignItems: 'stretch',
+  },
+  stripe: {
+    width: 4,
+    borderRadius: 2,
+  },
+  content: {
+    flex: 1,
+    marginLeft: 20,
+  },
+});

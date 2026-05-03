@@ -1,27 +1,41 @@
-import { cn } from "@/lib/cn";
+import React from 'react';
+import { StyleSheet, StyleProp, ViewStyle } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
+import { navyGradient, radius, shadows } from '@/lib/theme';
 
 interface NavyHeroProps {
+  shape?: 'card' | 'bleed';
   children: React.ReactNode;
-  /** "card" = rounded with shadow; "bleed" = full-bleed no radius */
-  shape?: "card" | "bleed";
-  className?: string;
+  style?: StyleProp<ViewStyle>;
 }
 
-/**
- * Midnight-navy hero block. The signature surface.
- * Use for hero sections, primary CTAs, the "today's briefing" card.
- */
-export function NavyHero({ children, shape = "card", className }: NavyHeroProps) {
+export function NavyHero({ shape = 'card', children, style }: NavyHeroProps) {
+  const isCard = shape === 'card';
+
   return (
-    <div
-      className={cn(
-        "bg-navy-gradient text-headline-dark",
-        shape === "card" && "rounded-hero shadow-card-lift",
-        "border border-white/[0.06]",
-        className,
-      )}
+    <LinearGradient
+      colors={navyGradient}
+      start={{ x: 0, y: 0 }}
+      end={{ x: 1, y: 1 }}
+      style={[
+        styles.base,
+        isCard && styles.card,
+        style,
+      ]}
     >
       {children}
-    </div>
+    </LinearGradient>
   );
 }
+
+const styles = StyleSheet.create({
+  base: {
+    padding: 24,
+  },
+  card: {
+    borderRadius: radius.hero,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.08)',
+    ...shadows.cardLift,
+  },
+});

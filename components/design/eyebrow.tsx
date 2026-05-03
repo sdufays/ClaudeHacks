@@ -1,35 +1,40 @@
-import { cn } from "@/lib/cn";
+import React from 'react';
+import { View, Text, StyleSheet, StyleProp, ViewStyle } from 'react-native';
+import { colors, fonts } from '@/lib/theme';
 
 interface EyebrowProps {
+  tone?: 'light' | 'dark';
   children: React.ReactNode;
-  /** Visual surface this eyebrow sits on. Picks the dot + text color. */
-  tone?: "light" | "dark";
-  className?: string;
+  style?: StyleProp<ViewStyle>;
 }
 
-/**
- * Editorial eyebrow: small accent dot + uppercase, kerned label.
- * The single most recognizable Inloopd-style motif.
- */
-export function Eyebrow({ children, tone = "light", className }: EyebrowProps) {
-  const isDark = tone === "dark";
+export function Eyebrow({ tone = 'light', children, style }: EyebrowProps) {
+  const dotColor = tone === 'dark' ? colors.accent.dark : colors.accent.light;
+  const textColor = tone === 'dark' ? colors.muted.dark : colors.muted.light;
+
   return (
-    <div
-      className={cn(
-        "flex items-center gap-2.5 font-sans font-bold uppercase",
-        "text-[13px] tracking-[1.6px]",
-        isDark ? "text-[#F5F7FC]/70" : "text-muted-light",
-        className,
-      )}
-    >
-      <span
-        aria-hidden
-        className={cn(
-          "inline-block h-2 w-2 rounded-full",
-          isDark ? "bg-accent-brand-dark" : "bg-accent-brand-light",
-        )}
-      />
-      <span>{children}</span>
-    </div>
+    <View style={[styles.row, style]}>
+      <View style={[styles.dot, { backgroundColor: dotColor }]} />
+      <Text style={[styles.text, { color: textColor }]}>{children}</Text>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  dot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+  },
+  text: {
+    fontFamily: fonts.sansBold,
+    fontSize: 12,
+    letterSpacing: 1.6,
+    textTransform: 'uppercase',
+  },
+});

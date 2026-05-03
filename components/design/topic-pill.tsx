@@ -1,32 +1,37 @@
-import type { IssueTag } from "@/lib/types/shared";
-import { TOPIC_COLORS, TOPIC_LABEL } from "@/lib/topics";
-import { cn } from "@/lib/cn";
+import React from 'react';
+import { View, Text, StyleSheet, StyleProp, ViewStyle } from 'react-native';
+import type { IssueTag } from '@/lib/types/shared';
+import { TOPIC_COLORS, TOPIC_LABEL } from '@/lib/topics';
+import { fonts, radius } from '@/lib/theme';
 
 interface TopicPillProps {
   topic: IssueTag;
-  tone?: "light" | "dark";
-  className?: string;
+  tone?: 'light' | 'dark';
+  style?: StyleProp<ViewStyle>;
 }
 
-/**
- * Capsule chip in a topic color: bg = color @ 12% alpha, text = full color.
- */
-export function TopicPill({ topic, tone = "light", className }: TopicPillProps) {
-  const c = TOPIC_COLORS[topic];
-  const color = tone === "dark" ? c.dark : c.light;
+export function TopicPill({ topic, tone = 'light', style }: TopicPillProps) {
+  const color = tone === 'dark' ? TOPIC_COLORS[topic].dark : TOPIC_COLORS[topic].light;
+  const label = TOPIC_LABEL[topic];
+
   return (
-    <span
-      className={cn(
-        "inline-flex items-center rounded-full font-sans font-bold uppercase",
-        "px-3 py-1 text-[11px] tracking-[1.4px]",
-        className,
-      )}
-      style={{
-        backgroundColor: `${color}1F`, // ~12% alpha
-        color,
-      }}
-    >
-      {TOPIC_LABEL[topic]}
-    </span>
+    <View style={[styles.pill, { backgroundColor: color + '1F' }, style]}>
+      <Text style={[styles.text, { color }]}>{label}</Text>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  pill: {
+    borderRadius: radius.pill,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    alignSelf: 'flex-start',
+  },
+  text: {
+    fontFamily: fonts.sansBold,
+    fontSize: 11,
+    letterSpacing: 1.2,
+    textTransform: 'uppercase',
+  },
+});
