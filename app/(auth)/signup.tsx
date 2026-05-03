@@ -11,13 +11,14 @@ import {
   Platform,
   ActivityIndicator,
 } from 'react-native';
-import { Link, router } from 'expo-router';
+import { router } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 
 import { Eyebrow } from '@/components/design';
 import { colors, fonts, spacing, radius, shadows } from '@/lib/theme';
 import { TOPIC_LABEL, TOPIC_COLORS } from '@/lib/topics';
 import type { IssueTag } from '@/lib/types/shared';
+import { setSignedIn } from '@/lib/session';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Field option lists — kept in sync with user-profile.md
@@ -187,6 +188,7 @@ export default function SignupScreen() {
     setSubmitting(true);
     setTimeout(() => {
       setSubmitting(false);
+      setSignedIn(true);
       router.replace('/');
     }, 700);
   };
@@ -317,11 +319,13 @@ export default function SignupScreen() {
             ) : (
               <>
                 <Text style={styles.footerText}>Already have an account? </Text>
-                <Link href="/(auth)/login" replace asChild>
-                  <Pressable accessibilityRole="link">
-                    <Text style={styles.footerLink}>Sign in</Text>
-                  </Pressable>
-                </Link>
+                <Pressable
+                  onPress={() => router.replace('/login')}
+                  accessibilityRole="link"
+                  hitSlop={8}
+                >
+                  <Text style={styles.footerLink}>Sign in</Text>
+                </Pressable>
               </>
             )}
           </View>

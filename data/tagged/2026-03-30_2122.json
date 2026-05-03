@@ -1,0 +1,2037 @@
+{
+  "meetingId": 2122,
+  "meetingDate": "2026-03-30",
+  "meetingType": "Regular Meeting",
+  "sourceFiles": [
+    "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+    "scrape/city_council/2026-04-01_FinalActions_2122.pdf"
+  ],
+  "items": [
+    {
+      "itemId": "CMA-2026-69",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "CMA",
+      "title": "Federal update including update on relevant court cases",
+      "summary": "The City Manager transmitted a federal update to the Council, including a status report on relevant court cases affecting the City. Placed on file by voice vote with Councillor Simmons absent.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to a federal update including an update on relevant court cases. CMA 2026-69",
+      "sponsors": [],
+      "status": "placed_on_file",
+      "vote": {
+        "result": "CMA Placed on File VV8",
+        "yeas": [],
+        "nays": [],
+        "absent": ["simmons"],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-69",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:placed_on_file",
+        "geo.scope:citywide",
+        "topic.area:civil_liberties",
+        "civic.councillor_vote:simmons:absent"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.item_id:cma-2026-69": "Bold ID line 'CMA 2026-69'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:placed_on_file": "RESULT: CMA Placed on File VV8",
+        "geo.scope:citywide": "federal court update affects the entire city; no neighborhood named",
+        "topic.area:civil_liberties": "federal court cases / federal posture is the dominant frame",
+        "civic.councillor_vote:simmons:absent": "ABSENT: Councillor Simmons"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 1,
+        "anchor": "V.1"
+      }
+    },
+    {
+      "itemId": "CMA-2026-70",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "CMA",
+      "title": "Appointment of Will MacArthur to Open Data Review Board (2-year term)",
+      "summary": "The City Manager appointed Will MacArthur as a new member of the Open Data Review Board for a two-year term effective March 30, 2026. The Council approved the appointment unanimously.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appointment of Will MacArthur as a new member of the Open Data Review Board for a term of two years, effective March 30, 2026. CMA 2026-70",
+      "sponsors": [],
+      "status": "approved",
+      "vote": {
+        "result": "Approved and CMA Placed on File [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-70",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:approved",
+        "geo.scope:citywide",
+        "civic.councillor_vote:al_zubi:yea",
+        "civic.councillor_vote:azeem:yea",
+        "civic.councillor_vote:flaherty:yea",
+        "civic.councillor_vote:mcgovern:yea",
+        "civic.councillor_vote:nolan:yea",
+        "civic.councillor_vote:simmons:yea",
+        "civic.councillor_vote:sobrinho_wheeler:yea",
+        "civic.councillor_vote:zusy:yea",
+        "civic.councillor_vote:siddiqui:yea"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.item_id:cma-2026-70": "Bold ID line 'CMA 2026-70'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:approved": "RESULT: Approved and CMA Placed on File [9-0-0]",
+        "geo.scope:citywide": "city-wide board appointment; no geography named",
+        "civic.councillor_vote:al_zubi:yea": "YEAS list includes Councillor Al-Zubi",
+        "civic.councillor_vote:azeem:yea": "YEAS list includes Vice Mayor Azeem",
+        "civic.councillor_vote:flaherty:yea": "YEAS list includes Councillor Flaherty",
+        "civic.councillor_vote:mcgovern:yea": "YEAS list includes Councillor McGovern",
+        "civic.councillor_vote:nolan:yea": "YEAS list includes Councillor Nolan",
+        "civic.councillor_vote:simmons:yea": "YEAS list includes Councillor Simmons",
+        "civic.councillor_vote:sobrinho_wheeler:yea": "YEAS list includes Councillor Sobrinho-Wheeler",
+        "civic.councillor_vote:zusy:yea": "YEAS list includes Councillor Zusy",
+        "civic.councillor_vote:siddiqui:yea": "YEAS list includes Mayor Siddiqui"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 1,
+        "anchor": "V.2"
+      }
+    },
+    {
+      "itemId": "CMA-2026-71",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "CMA",
+      "title": "Plans to replace City's legacy Enterprise Resource Planning (ERP) software system",
+      "summary": "The City Manager outlined plans for replacing the City's legacy Enterprise Resource Planning (ERP) software system, which underlies finance, HR, and procurement operations. The Council placed the communication on file by voice vote.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to plans for replacement of the City's legacy Enterprise Resource Planning (ERP) software system. CMA 2026-71",
+      "sponsors": [],
+      "status": "placed_on_file",
+      "vote": {
+        "result": "CMA Placed on File VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-71",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:placed_on_file",
+        "geo.scope:citywide"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.item_id:cma-2026-71": "Bold ID line 'CMA 2026-71'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:placed_on_file": "RESULT: CMA Placed on File VV9",
+        "geo.scope:citywide": "city-wide IT system replacement; no geography named"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 2,
+        "anchor": "V.3"
+      }
+    },
+    {
+      "itemId": "CMA-2026-72",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "CMA",
+      "title": "Overview of City's initial Artificial Intelligence efforts",
+      "summary": "The City Manager presented an overview of the City's initial Artificial Intelligence efforts, including current pilots and governance considerations. The Council placed the communication on file unanimously.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to an overview of the City's initial Artificial Intelligence efforts. CMA 2026-72",
+      "sponsors": [],
+      "status": "placed_on_file",
+      "vote": {
+        "result": "CMA Placed on File [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-72",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:placed_on_file",
+        "geo.scope:citywide",
+        "civic.councillor_vote:al_zubi:yea",
+        "civic.councillor_vote:azeem:yea",
+        "civic.councillor_vote:flaherty:yea",
+        "civic.councillor_vote:mcgovern:yea",
+        "civic.councillor_vote:nolan:yea",
+        "civic.councillor_vote:simmons:yea",
+        "civic.councillor_vote:sobrinho_wheeler:yea",
+        "civic.councillor_vote:zusy:yea",
+        "civic.councillor_vote:siddiqui:yea"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.item_id:cma-2026-72": "Bold ID line 'CMA 2026-72'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:placed_on_file": "RESULT: CMA Placed on File [9-0-0]",
+        "geo.scope:citywide": "city-wide AI program overview; no neighborhood named",
+        "civic.councillor_vote:al_zubi:yea": "YEAS list includes Councillor Al-Zubi",
+        "civic.councillor_vote:azeem:yea": "YEAS list includes Vice Mayor Azeem",
+        "civic.councillor_vote:flaherty:yea": "YEAS list includes Councillor Flaherty",
+        "civic.councillor_vote:mcgovern:yea": "YEAS list includes Councillor McGovern",
+        "civic.councillor_vote:nolan:yea": "YEAS list includes Councillor Nolan",
+        "civic.councillor_vote:simmons:yea": "YEAS list includes Councillor Simmons",
+        "civic.councillor_vote:sobrinho_wheeler:yea": "YEAS list includes Councillor Sobrinho-Wheeler",
+        "civic.councillor_vote:zusy:yea": "YEAS list includes Councillor Zusy",
+        "civic.councillor_vote:siddiqui:yea": "YEAS list includes Mayor Siddiqui"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 2,
+        "anchor": "V.4"
+      }
+    },
+    {
+      "itemId": "CMA-2026-75",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "CMA",
+      "title": "Response to Awaiting Report 26-12 on Harvard Square pedestrianization",
+      "summary": "The City Manager responded to Awaiting Report 26-12 regarding Harvard Square pedestrianization, providing the Council with the requested analysis on pilot projects and possible future pedestrianization of Brattle Street. Placed on file by voice vote.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to Awaiting Report Item Number 26-12 regarding Harvard Square pedestrianization. CMA 2026-75",
+      "sponsors": [],
+      "status": "placed_on_file",
+      "vote": {
+        "result": "CMA Placed on File VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-75",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:placed_on_file",
+        "geo.scope:landmark",
+        "geo.landmark:harvard_square",
+        "transport.mode:walk",
+        "transport.subject:pedestrianization",
+        "topic.area:transit"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.item_id:cma-2026-75": "Bold ID line 'CMA 2026-75'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:placed_on_file": "RESULT: CMA Placed on File VV9",
+        "geo.scope:landmark": "Harvard Square named as the specific area of focus",
+        "geo.landmark:harvard_square": "Harvard Square pedestrianization",
+        "transport.mode:walk": "pedestrianization affects pedestrians",
+        "transport.subject:pedestrianization": "explicit subject: 'Harvard Square pedestrianization'",
+        "topic.area:transit": "pedestrianization is a transit/streets policy"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 2,
+        "anchor": "V.5"
+      }
+    },
+    {
+      "itemId": "CMA-2026-76",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "CMA",
+      "title": "Response to AR 26-03 on City policy for supporting large-scale nonprofit public events",
+      "summary": "The City Manager responded to Awaiting Report 26-03, transmitting a draft policy that defines the City's role and financial responsibilities in supporting large-scale public events hosted by Cambridge nonprofits, including criteria for fee waivers. Placed on file by voice vote with Councillor Sobrinho-Wheeler absent.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to Awaiting Report Item Number 26-03 regarding establishing a formal policy that clearly defines the City's role and financial responsibilities in supporting large-scale public events hosted by Cambridge-based non-profit and not-for-profit organizations, including criteria for fee waivers. CMA 2026-76",
+      "sponsors": [],
+      "status": "placed_on_file",
+      "vote": {
+        "result": "CMA Placed on File VV8",
+        "yeas": [],
+        "nays": [],
+        "absent": ["sobrinho_wheeler"],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-76",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:placed_on_file",
+        "geo.scope:citywide",
+        "topic.area:arts",
+        "fiscal.kind:permit_fee",
+        "civic.councillor_vote:sobrinho_wheeler:absent"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.item_id:cma-2026-76": "Bold ID line 'CMA 2026-76'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:placed_on_file": "RESULT: CMA Placed on File VV8",
+        "geo.scope:citywide": "policy applies to all Cambridge-based nonprofits citywide",
+        "topic.area:arts": "large-scale nonprofit public events frequently include arts/cultural festivals",
+        "fiscal.kind:permit_fee": "explicit reference to 'criteria for fee waivers' for nonprofits",
+        "civic.councillor_vote:sobrinho_wheeler:absent": "ABSENT: Councillor Sobrinho-Wheeler"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 2,
+        "anchor": "V.6"
+      }
+    },
+    {
+      "itemId": "CMA-2026-77",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "CMA",
+      "title": "Response to AR 26-09 on Tourism Destination Marketing District and visitor information kiosk",
+      "summary": "The City Manager responded to Awaiting Report 26-09, providing legal analysis of City funding and Tourism Destination Marketing District restrictions and addressing oversight and accountability for the visitor information kiosk. Placed on file by voice vote.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to Awaiting Report Item Number 26-09 regarding and report back to the Council on (i) legal parameters related to City funding and Tourism Destination Marketing District restrictions, and (ii) oversight and accountability related to the operation of the visitor information kiosk, and related governance expectations, including alignment with City priorities. CMA 2026-77",
+      "sponsors": [],
+      "status": "placed_on_file",
+      "vote": {
+        "result": "CMA Placed on File VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-77",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:placed_on_file",
+        "geo.scope:citywide",
+        "topic.area:small_business",
+        "work.audience:small_business_owners"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.item_id:cma-2026-77": "Bold ID line 'CMA 2026-77'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:placed_on_file": "RESULT: CMA Placed on File VV9",
+        "geo.scope:citywide": "tourism marketing district policy spans the city",
+        "topic.area:small_business": "Tourism Destination Marketing District directly funds local business marketing",
+        "work.audience:small_business_owners": "TDMD funding mechanism is structured around small businesses that benefit from tourism"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 2,
+        "anchor": "V.7"
+      }
+    },
+    {
+      "itemId": "CMA-2026-74",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "CMA",
+      "title": "Response to AR 26-17 with proposed updates to Welcoming Community Ordinance",
+      "summary": "The City Manager responded to Awaiting Report 26-17 by transmitting proposed updates to the City's Welcoming Community Ordinance (Chapter 2.129), which limits use of City property and personnel for federal civil immigration enforcement. Placed on file by voice vote; the accompanying ordinance language was passed to a second reading.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to Awaiting Report Item Number 26-17 regarding proposed updates to the City's Welcoming Community Ordinance. CMA 2026-74",
+      "sponsors": [],
+      "status": "placed_on_file",
+      "vote": {
+        "result": "CMA Placed on File VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-74",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:placed_on_file",
+        "geo.scope:citywide",
+        "topic.area:immigration",
+        "topic.area:civil_liberties"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.item_id:cma-2026-74": "Bold ID line 'CMA 2026-74'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:placed_on_file": "RESULT: CMA Placed on File VV9",
+        "geo.scope:citywide": "Welcoming Community Ordinance is a citywide ordinance",
+        "topic.area:immigration": "Welcoming Community Ordinance restricts City participation in federal civil immigration enforcement",
+        "topic.area:civil_liberties": "ordinance protects civil liberties of residents from federal enforcement"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 2,
+        "anchor": "V.8"
+      }
+    },
+    {
+      "itemId": "ORD-2026-03",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "ORD",
+      "title": "Chapter 2.129 Welcoming Community Ordinance — passed to second reading",
+      "summary": "Proposed amendments to Chapter 2.129, the Welcoming Community Ordinance, restricting the use of City-owned or City-controlled property, facilities, resources, and personnel for federal civil immigration enforcement. Passed to a second reading 9-0; eligible to be ordained on April 20, 2026.",
+      "body": "Chapter 2.129 Welcoming Community Ordinance. PASSED TO A SECOND READING IN COUNCIL MARCH 30, 2026. ELIGIBLE TO BE ORDAINED APRIL 20, 2026. ORD 2026-03",
+      "sponsors": [],
+      "status": null,
+      "vote": {
+        "result": "Passed to a Second Reading [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [
+        {"date": "2026-03-30", "action": "Passed to a Second Reading"},
+        {"date": "2026-04-20", "action": "Eligible to be Ordained"}
+      ],
+      "tags": [
+        "doc.kind:ORD",
+        "doc.item_id:ord-2026-03",
+        "doc.meeting_date:2026-03-30",
+        "doc.stage:second_reading",
+        "geo.scope:citywide",
+        "topic.area:immigration",
+        "topic.area:civil_liberties",
+        "civic.councillor_vote:al_zubi:yea",
+        "civic.councillor_vote:azeem:yea",
+        "civic.councillor_vote:flaherty:yea",
+        "civic.councillor_vote:mcgovern:yea",
+        "civic.councillor_vote:nolan:yea",
+        "civic.councillor_vote:simmons:yea",
+        "civic.councillor_vote:sobrinho_wheeler:yea",
+        "civic.councillor_vote:zusy:yea",
+        "civic.councillor_vote:siddiqui:yea"
+      ],
+      "rationale": {
+        "doc.kind:ORD": "Ordinance — Chapter 2.129 Welcoming Community Ordinance",
+        "doc.item_id:ord-2026-03": "Bold ID line 'ORD 2026-03'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.stage:second_reading": "PASSED TO A SECOND READING IN COUNCIL MARCH 30, 2026",
+        "geo.scope:citywide": "ordinance applies to all City-owned property and personnel",
+        "topic.area:immigration": "restricts City resources used for 'federal civil immigration enforcement'",
+        "topic.area:civil_liberties": "civil-liberties protection against federal civil enforcement",
+        "civic.councillor_vote:al_zubi:yea": "YEAS list includes Councillor Al-Zubi",
+        "civic.councillor_vote:azeem:yea": "YEAS list includes Vice Mayor Azeem",
+        "civic.councillor_vote:flaherty:yea": "YEAS list includes Councillor Flaherty",
+        "civic.councillor_vote:mcgovern:yea": "YEAS list includes Councillor McGovern",
+        "civic.councillor_vote:nolan:yea": "YEAS list includes Councillor Nolan",
+        "civic.councillor_vote:simmons:yea": "YEAS list includes Councillor Simmons",
+        "civic.councillor_vote:sobrinho_wheeler:yea": "YEAS list includes Councillor Sobrinho-Wheeler",
+        "civic.councillor_vote:zusy:yea": "YEAS list includes Councillor Zusy",
+        "civic.councillor_vote:siddiqui:yea": "YEAS list includes Mayor Siddiqui"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_FinalActions_2122.pdf",
+        "page": 3,
+        "anchor": "IV.8.A"
+      }
+    },
+    {
+      "itemId": "POR-2026-65",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "POR",
+      "title": "Direct Law Department to update language in Chapter 8.28 of Municipal Code",
+      "summary": "The Council asked the City Manager to direct the Law Department to work with the Cambridge Public Health Department to amend and update Chapter 8.28 of the Cambridge Municipal Code. Adopted by voice vote.",
+      "body": "That the City Manager is requested to direct the Law Department to work with the Cambridge Public Health Department to amend and update language in Chapter 8.28 of the Cambridge Municipal Code. COUNCILLOR NOLAN, COUNCILLOR MCGOVERN. POR 2026-65",
+      "sponsors": ["nolan", "mcgovern"],
+      "status": "adopted",
+      "vote": {
+        "result": "Adopted VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-65",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:adopted",
+        "doc.sponsor:nolan",
+        "doc.sponsor:mcgovern",
+        "geo.scope:citywide",
+        "topic.area:public_health"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VI. POLICY ORDERS",
+        "doc.item_id:por-2026-65": "Bold ID line 'POR 2026-65'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:adopted": "RESULT: Adopted VV9",
+        "doc.sponsor:nolan": "Sponsor: COUNCILLOR NOLAN",
+        "doc.sponsor:mcgovern": "Sponsor: COUNCILLOR MCGOVERN",
+        "geo.scope:citywide": "amendment to citywide municipal code chapter",
+        "topic.area:public_health": "work with Cambridge Public Health Department on Chapter 8.28 (health regulations)"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 2,
+        "anchor": "VI.1"
+      }
+    },
+    {
+      "itemId": "POR-2026-66",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "POR",
+      "title": "Initiate planning for Cambridge 400 and convene Cambridge 400 Advisory Committee",
+      "summary": "The Council asked the City Manager to initiate planning for Cambridge 400 (the city's 400th anniversary) and to convene a Cambridge 400 Advisory Committee with members representing the range of stakeholders needed to guide the work. Adopted with amendments by voice vote; Councillor Zusy was added as a sponsor.",
+      "body": "That the City Manager is requested to initiate the planning process for Cambridge 400 and as part of this, to convene a Cambridge 400 Advisory Committee composed of members representing the range of stakeholders whose participation is needed to guide this work. COUNCILLOR SIMMONS, MAYOR SIDDIQUI. POR 2026-66",
+      "sponsors": ["simmons", "siddiqui", "zusy"],
+      "status": "adopted_amended",
+      "vote": {
+        "result": "Adopted as Amended VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": ["Councillor Zusy added as a sponsor in Final Actions"],
+      "history": [],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-66",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:adopted_amended",
+        "doc.sponsor:simmons",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:zusy",
+        "geo.scope:citywide",
+        "topic.area:arts"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VI. POLICY ORDERS",
+        "doc.item_id:por-2026-66": "Bold ID line 'POR 2026-66'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:adopted_amended": "RESULT: Adopted as Amended VV9",
+        "doc.sponsor:simmons": "Sponsor: COUNCILLOR SIMMONS",
+        "doc.sponsor:siddiqui": "Sponsor: MAYOR SIDDIQUI",
+        "doc.sponsor:zusy": "COUNCILLOR ZUSY appears in Final Actions sponsor list",
+        "geo.scope:citywide": "Cambridge 400 is a citywide anniversary commemoration",
+        "topic.area:arts": "anniversary planning typically encompasses cultural / civic programming"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 2,
+        "anchor": "VI.2"
+      }
+    },
+    {
+      "itemId": "POR-2026-67",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "POR",
+      "title": "Council support of An Act promoting housing stability for older adults across the Commonwealth",
+      "summary": "The Council went on record supporting state legislation, An Act promoting housing stability for older adults across the Commonwealth, which would extend tenant protections to senior residents. Adopted with amendments by voice vote; Councillors Zusy, Nolan, and Flaherty were added as sponsors.",
+      "body": "City Council support of An Act promoting housing stability for older adults across the Commonwealth. COUNCILLOR SIMMONS, COUNCILLOR MCGOVERN. POR 2026-67",
+      "sponsors": ["simmons", "mcgovern", "zusy", "nolan", "flaherty"],
+      "status": "adopted_amended",
+      "vote": {
+        "result": "Adopted as Amended VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": ["Councillors Zusy, Nolan, and Flaherty added as sponsors in Final Actions"],
+      "history": [],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-67",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:adopted_amended",
+        "doc.sponsor:simmons",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:zusy",
+        "doc.sponsor:nolan",
+        "doc.sponsor:flaherty",
+        "geo.scope:citywide",
+        "housing.tenure:rent",
+        "topic.area:housing_zoning",
+        "demo.age:senior_65plus"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VI. POLICY ORDERS",
+        "doc.item_id:por-2026-67": "Bold ID line 'POR 2026-67'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:adopted_amended": "RESULT: Adopted as Amended VV9",
+        "doc.sponsor:simmons": "Sponsor: COUNCILLOR SIMMONS",
+        "doc.sponsor:mcgovern": "Sponsor: COUNCILLOR MCGOVERN",
+        "doc.sponsor:zusy": "COUNCILLOR ZUSY listed as sponsor in Final Actions",
+        "doc.sponsor:nolan": "COUNCILLOR NOLAN listed as sponsor in Final Actions",
+        "doc.sponsor:flaherty": "COUNCILLOR FLAHERTY listed as sponsor in Final Actions",
+        "geo.scope:citywide": "state act would apply across the Commonwealth and to all Cambridge",
+        "housing.tenure:rent": "'housing stability for older adults' state acts target tenant/eviction protections",
+        "topic.area:housing_zoning": "housing stability is a housing policy",
+        "demo.age:senior_65plus": "explicit subject: 'older adults'"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 2,
+        "anchor": "VI.3"
+      }
+    },
+    {
+      "itemId": "POR-2026-68",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "POR",
+      "title": "Council support of S.2721/H.5217, An Act restricting the use of rodenticides in the environment",
+      "summary": "The Council went on record supporting S.2721/H.5217, a state bill restricting the use of rodenticides (rat poisons) in the environment because of harm to wildlife and pets. Adopted by voice vote.",
+      "body": "City Council support of S.2721/H.5217, An Act restricting the use of rodenticides in the environment. COUNCILLOR MCGOVERN, COUNCILLOR NOLAN. POR 2026-68",
+      "sponsors": ["mcgovern", "nolan"],
+      "status": "adopted",
+      "vote": {
+        "result": "Adopted VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-68",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:adopted",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:nolan",
+        "geo.scope:citywide",
+        "topic.area:climate",
+        "topic.area:public_health"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VI. POLICY ORDERS",
+        "doc.item_id:por-2026-68": "Bold ID line 'POR 2026-68'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:adopted": "RESULT: Adopted VV9",
+        "doc.sponsor:mcgovern": "Sponsor: COUNCILLOR MCGOVERN",
+        "doc.sponsor:nolan": "Sponsor: COUNCILLOR NOLAN",
+        "geo.scope:citywide": "statewide bill; effects citywide in Cambridge",
+        "topic.area:climate": "rodenticide restriction is environmental / wildlife protection policy",
+        "topic.area:public_health": "rodenticide controls protect pets and human exposure"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 2,
+        "anchor": "VI.4"
+      }
+    },
+    {
+      "itemId": "POR-2026-69",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "POR",
+      "title": "Review legal landscape and recommend how to regulate construction of large data centers",
+      "summary": "The Council asked the City Manager to work with relevant departments to review the current legal landscape and provide recommendations for how to regulate construction of large data centers in Cambridge. Adopted with amendments by voice vote; Councillor Al-Zubi was added as a sponsor.",
+      "body": "That the City Manager is requested to work with relevant departments to review the current legal landscape and provide recommendations for how to regulate construction of large data centers in Cambridge. COUNCILLOR NOLAN, MAYOR SIDDIQUI, COUNCILLOR MCGOVERN, COUNCILLOR ZUSY. POR 2026-69",
+      "sponsors": ["nolan", "siddiqui", "mcgovern", "zusy", "al_zubi"],
+      "status": "adopted_amended",
+      "vote": {
+        "result": "Adopted as Amended VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": ["Title language broadened from 'large data centers' to 'data centers' in Final Actions; Councillor Al-Zubi added as sponsor"],
+      "history": [],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-69",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:adopted_amended",
+        "doc.sponsor:nolan",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:zusy",
+        "doc.sponsor:al_zubi",
+        "geo.scope:citywide",
+        "topic.area:climate",
+        "topic.area:housing_zoning"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VI. POLICY ORDERS",
+        "doc.item_id:por-2026-69": "Bold ID line 'POR 2026-69'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:adopted_amended": "RESULT: Adopted as Amended VV9",
+        "doc.sponsor:nolan": "Sponsor: COUNCILLOR NOLAN",
+        "doc.sponsor:siddiqui": "Sponsor: MAYOR SIDDIQUI",
+        "doc.sponsor:mcgovern": "Sponsor: COUNCILLOR MCGOVERN",
+        "doc.sponsor:zusy": "Sponsor: COUNCILLOR ZUSY",
+        "doc.sponsor:al_zubi": "COUNCILLOR AL-ZUBI listed as sponsor in Final Actions",
+        "geo.scope:citywide": "regulate construction of data centers in Cambridge (citywide)",
+        "topic.area:climate": "data centers' major water and electricity demand make them a climate/energy issue",
+        "topic.area:housing_zoning": "regulating 'construction' of data centers is land-use/zoning policy"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 3,
+        "anchor": "VI.5"
+      }
+    },
+    {
+      "itemId": "POR-2026-70",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "POR",
+      "title": "Proclaim April 6–12, 2026 as Cambridge Public Health Week",
+      "summary": "The Council went on record proclaiming April 6–12, 2026 as Cambridge Public Health Week in appreciation of City government, community organizations, health professionals, businesses, and residents working on health equity. Adopted unanimously.",
+      "body": "That the City Council go on record proclaiming April 6–12, 2026 as Cambridge Public Health Week in special appreciation of the dedicated work of City government, community organizations, health professionals, businesses, and residents in advancing health equity and building a healthier, more resilient Cambridge. MAYOR SIDDIQUI, COUNCILLOR NOLAN. POR 2026-70",
+      "sponsors": ["siddiqui", "nolan"],
+      "status": "adopted",
+      "vote": {
+        "result": "Adopted [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-70",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:adopted",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:nolan",
+        "geo.scope:citywide",
+        "topic.area:public_health",
+        "civic.councillor_vote:al_zubi:yea",
+        "civic.councillor_vote:azeem:yea",
+        "civic.councillor_vote:flaherty:yea",
+        "civic.councillor_vote:mcgovern:yea",
+        "civic.councillor_vote:nolan:yea",
+        "civic.councillor_vote:simmons:yea",
+        "civic.councillor_vote:sobrinho_wheeler:yea",
+        "civic.councillor_vote:zusy:yea",
+        "civic.councillor_vote:siddiqui:yea"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VI. POLICY ORDERS",
+        "doc.item_id:por-2026-70": "Bold ID line 'POR 2026-70'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:adopted": "RESULT: Adopted [9-0-0]",
+        "doc.sponsor:siddiqui": "Sponsor: MAYOR SIDDIQUI",
+        "doc.sponsor:nolan": "Sponsor: COUNCILLOR NOLAN",
+        "geo.scope:citywide": "Cambridge-wide proclamation",
+        "topic.area:public_health": "proclaiming 'Cambridge Public Health Week'",
+        "civic.councillor_vote:al_zubi:yea": "YEAS list includes Councillor Al-Zubi",
+        "civic.councillor_vote:azeem:yea": "YEAS list includes Vice Mayor Azeem",
+        "civic.councillor_vote:flaherty:yea": "YEAS list includes Councillor Flaherty",
+        "civic.councillor_vote:mcgovern:yea": "YEAS list includes Councillor McGovern",
+        "civic.councillor_vote:nolan:yea": "YEAS list includes Councillor Nolan",
+        "civic.councillor_vote:simmons:yea": "YEAS list includes Councillor Simmons",
+        "civic.councillor_vote:sobrinho_wheeler:yea": "YEAS list includes Councillor Sobrinho-Wheeler",
+        "civic.councillor_vote:zusy:yea": "YEAS list includes Councillor Zusy",
+        "civic.councillor_vote:siddiqui:yea": "YEAS list includes Mayor Siddiqui"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 3,
+        "anchor": "VI.6"
+      }
+    },
+    {
+      "itemId": "POR-2026-71",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "POR",
+      "title": "Proclaim April 13–20, 2026 as International Dark Sky Week in Cambridge",
+      "summary": "The Council went on record proclaiming April 13–20, 2026 as International Dark Sky Week and called on residents, businesses, institutions, and City departments to raise awareness of light pollution and adopt responsible outdoor lighting practices. Adopted unanimously.",
+      "body": "That the City Council go on record proclaiming April 13–20, 2026 as International Dark Sky Week in the City of Cambridge, and calls upon all residents, businesses, institutions, and City departments to join in observing this important week by raising awareness of light pollution, adopting responsible outdoor lighting practices, and supporting the protection of our shared night sky as a precious and finite resource. MAYOR SIDDIQUI, COUNCILLOR MCGOVERN, COUNCILLOR NOLAN. POR 2026-71",
+      "sponsors": ["siddiqui", "mcgovern", "nolan"],
+      "status": "adopted",
+      "vote": {
+        "result": "Adopted [9-0-0]",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-71",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:adopted",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:nolan",
+        "geo.scope:citywide",
+        "topic.area:climate"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VI. POLICY ORDERS",
+        "doc.item_id:por-2026-71": "Bold ID line 'POR 2026-71'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:adopted": "RESULT: Adopted [9-0-0]",
+        "doc.sponsor:siddiqui": "Sponsor: MAYOR SIDDIQUI",
+        "doc.sponsor:mcgovern": "Sponsor: COUNCILLOR MCGOVERN",
+        "doc.sponsor:nolan": "Sponsor: COUNCILLOR NOLAN",
+        "geo.scope:citywide": "proclamation 'in the City of Cambridge'",
+        "topic.area:climate": "light-pollution / night-sky protection is environmental policy"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 3,
+        "anchor": "VI.7"
+      }
+    },
+    {
+      "itemId": "POR-2026-32",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "POR",
+      "title": "Raise residential parking permit fee to $75; $25 subsidized fee; remove senior exemption; cap at 2 cars",
+      "summary": "A previously tabled policy order proposing major changes to the residential parking permit program: a $75 base fee, a subsidized $25 fee for residents in affordable housing or SNAP, removal of the senior exemption, and a cap of 2 permits per household (down from 4). Taken from the table and adopted as amended by substitution 7-2, with Councillors Flaherty and Simmons voting nay.",
+      "body": "That the City Manager is requested to work with relevant City departments to raise the fee of the parking permit program for all residents to $75, consider how to include a self-identified check off option so as not to increase administrative costs for a subsidized fee of $25 for residents who live in affordable housing, are enrolled in a program such as SNAP or are low income, remove the senior exemption for the residential parking permit program and lower the number of cars that individual residents are allowed to get a residential parking permit for from four to two. CHARTER RIGHT EXERCISED BY COUNCILLOR SIMMONS IN COUNCIL FEBRUARY 9, 2026. PLACED ON THE TABLE IN COUNCIL MARCH 2, 2026. POR 2026-32",
+      "sponsors": [],
+      "status": "adopted_amended",
+      "vote": {
+        "result": "Adopted as Amended by Substitution [7-2-0]",
+        "yeas": ["al_zubi", "azeem", "mcgovern", "nolan", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": ["flaherty", "simmons"],
+        "absent": [],
+        "present": []
+      },
+      "amendments": ["Adopted as Amended by Substitution — final language differs from the agenda body"],
+      "history": [
+        {"date": "2026-02-09", "action": "Charter Right Exercised by Councillor Simmons"},
+        {"date": "2026-03-02", "action": "Placed on the Table"},
+        {"date": "2026-03-30", "action": "Adopted as Amended by Substitution"}
+      ],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-32",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:adopted_amended",
+        "doc.stage:carryover",
+        "geo.scope:citywide",
+        "housing.tenure:any",
+        "housing.affordability:inclusionary",
+        "transport.mode:drive",
+        "transport.subject:parking",
+        "fiscal.kind:parking_fee",
+        "fiscal.kind:permit_fee",
+        "demo.age:senior_65plus",
+        "demo.income:low",
+        "demo.income:means_tested",
+        "civic.councillor_vote:al_zubi:yea",
+        "civic.councillor_vote:azeem:yea",
+        "civic.councillor_vote:mcgovern:yea",
+        "civic.councillor_vote:nolan:yea",
+        "civic.councillor_vote:sobrinho_wheeler:yea",
+        "civic.councillor_vote:zusy:yea",
+        "civic.councillor_vote:siddiqui:yea",
+        "civic.councillor_vote:flaherty:nay",
+        "civic.councillor_vote:simmons:nay"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VII. CALENDAR / TABLED — POR 2026-32",
+        "doc.item_id:por-2026-32": "Bold ID line 'POR 2026-32'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:adopted_amended": "RESULT: Adopted as Amended by Substitution [7-2-0]",
+        "doc.stage:carryover": "Carryover from Feb 9 (Charter Right) and March 2 (Tabled)",
+        "geo.scope:citywide": "residential parking permit program is citywide",
+        "housing.tenure:any": "parking permit fees affect both renters and owners",
+        "housing.affordability:inclusionary": "subsidized fee for 'residents who live in affordable housing'",
+        "transport.mode:drive": "residential parking permits affect car owners",
+        "transport.subject:parking": "residential parking permit program",
+        "fiscal.kind:parking_fee": "raise parking permit fee to $75",
+        "fiscal.kind:permit_fee": "permit-fee policy",
+        "demo.age:senior_65plus": "remove the senior exemption for the residential parking permit program",
+        "demo.income:low": "subsidized fee of $25 for residents who ... are low income",
+        "demo.income:means_tested": "enrolled in a program such as SNAP",
+        "civic.councillor_vote:al_zubi:yea": "YEAS list includes Councillor Al-Zubi",
+        "civic.councillor_vote:azeem:yea": "YEAS list includes Vice Mayor Azeem",
+        "civic.councillor_vote:mcgovern:yea": "YEAS list includes Councillor McGovern",
+        "civic.councillor_vote:nolan:yea": "YEAS list includes Councillor Nolan",
+        "civic.councillor_vote:sobrinho_wheeler:yea": "YEAS list includes Councillor Sobrinho-Wheeler",
+        "civic.councillor_vote:zusy:yea": "YEAS list includes Councillor Zusy",
+        "civic.councillor_vote:siddiqui:yea": "YEAS list includes Mayor Siddiqui",
+        "civic.councillor_vote:flaherty:nay": "NAYS: Councillor Flaherty",
+        "civic.councillor_vote:simmons:nay": "NAYS: Councillor Simmons"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 3,
+        "anchor": "VII.TABLED.1"
+      }
+    },
+    {
+      "itemId": "AR-2026-02",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: open city-owned parking lots (incl. Tobin/Vassal) for after-hours resident use",
+      "summary": "An outstanding report request asking the City Manager to work with the School Department, DPW, and other departments to make city-owned parking lots — particularly at school complexes including the new Tobin/Darby Vassal complex — available for after-hours resident use. Still pending.",
+      "body": "That the City Manager is requested to work with the School Department, the Department of Public Works, and other relevant departments to ensure that all city owned parking lots, with a focus on school complexes, including the still under construction parking at Tobin/Darby Vassal school complex, could be made available for after-hours use by residents. Original Awaiting Report Item AR-25-29. Councillor Nolan. AR 2026-02",
+      "sponsors": ["nolan"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-02",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:nolan",
+        "geo.scope:school_zone",
+        "geo.school_zone:tobin_vassal",
+        "transport.mode:drive",
+        "transport.subject:parking",
+        "household.school:cps"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-02": "Bold ID line 'AR 2026-02'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:nolan": "Sponsor: Councillor Nolan",
+        "geo.scope:school_zone": "Tobin/Darby Vassal school complex named",
+        "geo.school_zone:tobin_vassal": "explicit: 'Tobin/Darby Vassal school complex'",
+        "transport.mode:drive": "parking lot use affects drivers",
+        "transport.subject:parking": "city-owned parking lots subject of item",
+        "household.school:cps": "School Department / school complexes are CPS facilities"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 4,
+        "anchor": "X.AR.1"
+      }
+    },
+    {
+      "itemId": "AR-2026-03",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: formal policy on City support for nonprofit large-scale public events",
+      "summary": "An outstanding report request asking the City Manager and City Solicitor to establish a formal policy defining the City's role and financial responsibilities in supporting large-scale public events hosted by Cambridge nonprofits. Marked Report Accepted and Placed on File at this meeting (response transmitted via CMA-2026-76).",
+      "body": "The City Manager is requested to consult with the appropriate City departments, including the City Solicitor's Office, to establish a formal policy that clearly defines the City's role and financial responsibilities in supporting large-scale public events hosted by Cambridge-based non-profit and not-for-profit organizations. Original Awaiting Report Item AR-25-48. Councillor Simmons, Councillor McGovern. AR 2026-03",
+      "sponsors": ["simmons", "mcgovern"],
+      "status": "report_accepted",
+      "vote": {
+        "result": "Report Accepted and Placed on File VV8",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-03",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:report_accepted",
+        "doc.sponsor:simmons",
+        "doc.sponsor:mcgovern",
+        "geo.scope:citywide",
+        "topic.area:arts",
+        "fiscal.kind:permit_fee"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-03": "Bold ID line 'AR 2026-03'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:report_accepted": "RESULT: Report Accepted and Placed on File VV8",
+        "doc.sponsor:simmons": "Sponsor: Councillor Simmons",
+        "doc.sponsor:mcgovern": "Sponsor: Councillor McGovern",
+        "geo.scope:citywide": "policy applies to nonprofits citywide",
+        "topic.area:arts": "large-scale nonprofit events frequently include arts/cultural festivals",
+        "fiscal.kind:permit_fee": "policy concerns 'fee waivers' for events"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 4,
+        "anchor": "X.AR.2"
+      }
+    },
+    {
+      "itemId": "AR-2026-04",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: outreach to condo owners and short-term rental operators",
+      "summary": "An outstanding report request asking the City Manager to seek community input and conduct direct outreach to condo owners and short-term rental operators, and to develop additional recommendations from the Ordinance Committee discussion. Still pending.",
+      "body": "The City Manager is requested to work with all relevant departments to seek input from the community as well as direct outreach to condo owners and short-term rental operators and develop additional recommendations based on the discussion in the Ordinance Committee. Original Awaiting Report Item AR-25-51. Councillor Nolan, Councillor Sobrinho-Wheeler, Councillor McGovern, Mayor Siddiqui. AR 2026-04",
+      "sponsors": ["nolan", "sobrinho_wheeler", "mcgovern", "siddiqui"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-04",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:nolan",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:siddiqui",
+        "geo.scope:citywide",
+        "housing.tenure:own",
+        "housing.type:condo",
+        "topic.area:housing_zoning",
+        "topic.area:small_business"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-04": "Bold ID line 'AR 2026-04'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:nolan": "Sponsor: Councillor Nolan",
+        "doc.sponsor:sobrinho_wheeler": "Sponsor: Councillor Sobrinho-Wheeler",
+        "doc.sponsor:mcgovern": "Sponsor: Councillor McGovern",
+        "doc.sponsor:siddiqui": "Sponsor: Mayor Siddiqui",
+        "geo.scope:citywide": "outreach to condo owners and STR operators citywide",
+        "housing.tenure:own": "condo owners are owners",
+        "housing.type:condo": "explicit subject: 'condo owners'",
+        "topic.area:housing_zoning": "short-term rental regulation is a housing/zoning matter",
+        "topic.area:small_business": "short-term rental operators run small lodging businesses"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 4,
+        "anchor": "X.AR.3"
+      }
+    },
+    {
+      "itemId": "AR-2026-06",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: prepare new home rule petition for a Real Estate Transfer Fee",
+      "summary": "An outstanding report request asking the City Manager to review the previous home rule petition and prepare a new petition that would allow Cambridge to enact a Real Estate Transfer Fee, to be sent to the state legislature. Still pending.",
+      "body": "Review the previous home rule petition and prepare a new petition that would allow Cambridge to enact a Real Estate Transfer Fee to be sent to the state legislature. Original Awaiting Report AR-25-69. Councillor Nolan, Mayor Siddiqui, Councillor Sobrinho-Wheeler, Councillor McGovern. AR 2026-06",
+      "sponsors": ["nolan", "siddiqui", "sobrinho_wheeler", "mcgovern"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-06",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:nolan",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:mcgovern",
+        "geo.scope:citywide",
+        "housing.tenure:any",
+        "topic.area:housing_zoning",
+        "fiscal.kind:transfer_fee",
+        "civic.flag:home_rule_petition"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-06": "Bold ID line 'AR 2026-06'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:nolan": "Sponsor: Councillor Nolan",
+        "doc.sponsor:siddiqui": "Sponsor: Mayor Siddiqui",
+        "doc.sponsor:sobrinho_wheeler": "Sponsor: Councillor Sobrinho-Wheeler",
+        "doc.sponsor:mcgovern": "Sponsor: Councillor McGovern",
+        "geo.scope:citywide": "transfer fee would apply citywide",
+        "housing.tenure:any": "transfer fees affect anyone selling/buying property",
+        "topic.area:housing_zoning": "real estate transfer fee is housing-finance policy",
+        "fiscal.kind:transfer_fee": "explicit: 'Real Estate Transfer Fee'",
+        "civic.flag:home_rule_petition": "explicit: 'home rule petition' to be sent to state legislature"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 4,
+        "anchor": "X.AR.4"
+      }
+    },
+    {
+      "itemId": "AR-2026-07",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: restrict resident parking permit eligibility in new transit-oriented developments",
+      "summary": "An outstanding report request asking the City Manager to consider restricting eligibility for on-street resident parking permits for residents of new transit-oriented developments. Still pending.",
+      "body": "Restricting Eligibility for On-Street Resident Parking Permits in New Transit-Oriented Developments. Original Awaiting Report 31839. Councillor Zusy, Vice Mayor Azeem, Councillor Nolan. AR 2026-07",
+      "sponsors": ["zusy", "azeem", "nolan"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-07",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:zusy",
+        "doc.sponsor:azeem",
+        "doc.sponsor:nolan",
+        "geo.scope:citywide",
+        "housing.tenure:any",
+        "transport.mode:drive",
+        "transport.mode:transit",
+        "transport.subject:parking",
+        "topic.area:housing_zoning",
+        "topic.area:transit",
+        "fiscal.kind:parking_fee",
+        "fiscal.kind:permit_fee"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-07": "Bold ID line 'AR 2026-07'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:zusy": "Sponsor: Councillor Zusy",
+        "doc.sponsor:azeem": "Sponsor: Vice Mayor Azeem",
+        "doc.sponsor:nolan": "Sponsor: Councillor Nolan",
+        "geo.scope:citywide": "applies to new TOD developments citywide",
+        "housing.tenure:any": "affects new-development residents regardless of tenure",
+        "transport.mode:drive": "resident parking permit policy affects drivers",
+        "transport.mode:transit": "transit-oriented developments are transit-linked",
+        "transport.subject:parking": "explicit: 'On-Street Resident Parking Permits'",
+        "topic.area:housing_zoning": "ties parking eligibility to development type",
+        "topic.area:transit": "transit-oriented development framing",
+        "fiscal.kind:parking_fee": "parking permit fee program",
+        "fiscal.kind:permit_fee": "residential permit eligibility"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 5,
+        "anchor": "X.AR.5"
+      }
+    },
+    {
+      "itemId": "AR-2026-09",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: TDMD legal review and visitor information kiosk oversight",
+      "summary": "An outstanding report request asking the City Solicitor and CDD to review legal parameters of City funding under Tourism Destination Marketing District restrictions and oversight of the visitor information kiosk. Marked Report Accepted and Placed on File at this meeting (response in CMA-2026-77).",
+      "body": "Direct the City Solicitor and the Community Development Department to review and report back to the Council on (i) legal parameters related to City funding and Tourism Destination Marketing District restrictions, and (ii) oversight and accountability related to the operation of the visitor information kiosk, and related governance expectations, including alignment with City priorities. Original Awaiting Report ID #31841. Councillor Simmons, Councillor Flaherty. AR 2026-09",
+      "sponsors": ["simmons", "flaherty"],
+      "status": "report_accepted",
+      "vote": {
+        "result": "Report Accepted and Placed on File VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-09",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:report_accepted",
+        "doc.sponsor:simmons",
+        "doc.sponsor:flaherty",
+        "geo.scope:citywide",
+        "topic.area:small_business",
+        "work.audience:small_business_owners"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-09": "Bold ID line 'AR 2026-09'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:report_accepted": "RESULT: Report Accepted and Placed on File VV9",
+        "doc.sponsor:simmons": "Sponsor: Councillor Simmons",
+        "doc.sponsor:flaherty": "Sponsor: Councillor Flaherty",
+        "geo.scope:citywide": "TDMD applies citywide / kiosk governance citywide",
+        "topic.area:small_business": "TDMD funds business district marketing",
+        "work.audience:small_business_owners": "small businesses benefit from tourism marketing district"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 5,
+        "anchor": "X.AR.6"
+      }
+    },
+    {
+      "itemId": "AR-2026-10",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: best future uses for City-owned properties and redevelopment processes",
+      "summary": "An outstanding report request asking the City Manager to prepare for a Council discussion on best future uses for City-owned properties and the processes for redevelopment. Still pending.",
+      "body": "Work with relevant departments to prepare for a Council discussion on best future uses for City-owned properties and the processes for redevelopment. Original Awaiting Report #31842. Councillor Nolan, Mayor Siddiqui, Councillor Zusy, Councillor Al-Zubi. AR 2026-10",
+      "sponsors": ["nolan", "siddiqui", "zusy", "al_zubi"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-10",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:nolan",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:zusy",
+        "doc.sponsor:al_zubi",
+        "geo.scope:citywide",
+        "topic.area:housing_zoning"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-10": "Bold ID line 'AR 2026-10'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:nolan": "Sponsor: Councillor Nolan",
+        "doc.sponsor:siddiqui": "Sponsor: Mayor Siddiqui",
+        "doc.sponsor:zusy": "Sponsor: Councillor Zusy",
+        "doc.sponsor:al_zubi": "Sponsor: Councillor Al-Zubi",
+        "geo.scope:citywide": "City-owned properties throughout Cambridge",
+        "topic.area:housing_zoning": "redevelopment of City-owned land is land-use policy"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 5,
+        "anchor": "X.AR.7"
+      }
+    },
+    {
+      "itemId": "AR-2026-12",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: Harvard Square pedestrianization pilot projects and Brattle/JFK redesign",
+      "summary": "An outstanding report request asking the City Manager to prioritize 2026 pedestrianization pilot projects without a consultant study, and to consider further pedestrianizing a section of Brattle Street by restoring two-way traffic to JFK Street. Marked Report Accepted and Placed on File at this meeting (response in CMA-2026-75).",
+      "body": "That the City Manager work with relevant City departments to prioritize pilot projects in 2026 without the use of a consultant for an extensive pedestrianization study, and in the medium-term consider how additional pedestrianization of a section of Brattle Street by restoring two-way traffic to JFK Street could enhance the Square. Councillor Nolan, Councillor Simmons, Mayor Siddiqui, Councillor Zusy. AR 2026-12",
+      "sponsors": ["nolan", "simmons", "siddiqui", "zusy"],
+      "status": "report_accepted",
+      "vote": {
+        "result": "Report Accepted and Placed on File VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-12",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:report_accepted",
+        "doc.sponsor:nolan",
+        "doc.sponsor:simmons",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:zusy",
+        "geo.scope:landmark",
+        "geo.landmark:harvard_square",
+        "geo.corridor:brattle_st",
+        "geo.corridor:jfk_st",
+        "transport.mode:walk",
+        "transport.mode:drive",
+        "transport.subject:pedestrianization",
+        "topic.area:transit"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-12": "Bold ID line 'AR 2026-12'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:report_accepted": "RESULT: Report Accepted and Placed on File VV9",
+        "doc.sponsor:nolan": "Sponsor: Councillor Nolan",
+        "doc.sponsor:simmons": "Sponsor: Councillor Simmons",
+        "doc.sponsor:siddiqui": "Sponsor: Mayor Siddiqui",
+        "doc.sponsor:zusy": "Sponsor: Councillor Zusy",
+        "geo.scope:landmark": "Harvard Square is the named locale ('the Square')",
+        "geo.landmark:harvard_square": "explicit: 'enhance the Square' = Harvard Square",
+        "geo.corridor:brattle_st": "explicit: 'a section of Brattle Street'",
+        "geo.corridor:jfk_st": "explicit: 'restoring two-way traffic to JFK Street'",
+        "transport.mode:walk": "pedestrianization affects pedestrians",
+        "transport.mode:drive": "two-way traffic restoration affects drivers",
+        "transport.subject:pedestrianization": "explicit: 'pedestrianization'",
+        "topic.area:transit": "streets/pedestrianization policy"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 5,
+        "anchor": "X.AR.8"
+      }
+    },
+    {
+      "itemId": "AR-2026-14",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: comprehensive review of safety and security measures at Cambridge City Hall",
+      "summary": "An outstanding report request asking the City Manager to conduct a comprehensive review of City Hall safety and security, including access controls, visitor screening, security staffing, emergency protocols, and surveillance systems. Still pending.",
+      "body": "That the City Manager conduct a comprehensive review of existing safety and security measures at Cambridge City Hall, including an assessment of physical access controls, visitor screening practices, on-site security staffing and training, emergency response and evacuation protocols, and the use of security technologies such as surveillance systems and alarm monitoring. Councillor Flaherty, Councillor Simmons. AR 2026-14",
+      "sponsors": ["flaherty", "simmons"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-14",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:flaherty",
+        "doc.sponsor:simmons",
+        "geo.scope:landmark",
+        "geo.landmark:city_hall",
+        "topic.area:public_safety"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-14": "Bold ID line 'AR 2026-14'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:flaherty": "Sponsor: Councillor Flaherty",
+        "doc.sponsor:simmons": "Sponsor: Councillor Simmons",
+        "geo.scope:landmark": "Cambridge City Hall named",
+        "geo.landmark:city_hall": "explicit: 'Cambridge City Hall'",
+        "topic.area:public_safety": "explicit: 'safety and security measures'"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 5,
+        "anchor": "X.AR.9"
+      }
+    },
+    {
+      "itemId": "AR-2026-18",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: review City's digital equity work and internet access programs",
+      "summary": "An outstanding report request asking the City Manager to review the City's digital equity work to date and evaluate existing internet access programs, with a report back to the Council by June 2026. Still pending.",
+      "body": "The City Manager is requested to direct the appropriate departments to review the city's digital equity work to date, including the study's recommendations and all steps taken since the study conclusion in order to update the evaluation of existing internet access programs, assessing whether residents' digital needs are or could be better provided for and to propose how we can better meet their needs and to report back to the Council by June 2026 on internet access programs. Councillor Zusy, Councillor Nolan, Councillor Sobrinho-Wheeler, Vice Mayor Azeem. AR 2026-18",
+      "sponsors": ["zusy", "nolan", "sobrinho_wheeler", "azeem"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-18",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:zusy",
+        "doc.sponsor:nolan",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:azeem",
+        "geo.scope:citywide",
+        "topic.area:civil_liberties",
+        "demo.income:low"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-18": "Bold ID line 'AR 2026-18'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:zusy": "Sponsor: Councillor Zusy",
+        "doc.sponsor:nolan": "Sponsor: Councillor Nolan",
+        "doc.sponsor:sobrinho_wheeler": "Sponsor: Councillor Sobrinho-Wheeler",
+        "doc.sponsor:azeem": "Sponsor: Vice Mayor Azeem",
+        "geo.scope:citywide": "internet access programs serve residents citywide",
+        "topic.area:civil_liberties": "'digital equity' is a digital-rights / access frame",
+        "demo.income:low": "digital equity programs typically target low-income residents"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 5,
+        "anchor": "X.AR.10"
+      }
+    },
+    {
+      "itemId": "AR-2026-16",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: third-party guarantors / co-signers for Inclusionary Housing applicants",
+      "summary": "An outstanding report request asking the City Manager and CDD to examine the feasibility of permitting qualified third-party guarantors or co-signers for Inclusionary Housing applicants, to expand access to those units. Still pending.",
+      "body": "The City Manager is requested to direct the Community Development Department (CDD) to examine the feasibility, legal considerations, and administrative requirements of permitting qualified third-party guarantors or co-signers for applicants to Inclusionary Housing units and provide recommendations as to whether such a policy could responsibly expand access to these units. Vice Mayor Azeem, Councillor McGovern, Councillor Sobrinho-Wheeler, Councillor Simmons. AR 2026-16",
+      "sponsors": ["azeem", "mcgovern", "sobrinho_wheeler", "simmons"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-16",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:azeem",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:simmons",
+        "geo.scope:citywide",
+        "housing.tenure:rent",
+        "housing.affordability:inclusionary",
+        "topic.area:housing_zoning",
+        "demo.income:low",
+        "demo.income:means_tested"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-16": "Bold ID line 'AR 2026-16'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:azeem": "Sponsor: Vice Mayor Azeem",
+        "doc.sponsor:mcgovern": "Sponsor: Councillor McGovern",
+        "doc.sponsor:sobrinho_wheeler": "Sponsor: Councillor Sobrinho-Wheeler",
+        "doc.sponsor:simmons": "Sponsor: Councillor Simmons",
+        "geo.scope:citywide": "Inclusionary Housing program is citywide",
+        "housing.tenure:rent": "Inclusionary Housing units are rentals",
+        "housing.affordability:inclusionary": "explicit: 'Inclusionary Housing units'",
+        "topic.area:housing_zoning": "expanding access to affordable units is housing policy",
+        "demo.income:low": "Inclusionary Housing serves low-income applicants",
+        "demo.income:means_tested": "Inclusionary Housing is income-qualified"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 5,
+        "anchor": "X.AR.11"
+      }
+    },
+    {
+      "itemId": "AR-2026-17",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: draft ordinance language restricting City property used for federal civil immigration enforcement",
+      "summary": "An outstanding report request asking the Law Department to draft ordinance language restricting use of City-owned/controlled property, facilities, resources, and personnel for federal civil immigration enforcement, and to evaluate whether to fold these into the Welcoming Community Ordinance. Marked Report Accepted and Placed on File at this meeting (response in CMA-2026-74 / ORD-2026-03).",
+      "body": "The City Manager is requested to direct the Law Department to draft ordinance language restricting the use of City-owned or City-controlled property, facilities, resources, and personnel for the purposes of federal civil immigration enforcement, and that the Law Department evaluate whether these protections should be adopted as an amendment to the Welcoming Community Ordinance. Mayor Siddiqui, Councillor Sobrinho-Wheeler, Councillor McGovern, Councillor Nolan, Vice Mayor Azeem, Councillor Zusy, Councillor Al-Zubi. AR 2026-17",
+      "sponsors": ["siddiqui", "sobrinho_wheeler", "mcgovern", "nolan", "azeem", "zusy", "al_zubi"],
+      "status": "report_accepted",
+      "vote": {
+        "result": "Report Accepted and Placed on File VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-17",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:report_accepted",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:nolan",
+        "doc.sponsor:azeem",
+        "doc.sponsor:zusy",
+        "doc.sponsor:al_zubi",
+        "geo.scope:citywide",
+        "topic.area:immigration",
+        "topic.area:civil_liberties"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-17": "Bold ID line 'AR 2026-17'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:report_accepted": "RESULT: Report Accepted and Placed on File VV9",
+        "doc.sponsor:siddiqui": "Sponsor: Mayor Siddiqui",
+        "doc.sponsor:sobrinho_wheeler": "Sponsor: Councillor Sobrinho-Wheeler",
+        "doc.sponsor:mcgovern": "Sponsor: Councillor McGovern",
+        "doc.sponsor:nolan": "Sponsor: Councillor Nolan",
+        "doc.sponsor:azeem": "Sponsor: Vice Mayor Azeem",
+        "doc.sponsor:zusy": "Sponsor: Councillor Zusy",
+        "doc.sponsor:al_zubi": "Sponsor: Councillor Al-Zubi",
+        "geo.scope:citywide": "City-owned property and personnel citywide",
+        "topic.area:immigration": "explicit: 'federal civil immigration enforcement'",
+        "topic.area:civil_liberties": "Welcoming Community Ordinance protects civil liberties"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 5,
+        "anchor": "X.AR.12"
+      }
+    },
+    {
+      "itemId": "AR-2026-19",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: improve consistency of how meeting information is posted on City website",
+      "summary": "An outstanding report request asking the City Manager to assess opportunities to improve the consistency of how meeting information is posted and accessed on the City's website. Still pending.",
+      "body": "That the City Manager is requested to assess opportunities to improve the consistency of how meeting information is posted and accessed on the City's website. Councillor Simmons, Councillor Zusy, Councillor Sobrinho-Wheeler. AR 2026-19",
+      "sponsors": ["simmons", "zusy", "sobrinho_wheeler"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-19",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:simmons",
+        "doc.sponsor:zusy",
+        "doc.sponsor:sobrinho_wheeler",
+        "geo.scope:citywide"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-19": "Bold ID line 'AR 2026-19'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:simmons": "Sponsor: Councillor Simmons",
+        "doc.sponsor:zusy": "Sponsor: Councillor Zusy",
+        "doc.sponsor:sobrinho_wheeler": "Sponsor: Councillor Sobrinho-Wheeler",
+        "geo.scope:citywide": "City website serves all residents citywide"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 6,
+        "anchor": "X.AR.13"
+      }
+    },
+    {
+      "itemId": "AR-2026-20",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: consolidated capital lifecycle reconciliation prior to FY27 Capital Budget",
+      "summary": "An outstanding report request asking the City Manager to deliver a consolidated capital lifecycle reconciliation for all major capital initiatives before the FY27 Capital Budget is adopted. Still pending.",
+      "body": "That the City Manager be and hereby is requested to produce and deliver to the City Council, prior to the adoption of the FY27 Capital Budget, a consolidated capital lifecycle reconciliation for all major capital initiatives. Councillor Simmons, Councillor Zusy, Councillor Flaherty. AR 2026-20",
+      "sponsors": ["simmons", "zusy", "flaherty"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-20",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:simmons",
+        "doc.sponsor:zusy",
+        "doc.sponsor:flaherty",
+        "geo.scope:citywide",
+        "fiscal.kind:appropriation"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-20": "Bold ID line 'AR 2026-20'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:simmons": "Sponsor: Councillor Simmons",
+        "doc.sponsor:zusy": "Sponsor: Councillor Zusy",
+        "doc.sponsor:flaherty": "Sponsor: Councillor Flaherty",
+        "geo.scope:citywide": "FY27 Capital Budget covers all city operations",
+        "fiscal.kind:appropriation": "FY27 Capital Budget = capital appropriations"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 6,
+        "anchor": "X.AR.14"
+      }
+    },
+    {
+      "itemId": "AR-2026-22",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: simplify processes for paying election workers",
+      "summary": "An outstanding report request asking the City Manager to work with the Election Commissioners to review IRS guidance and simplify the City's processes for paying election workers. Still pending.",
+      "body": "That the City Manager is requested to work with relevant City departments as well as the Election Commissioners to review guidance from the IRS and consult with other municipalities in order to simplify our processes for paying election workers. Councillor Nolan, Councillor Sobrinho-Wheeler, Councillor McGovern, Councillor Zusy. AR 2026-22",
+      "sponsors": ["nolan", "sobrinho_wheeler", "mcgovern", "zusy"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-22",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:nolan",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:zusy",
+        "geo.scope:citywide",
+        "work.employer:government"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-22": "Bold ID line 'AR 2026-22'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:nolan": "Sponsor: Councillor Nolan",
+        "doc.sponsor:sobrinho_wheeler": "Sponsor: Councillor Sobrinho-Wheeler",
+        "doc.sponsor:mcgovern": "Sponsor: Councillor McGovern",
+        "doc.sponsor:zusy": "Sponsor: Councillor Zusy",
+        "geo.scope:citywide": "election worker pay process applies citywide",
+        "work.employer:government": "election workers are paid by the City (government employer)"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 6,
+        "anchor": "X.AR.15"
+      }
+    },
+    {
+      "itemId": "AR-2026-23",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: expand free early child care offerings, including means-tested models",
+      "summary": "An outstanding report request asking the City Manager to work with relevant departments on processes to expand free early child care offerings in Cambridge, including means-tested programming and non-City funding sources. Still pending.",
+      "body": "That the City Manager is requested to work with the City Council and relevant City departments on the process by which Cambridge can expand free early child care offerings, including models for means-tested programming, and exploration of non-City funding sources, from the state or foundations. Councillor Nolan, Councillor McGovern, Mayor Siddiqui. AR 2026-23",
+      "sponsors": ["nolan", "mcgovern", "siddiqui"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-23",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:nolan",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:siddiqui",
+        "geo.scope:citywide",
+        "household.kids:under_5",
+        "household.composition:parent",
+        "topic.area:schools",
+        "demo.income:low",
+        "demo.income:means_tested"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-23": "Bold ID line 'AR 2026-23'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:nolan": "Sponsor: Councillor Nolan",
+        "doc.sponsor:mcgovern": "Sponsor: Councillor McGovern",
+        "doc.sponsor:siddiqui": "Sponsor: Mayor Siddiqui",
+        "geo.scope:citywide": "early child-care offerings would expand citywide",
+        "household.kids:under_5": "explicit: 'early child care offerings'",
+        "household.composition:parent": "early child-care policy targets parents",
+        "topic.area:schools": "early-childhood education is a schools/education topic",
+        "demo.income:low": "free child care primarily benefits low-income families",
+        "demo.income:means_tested": "explicit: 'models for means-tested programming'"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 6,
+        "anchor": "X.AR.16"
+      }
+    },
+    {
+      "itemId": "AR-2026-24",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: explore steps toward advancing social housing in Cambridge",
+      "summary": "An outstanding report request asking the City Manager to confer with CDD, Finance, Law, and other departments to explore all steps toward advancing social housing in Cambridge. Still pending.",
+      "body": "That the City Manager be and hereby is requested to confer with the Community Development Department, Finance Department, Law Department, and other relevant departments to explore all steps towards advancing social housing in Cambridge. Original Awaiting Report Item AR-25-58. Councillor Sobrinho-Wheeler. AR 2026-24",
+      "sponsors": ["sobrinho_wheeler"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-24",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:sobrinho_wheeler",
+        "geo.scope:citywide",
+        "housing.tenure:rent",
+        "housing.affordability:public_housing",
+        "topic.area:housing_zoning"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-24": "Bold ID line 'AR 2026-24'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:sobrinho_wheeler": "Sponsor: Councillor Sobrinho-Wheeler",
+        "geo.scope:citywide": "social housing program would be citywide",
+        "housing.tenure:rent": "social housing units are typically rentals",
+        "housing.affordability:public_housing": "social housing is publicly owned/operated affordable housing",
+        "topic.area:housing_zoning": "social housing is housing-policy"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 6,
+        "anchor": "X.AR.17"
+      }
+    },
+    {
+      "itemId": "AR-2026-25",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: discontinue all official City posting and engagement on X within 60 days",
+      "summary": "An outstanding report request asking the City Manager to instruct all City departments, boards, commissions, and offices to discontinue all official posting and engagement on X (formerly Twitter) within 60 days, with an explanation. Still pending.",
+      "body": "That the City Manager be and hereby is requested to instruct all City departments, boards, commissions, and offices to discontinue all official posting and engagement on X within 60 days; and to include an explanation of why the City will no longer use X. Councillor Al-Zubi, Councillor Nolan. AR 2026-25",
+      "sponsors": ["al_zubi", "nolan"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-25",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:al_zubi",
+        "doc.sponsor:nolan",
+        "geo.scope:citywide",
+        "topic.area:civil_liberties"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-25": "Bold ID line 'AR 2026-25'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:al_zubi": "Sponsor: Councillor Al-Zubi",
+        "doc.sponsor:nolan": "Sponsor: Councillor Nolan",
+        "geo.scope:citywide": "applies to all City departments and offices citywide",
+        "topic.area:civil_liberties": "City social-media platform choice is a civic-information / values policy"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 6,
+        "anchor": "X.AR.18"
+      }
+    },
+    {
+      "itemId": "AR-2026-26",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: harmonize Harvard / MASCO institutional bus protocols with public commitments",
+      "summary": "An outstanding report request asking the City Manager to direct CDD and the Transportation Department to meet with Harvard's Office of Community Relations and the Longwood Collective (MASCO) to align institutional shuttle-bus protocols with public-facing commitments. Still pending.",
+      "body": "That the City Manager is requested to direct the Community Development Department and the Transportation Department to meet with Harvard's Office of Community Relations and the Longwood Collective (MASCO) to harmonize institutional bus protocols with public-facing commitments. Councillor Al-Zubi, Mayor Siddiqui, Councillor Sobrinho-Wheeler, Councillor Nolan. AR 2026-26",
+      "sponsors": ["al_zubi", "siddiqui", "sobrinho_wheeler", "nolan"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-26",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:al_zubi",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:nolan",
+        "geo.scope:citywide",
+        "transport.mode:transit",
+        "transport.subject:bus_route",
+        "topic.area:transit",
+        "work.employer:university"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-26": "Bold ID line 'AR 2026-26'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:al_zubi": "Sponsor: Councillor Al-Zubi",
+        "doc.sponsor:siddiqui": "Sponsor: Mayor Siddiqui",
+        "doc.sponsor:sobrinho_wheeler": "Sponsor: Councillor Sobrinho-Wheeler",
+        "doc.sponsor:nolan": "Sponsor: Councillor Nolan",
+        "geo.scope:citywide": "institutional shuttles operate across multiple Cambridge corridors",
+        "transport.mode:transit": "institutional shuttle buses are transit",
+        "transport.subject:bus_route": "explicit: 'institutional bus protocols'",
+        "topic.area:transit": "shuttle bus operations is a transit topic",
+        "work.employer:university": "Harvard / Longwood institutional shuttles serve university/hospital workforces"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 6,
+        "anchor": "X.AR.19"
+      }
+    },
+    {
+      "itemId": "AR-2026-27",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "AR",
+      "title": "Awaiting report: study requiring single-stall public bathrooms to be gender-neutral",
+      "summary": "An outstanding report request asking the City Manager to direct relevant City departments and staff to examine and report back on whether the city can require single-stall public bathrooms to be gender-neutral. Still pending.",
+      "body": "That the City Manager is requested to direct relevant City departments and staff to examine and report back on whether the city can require single-stall public bathrooms to be gender-neutral. Councillor McGovern, Mayor Siddiqui, Councillor Simmons, Councillor Al-Zubi, Councillor Flaherty, Councillor Nolan, Vice Mayor Azeem. AR 2026-27",
+      "sponsors": ["mcgovern", "siddiqui", "simmons", "al_zubi", "flaherty", "nolan", "azeem"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-27",
+        "doc.meeting_date:2026-03-30",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:simmons",
+        "doc.sponsor:al_zubi",
+        "doc.sponsor:flaherty",
+        "doc.sponsor:nolan",
+        "doc.sponsor:azeem",
+        "geo.scope:citywide",
+        "topic.area:civil_liberties",
+        "demo.gender:trans",
+        "demo.gender:non_binary"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section X. APPENDED INFORMATION / AWAITING REPORT LIST",
+        "doc.item_id:ar-2026-27": "Bold ID line 'AR 2026-27'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.sponsor:mcgovern": "Sponsor: Councillor McGovern",
+        "doc.sponsor:siddiqui": "Sponsor: Mayor Siddiqui",
+        "doc.sponsor:simmons": "Sponsor: Councillor Simmons",
+        "doc.sponsor:al_zubi": "Sponsor: Councillor Al-Zubi",
+        "doc.sponsor:flaherty": "Sponsor: Councillor Flaherty",
+        "doc.sponsor:nolan": "Sponsor: Councillor Nolan",
+        "doc.sponsor:azeem": "Sponsor: Vice Mayor Azeem",
+        "geo.scope:citywide": "public bathrooms requirement would apply citywide",
+        "topic.area:civil_liberties": "gender-neutral facilities is a civil-rights topic",
+        "demo.gender:trans": "gender-neutral single-stall bathrooms primarily affect trans residents",
+        "demo.gender:non_binary": "gender-neutral facilities are a primary access point for non-binary residents"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 6,
+        "anchor": "X.AR.20"
+      }
+    },
+    {
+      "itemId": "COF-2026-45",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "COF",
+      "title": "Communication from Interim City Clerk Paula Crane regarding legislative activity update",
+      "summary": "Interim City Clerk Paula Crane transmitted an update to the Council regarding legislative activity. Placed on file by voice vote.",
+      "body": "A communication was received from Interim City Clerk Paula Crane, regarding an update regarding legislative activity. COF 2026-45",
+      "sponsors": [],
+      "status": "placed_on_file",
+      "vote": {
+        "result": "Placed on File VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:COF",
+        "doc.item_id:cof-2026-45",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:placed_on_file",
+        "geo.scope:citywide"
+      ],
+      "rationale": {
+        "doc.kind:COF": "Section IX. COMMUNICATIONS FROM OTHER CITY OFFICERS",
+        "doc.item_id:cof-2026-45": "Bold ID line 'COF 2026-45'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:placed_on_file": "RESULT: Placed on File VV9",
+        "geo.scope:citywide": "City Clerk update affects city governance citywide"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 4,
+        "anchor": "IX.1"
+      }
+    },
+    {
+      "itemId": "COF-2026-46",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "COF",
+      "title": "Mayor Siddiqui memorandum transmitting information from the School Committee",
+      "summary": "Mayor Siddiqui transmitted a memorandum to the Council with information from the School Committee. Placed on file by voice vote.",
+      "body": "A communication from Mayor Siddiqui transmitting a memorandum regarding information from the School Committee. COF 2026-46",
+      "sponsors": ["siddiqui"],
+      "status": "placed_on_file",
+      "vote": {
+        "result": "Placed on File VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:COF",
+        "doc.item_id:cof-2026-46",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:placed_on_file",
+        "doc.sponsor:siddiqui",
+        "geo.scope:citywide",
+        "topic.area:schools",
+        "household.school:cps"
+      ],
+      "rationale": {
+        "doc.kind:COF": "Section IX. COMMUNICATIONS FROM OTHER CITY OFFICERS",
+        "doc.item_id:cof-2026-46": "Bold ID line 'COF 2026-46'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:placed_on_file": "RESULT: Placed on File VV9",
+        "doc.sponsor:siddiqui": "Communication from Mayor Siddiqui",
+        "geo.scope:citywide": "School Committee information is citywide",
+        "topic.area:schools": "explicit: 'information from the School Committee'",
+        "household.school:cps": "School Committee oversees Cambridge Public Schools"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 4,
+        "anchor": "IX.2"
+      }
+    },
+    {
+      "itemId": "COF-2026-47",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "COF",
+      "title": "Mayor Siddiqui memorandum on updates from the City Clerk Preliminary Screening Committee",
+      "summary": "Mayor Siddiqui transmitted a memorandum to the Council with updates from the City Clerk Preliminary Screening Committee, which is reviewing candidates for City Clerk. Placed on file by voice vote.",
+      "body": "A communication from Mayor Siddiqui transmitting a memorandum regarding updates from the City Clerk Preliminary Screening Committee. COF 2026-47",
+      "sponsors": ["siddiqui"],
+      "status": "placed_on_file",
+      "vote": {
+        "result": "Placed on File VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:COF",
+        "doc.item_id:cof-2026-47",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:placed_on_file",
+        "doc.sponsor:siddiqui",
+        "geo.scope:citywide"
+      ],
+      "rationale": {
+        "doc.kind:COF": "Section IX. COMMUNICATIONS FROM OTHER CITY OFFICERS",
+        "doc.item_id:cof-2026-47": "Bold ID line 'COF 2026-47'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:placed_on_file": "RESULT: Placed on File VV9",
+        "doc.sponsor:siddiqui": "Communication from Mayor Siddiqui",
+        "geo.scope:citywide": "City Clerk role is citywide governance"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 4,
+        "anchor": "IX.3"
+      }
+    },
+    {
+      "itemId": "COM-2026-14",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "COM",
+      "title": "Communications received for Regular City Council, March 30, 2026",
+      "summary": "Public communications received for the Regular City Council meeting of March 30, 2026. Placed on file by voice vote.",
+      "body": "Communications for Regular City Council March 30, 2026. COM 2026-14",
+      "sponsors": [],
+      "status": "placed_on_file",
+      "vote": {
+        "result": "Placed on File VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:COM",
+        "doc.item_id:com-2026-14",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:placed_on_file",
+        "geo.scope:citywide"
+      ],
+      "rationale": {
+        "doc.kind:COM": "Section VIII. COMMUNICATIONS",
+        "doc.item_id:com-2026-14": "Bold ID line 'COM 2026-14'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:placed_on_file": "RESULT: Placed on File VV9",
+        "geo.scope:citywide": "public communications received from residents citywide"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 3,
+        "anchor": "VIII.1"
+      }
+    },
+    {
+      "itemId": "HR-2026-39",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "HR",
+      "title": "Hearing Schedule",
+      "summary": "The Hearing Schedule for the March 30, 2026 Regular Meeting was published with the agenda. Listed without further action in Final Actions.",
+      "body": "Hearing Schedule. HR 2026-39",
+      "sponsors": [],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:HR",
+        "doc.item_id:hr-2026-39",
+        "doc.meeting_date:2026-03-30",
+        "geo.scope:citywide",
+        "civic.flag:public_comment_open"
+      ],
+      "rationale": {
+        "doc.kind:HR": "HEARING SCHEDULE section of agenda",
+        "doc.item_id:hr-2026-39": "Bold ID line 'HR 2026-39'",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "geo.scope:citywide": "hearing schedule applies to citywide hearings",
+        "civic.flag:public_comment_open": "Hearing Schedule is the canonical posting for items with hearings"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 1,
+        "anchor": "HR"
+      }
+    },
+    {
+      "itemId": "MIN-2026-03-04",
+      "meetingId": 2122,
+      "meetingDate": "2026-03-30",
+      "docKind": "MIN",
+      "title": "Minutes of Joint Roundtable/Working Meeting of City Council and School Committee, March 4, 2026",
+      "summary": "Minutes of the Joint Roundtable/Working Meeting of the Cambridge City Council and the School Committee held on March 4, 2026 were submitted for the record. Report Accepted and Placed on File by voice vote.",
+      "body": "Minutes of the Joint Roundtable/Working Meeting of the Cambridge City Council and the School Committee was held on Wednesday, March 4, 2026.",
+      "sponsors": [],
+      "status": "report_accepted",
+      "vote": {
+        "result": "Report Accepted and Placed on File VV9",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:MIN",
+        "doc.item_id:min-2026-03-04",
+        "doc.meeting_date:2026-03-30",
+        "doc.status:report_accepted",
+        "geo.scope:citywide",
+        "topic.area:schools",
+        "household.school:cps"
+      ],
+      "rationale": {
+        "doc.kind:MIN": "Section IV. SUBMISSION OF THE RECORD",
+        "doc.item_id:min-2026-03-04": "Synthetic ID for record-submission item dated March 4, 2026 (no ID printed in agenda)",
+        "doc.meeting_date:2026-03-30": "Cover page: 'AGENDA • MARCH 30, 2026'",
+        "doc.status:report_accepted": "RESULT: Report Accepted and Placed on File VV9",
+        "geo.scope:citywide": "Joint meeting of citywide bodies",
+        "topic.area:schools": "joint meeting with the School Committee",
+        "household.school:cps": "School Committee oversees Cambridge Public Schools"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-01_Agenda_2122.pdf",
+        "page": 1,
+        "anchor": "IV.1"
+      }
+    }
+  ]
+}

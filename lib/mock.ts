@@ -27,76 +27,81 @@ export const DEMO_PROFILE: Profile = {
 
 export const MOCK_ITEMS: Item[] = [
   {
-    id: "fy27-budget",
-    kind: "city_manager_item",
-    title: "FY27 Budget Proposal — Cambridge's first billion-dollar city budget",
-    date: "2026-04-29",
-    summary:
-      "City Manager Yi-An Huang submitted Cambridge's first-ever budget exceeding $1 billion. The proposal includes $51 million for affordable housing programs, $16 million to address homelessness, and $5 million for early childcare (ages below Universal Pre-K eligibility). Public hearings are scheduled before the June 1 adoption vote.",
-    sourceUrl:
-      "https://www.cambridgema.gov/news/2026/04/cambridgecitymanageryianhuangsubmitsproposedfy27budgettocitycouncil",
-    meeting: "City Manager Submission, April 29 2026",
-    topics: ["housing", "transit", "schools"],
-  },
-  {
-    id: "cambridge-st-upzoning",
-    kind: "policy_order",
-    title: "Cambridge Street upzoning passes 6-3",
-    date: "2026-01-27",
-    summary:
-      "The City Council voted 6-3 to allow six-story buildings along Cambridge Street from Inman Square to Lechmere, a direct follow-on to the February 2025 multifamily zoning reform. Proponents cited the need for transit-oriented housing density; opponents raised concerns about neighborhood character and displacement.",
-    sourceUrl:
-      "https://www.thecrimson.com/article/2026/1/27/cambridge-street-height-increase/",
-    meeting: "Regular City Council Meeting, January 27 2026",
-    topics: ["housing", "zoning", "transit"],
-  },
-  {
-    id: "sanctuary-city-amendments",
+    id: "cambridge-st-zoning-compromise",
     kind: "ordinance",
-    title: "Sanctuary-city ordinance amendments adopted unanimously",
-    date: "2026-04-28",
+    title:
+      "Cambridge Street zoning compromise passes 6–3 — Inman Square capped at 6 stories",
+    date: "2026-01-26",
     summary:
-      "The Council unanimously adopted amendments strengthening Cambridge's sanctuary-city ordinance, barring city employees and resources from assisting federal immigration enforcement on city property. The amendments codify and expand existing administrative policy.",
+      "After months of debate, the City Council adopted a compromise rezoning of the Cambridge Street corridor. Inman Square is capped at 6 stories, while parts of Webster Avenue, Windsor Street, and the Lechmere edge are upzoned to 10 and 12 stories. The 6–3 vote followed amendments narrowing the heaviest density to transit-adjacent parcels.",
     sourceUrl:
-      "https://www.thecrimson.com/article/2026/4/28/sanctuary-city-amendments-adopted/",
-    meeting: "Regular City Council Meeting, April 28 2026",
-    topics: ["civil_liberties", "public_safety"],
-  },
-  {
-    id: "x-ban",
-    kind: "policy_order",
-    title: "City departments banned from posting on X (formerly Twitter)",
-    date: "2026-03-03",
-    summary:
-      "The Council passed a policy order directing all Cambridge city departments to cease official use of X (formerly Twitter), citing concerns about the platform's moderation policies and misinformation. Departments may migrate public communications to alternative platforms.",
-    sourceUrl:
-      "https://www.thecrimson.com/article/2026/3/3/cambridge-x-ban-vote/",
-    meeting: "Regular City Council Meeting, March 3 2026",
-    topics: ["civil_liberties", "small_business"],
-  },
-  {
-    id: "multifamily-zoning-report",
-    kind: "committee_report",
-    title: "One year after the multifamily zoning overhaul — accountability report",
-    date: "2026-03-26",
-    summary:
-      "A committee report reviewed the first year of Cambridge's 2025 multifamily zoning reform. The report documents new building permit applications by neighborhood, identifies areas where the reform has had limited uptake, and recommends further process improvements.",
-    sourceUrl:
-      "https://www.thecrimson.com/article/2026/3/26/cambridge-housing-development-report/",
-    meeting: "Housing Committee Report, March 26 2026",
+      "https://www.cambridgeday.com/2026/01/26/cambridge-street-zoning-compromise-passes/",
+    meeting: "Regular City Council Meeting, January 26 2026",
     topics: ["housing", "zoning"],
   },
   {
-    id: "mayor-siddiqui",
-    kind: "communication",
-    title: "Mayor Sumbul Siddiqui sworn in as Cambridge's 2026 mayor",
-    date: "2026-01-05",
+    id: "garden-st-bike-lanes",
+    kind: "policy_order",
+    title:
+      "Garden Street stays one-way with separated bike lanes (5–4)",
+    date: "2026-04-27",
     summary:
-      "Councillor Sumbul Siddiqui was elected mayor by the newly sworn-in City Council, continuing her tenure as the first person of color elected to the office. The new council composition reflects the November 2025 ranked-choice results.",
+      "The Council voted 5–4 to keep Garden Street one-way with the existing separated bike lanes intact. The vote rejects a proposal to restore two-way car traffic, citing safety data from the protected-lane pilot. Opponents had argued the one-way change strained side-street traffic and emergency response.",
     sourceUrl:
-      "https://www.cambridgeday.com/2026/01/05/city-council-sworn-in-siddiqui-mayor/",
-    meeting: "City Council Inaugural Meeting, January 5 2026",
-    topics: ["public_safety", "civil_liberties"],
+      "https://www.cambridgeday.com/2026/04/27/garden-street-bike-lanes-vote/",
+    meeting: "Regular City Council Meeting, April 27 2026",
+    topics: ["transit", "climate"],
+  },
+  {
+    id: "transfer-fee-authority",
+    kind: "policy_order",
+    title:
+      "Council asks Beacon Hill for real-estate transfer-fee authority (up to 2% on $1M+ sales)",
+    date: "2026-03-02",
+    summary:
+      "The Council passed a home-rule petition requesting the state legislature grant Cambridge authority to levy a transfer fee of up to 2% on residential sales above $1 million. Revenue would flow to the city's Affordable Housing Trust. The petition now goes to Beacon Hill, where similar requests from other municipalities have stalled.",
+    sourceUrl:
+      "https://www.cambridgeday.com/2026/03/02/transfer-fee-home-rule-petition/",
+    meeting: "Regular City Council Meeting, March 2 2026",
+    topics: ["housing"],
+  },
+  {
+    id: "fy27-budget-finance-committee",
+    kind: "city_manager_item",
+    title:
+      "FY27 budget — Cambridge's first ~$1B budget heads to Finance Committee",
+    date: "2026-04-27",
+    summary:
+      "The City Manager's proposed FY27 budget — the first to exceed $1 billion in Cambridge history — was referred to the Finance Committee for hearings. Headline line items include increased affordable-housing investment, expanded early-childcare funding, and homelessness response. The Finance Committee will hold public hearings before the council's adoption vote.",
+    sourceUrl:
+      "https://www.cambridgema.gov/news/2026/04/fy27-budget-finance-committee-referral",
+    meeting: "Regular City Council Meeting, April 27 2026",
+    topics: ["housing", "schools", "public_safety"],
+  },
+  {
+    id: "parking-permit-fee-increase",
+    kind: "policy_order",
+    title: "Resident parking-permit fee jumps from $25 to $75 (7–2)",
+    date: "2026-03-30",
+    summary:
+      "The Council voted 7–2 to triple the annual resident parking-permit fee from $25 to $75. Supporters described the prior fee as far below the cost of administering the program; opponents raised affordability concerns for households without off-street parking. Revenue is directed to the city's Traffic, Parking and Transportation department.",
+    sourceUrl:
+      "https://www.cambridgeday.com/2026/03/30/resident-parking-permits-jump/",
+    meeting: "Regular City Council Meeting, March 30 2026",
+    topics: ["transit"],
+  },
+  {
+    id: "city-manager-ice-order",
+    kind: "city_manager_item",
+    title:
+      "City Manager executive order: bars ICE activity on city property",
+    date: "2026-02-05",
+    summary:
+      "The City Manager issued an executive order prohibiting Immigration and Customs Enforcement from conducting enforcement activity on Cambridge city-owned property without a judicial warrant. The order codifies long-standing administrative practice and aligns with the city's sanctuary-city ordinance.",
+    sourceUrl:
+      "https://www.cambridgema.gov/news/2026/02/city-manager-executive-order-ice",
+    meeting: "Executive Order, February 5 2026",
+    topics: ["civil_liberties", "public_safety"],
   },
 ];
 
@@ -104,66 +109,80 @@ export const MOCK_ITEMS: Item[] = [
 
 export const MOCK_RELEVANCE: RelevanceLine[] = [
   {
-    itemId: "fy27-budget",
-    score: 0.95,
+    itemId: "cambridge-st-zoning-compromise",
+    score: 0.96,
     oneLiner:
-      "As a renter, the $51M affordable housing line directly affects the rental market you live in — and the May 6 hearing at 6pm is open for public comment.",
+      "Inman Square — your neighborhood — is the part capped at 6 stories. The buildings going up around you for the next decade are decided by this vote.",
   },
   {
-    itemId: "cambridge-st-upzoning",
-    score: 0.88,
+    itemId: "garden-st-bike-lanes",
+    score: 0.97,
     oneLiner:
-      "This runs along your bike commute route through Inman Square — taller buildings will reshape the street and may bring new bike infrastructure.",
+      "Garden Street is on your bike route. The 5–4 vote keeps the protected lane you already use.",
   },
   {
-    itemId: "sanctuary-city-amendments",
-    score: 0.45,
+    itemId: "transfer-fee-authority",
+    score: 0.78,
     oneLiner:
-      "Affects city policy on public safety resources — relevant context even if not tied directly to your commute or housing.",
+      "As a renter, this matters indirectly — if Beacon Hill grants the authority, the new revenue would fund the Affordable Housing Trust that subsidizes rentals.",
   },
   {
-    itemId: "x-ban",
-    score: 0.3,
+    itemId: "fy27-budget-finance-committee",
+    score: 0.85,
     oneLiner:
-      "Changes how city departments communicate publicly — worth knowing as a resident who tracks local news.",
+      "The budget touches almost every line item that affects your life — housing, transit, climate. Public hearings are open before adoption.",
   },
   {
-    itemId: "multifamily-zoning-report",
-    score: 0.75,
+    itemId: "parking-permit-fee-increase",
+    score: 0.18,
     oneLiner:
-      "Tracks whether the 2025 zoning reform is actually producing housing in your neighborhood — directly relevant as a renter in Inman Square.",
+      "You bike and don't have a car — this won't hit you directly. It will affect car-owning neighbors on your block.",
   },
   {
-    itemId: "mayor-siddiqui",
-    score: 0.5,
+    itemId: "city-manager-ice-order",
+    score: 0.55,
     oneLiner:
-      "Sets the council's leadership and priorities for the year — context for everything else on this digest.",
+      "Sets policy on a city-wide value many residents care about — context rather than direct daily impact.",
   },
 ];
 
 // ---------- Actions ----------
 
 export const MOCK_ACTIONS: Record<string, Action[]> = {
-  "fy27-budget": [
-    {
-      type: "attend",
-      label: "Speak at the FY27 budget public hearing",
-      date: "2026-05-06",
-      location: "Cambridge City Hall, 795 Massachusetts Ave — 6pm",
-      url: "https://www.cambridgema.gov/news/2026/04/cambridgecitymanageryianhuangsubmitsproposedfy27budgettocitycouncil",
-    },
-    {
-      type: "attend",
-      label: "Second budget hearing",
-      date: "2026-05-12",
-      location: "Cambridge City Hall — 9am",
-    },
-  ],
-  "cambridge-st-upzoning": [
+  "cambridge-st-zoning-compromise": [
     {
       type: "comment",
-      label: "Submit written comment to the Planning Board",
-      url: "https://www.cambridgema.gov/Departments/communityDevelopment",
+      label: "Read the final ordinance text",
+      url: "https://www.cambridgeday.com/2026/01/26/cambridge-street-zoning-compromise-passes/",
+    },
+  ],
+  "garden-st-bike-lanes": [
+    {
+      type: "attend",
+      label: "Ride the protected lane — bring feedback to the next council session",
+      location: "Garden Street, between Mass Ave and Concord Ave",
+    },
+  ],
+  "transfer-fee-authority": [
+    {
+      type: "contact",
+      label: "Email your state delegation in support or opposition",
+      url: "https://malegislature.gov/Search/FindMyLegislator",
+    },
+  ],
+  "fy27-budget-finance-committee": [
+    {
+      type: "attend",
+      label: "Speak at a Finance Committee budget hearing",
+      location: "Cambridge City Hall, 795 Massachusetts Ave",
+      url: "https://www.cambridgema.gov/Departments/citycouncil",
+    },
+  ],
+  "city-manager-ice-order": [
+    {
+      type: "comment",
+      label: "Read the full executive order",
+      url: "https://www.cambridgema.gov/news/2026/02/city-manager-executive-order-ice",
     },
   ],
 };

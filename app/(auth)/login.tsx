@@ -8,11 +8,12 @@ import {
   TextInput,
   ActivityIndicator,
 } from 'react-native';
-import { Link, router } from 'expo-router';
+import { router } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 
 import { Eyebrow } from '@/components/design';
 import { colors, fonts, spacing, radius, shadows } from '@/lib/theme';
+import { setSignedIn } from '@/lib/session';
 
 export default function LoginScreen() {
   const [email, setEmail] = useState('');
@@ -23,6 +24,7 @@ export default function LoginScreen() {
     setPending('magic');
     setTimeout(() => {
       setPending(null);
+      setSignedIn(true);
       router.replace('/');
     }, 700);
   };
@@ -31,6 +33,7 @@ export default function LoginScreen() {
     setPending(provider);
     setTimeout(() => {
       setPending(null);
+      setSignedIn(true);
       router.replace('/');
     }, 700);
   };
@@ -149,11 +152,13 @@ export default function LoginScreen() {
 
         <View style={styles.footer}>
           <Text style={styles.footerText}>New to Civic Signal? </Text>
-          <Link href="/(auth)/signup" replace asChild>
-            <Pressable accessibilityRole="link">
-              <Text style={styles.footerLink}>Create an account</Text>
-            </Pressable>
-          </Link>
+          <Pressable
+            onPress={() => router.replace('/signup')}
+            accessibilityRole="link"
+            hitSlop={8}
+          >
+            <Text style={styles.footerLink}>Create an account</Text>
+          </Pressable>
         </View>
       </View>
     </SafeAreaView>

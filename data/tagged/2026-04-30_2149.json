@@ -1,0 +1,152 @@
+{
+  "meetingId": 2149,
+  "meetingDate": "2026-04-30",
+  "meetingType": "Board of Zoning Appeal Virtual Public Meeting",
+  "sourceFiles": [
+    "scrape/city_council/2026-04-08_Agenda_2149.pdf"
+  ],
+  "items": [
+    {
+      "itemId": "BZA-1203860",
+      "meetingId": 2149,
+      "meetingDate": "2026-04-30",
+      "docKind": "HR",
+      "title": "41 Sherman Street: special permit for rear addition to non-conforming single-family home",
+      "summary": "Owners of 41 Sherman Street are seeking a special permit from the Board of Zoning Appeal to build a rear addition on a pre-existing non-conforming single-family home, with the addition encroaching into the side-yard setbacks. The property sits in a Residence C-1 zone. A virtual public hearing is scheduled for April 30, 2026 at 6:00 P.M.",
+      "body": "6:00 P.M. CASE NO. BZA-1203860\n41 SHERMAN STREET — Residence C-1 Zone\nKEERIL MAKAN & JOANNA RAKOFF – C/O SARA YOFFE\nSpecial Permit: Pre-existing non-conforming single-family home proposing rear addition within side yard setbacks. Art. 5.000, Sec. 5.31 (Table of Dimensional Requirements). Art. 8.000, Sec. 8.22.2.d (Non-Conforming Structure). Art. 10.000, Sec. 10.40 (Special Permit).",
+      "sponsors": [],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [
+        {
+          "date": "2026-04-30",
+          "action": "Virtual Public Hearing scheduled at 6:00 P.M. before the Board of Zoning Appeal"
+        }
+      ],
+      "tags": [
+        "doc.kind:HR",
+        "doc.item_id:bza-1203860",
+        "doc.meeting_date:2026-04-30",
+        "geo.scope:corridor",
+        "geo.corridor:sherman_st",
+        "housing.tenure:own",
+        "housing.type:single_family",
+        "topic.area:housing_zoning",
+        "civic.flag:public_comment_open"
+      ],
+      "rationale": {
+        "doc.kind:HR": "Item is a scheduled public hearing before the Board of Zoning Appeal (treated as HR — Hearing Schedule)",
+        "doc.item_id:bza-1203860": "Header line 'CASE NO. BZA-1203860'",
+        "doc.meeting_date:2026-04-30": "Cover page: 'Virtual Public Meeting, THURSDAY – APRIL 30, 2026'",
+        "geo.scope:corridor": "Specific street address named: 41 Sherman Street",
+        "geo.corridor:sherman_st": "Street name in case header: '41 SHERMAN STREET'",
+        "housing.tenure:own": "Petition by named homeowners for an addition to their own single-family home",
+        "housing.type:single_family": "'pre-existing non-conforming single-family home'",
+        "topic.area:housing_zoning": "Special permit relief from zoning dimensional and non-conforming-structure provisions for a residential addition",
+        "civic.flag:public_comment_open": "Cover page invites public comment: 'Interested persons may provide comments to the Board of Zoning Appeal by participating during the hearing and/or may provide written comments'"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-08_Agenda_2149.pdf",
+        "page": 1,
+        "anchor": "BZA-1203860"
+      }
+    },
+    {
+      "itemId": "BZA-1205111",
+      "meetingId": 2149,
+      "meetingDate": "2026-04-30",
+      "docKind": "HR",
+      "title": "80 Gerry's Landing Road: special permit for BB&N School educational-use addition",
+      "summary": "Buckingham Browne & Nichols School is seeking a special permit from the Board of Zoning Appeal to build an addition to its existing building at 80 Gerry's Landing Road for continued educational use. The property is in a Residence C-1 zone. A virtual public hearing is scheduled for April 30, 2026 at 6:15 P.M.",
+      "body": "6:15 P.M. CASE NO. BZA-1205111\n80 GERRY'S LANDING ROAD — Residence C-1 Zone\nBUCKINGHAM BROWNE & NICHOLS SCHOOL – C/O SISIA DAGLIAN, ARCHITECT\nSpecial Permit: To build an addition to existing BB&N building for continued educational use. Art. 4.000, Sec. 4.50 & Sec. 4.56.c (Educational Use). Art. 10.000, Sec. 10.40 (Special Permit).",
+      "sponsors": [],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [
+        {
+          "date": "2026-04-30",
+          "action": "Virtual Public Hearing scheduled at 6:15 P.M. before the Board of Zoning Appeal"
+        }
+      ],
+      "tags": [
+        "doc.kind:HR",
+        "doc.item_id:bza-1205111",
+        "doc.meeting_date:2026-04-30",
+        "geo.scope:corridor",
+        "geo.corridor:gerrys_landing_rd",
+        "geo.landmark:bbn_school",
+        "topic.area:schools",
+        "household.kids:k12",
+        "household.school:private",
+        "civic.flag:public_comment_open"
+      ],
+      "rationale": {
+        "doc.kind:HR": "Item is a scheduled public hearing before the Board of Zoning Appeal (treated as HR — Hearing Schedule)",
+        "doc.item_id:bza-1205111": "Header line 'CASE NO. BZA-1205111'",
+        "doc.meeting_date:2026-04-30": "Cover page: 'Virtual Public Meeting, THURSDAY – APRIL 30, 2026'",
+        "geo.scope:corridor": "Specific street address named: 80 Gerry's Landing Road",
+        "geo.corridor:gerrys_landing_rd": "Street name in case header: '80 GERRY'S LANDING ROAD'",
+        "geo.landmark:bbn_school": "Petitioner is 'BUCKINGHAM BROWNE & NICHOLS SCHOOL', a named institutional landmark",
+        "topic.area:schools": "Special permit sought 'for continued educational use' by a K-12 school",
+        "household.kids:k12": "BB&N is a K-12 school; addition supports continued educational use",
+        "household.school:private": "BB&N is a private school (non-CPS)",
+        "civic.flag:public_comment_open": "Cover page invites public comment: 'Interested persons may provide comments to the Board of Zoning Appeal'"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-08_Agenda_2149.pdf",
+        "page": 1,
+        "anchor": "BZA-1205111"
+      }
+    },
+    {
+      "itemId": "BZA-1204609",
+      "meetingId": 2149,
+      "meetingDate": "2026-04-30",
+      "docKind": "HR",
+      "title": "723-731 Cambridge Street: variance to add three stories atop mixed-use building",
+      "summary": "The owner of 723-731 Cambridge Street is seeking a variance from the Board of Zoning Appeal to add three stories on top of a pre-existing three-story mixed-use building (ground-floor retail with residential units above). A small portion of the addition would sit within the required setback for a primary and secondary street, and the petitioner also seeks relief from facade transparency rules along Marion Street. The property is in the Cambridge Street District-6 zone. A virtual public hearing is scheduled for April 30, 2026 at 6:30 P.M.",
+      "body": "6:30 P.M. CASE NO. BZA-1204609\n723-731 CAMBRIDGE STREET — Cambridge Street District -6\n723-731 CAMBRIDGE STREET LLC, MANUEL BARROS – C/O JAMES J. RAFFERTY, ESQ.\nVariance: To construct three additional stories atop pre-existing three story mixed-use structure containing ground floor retail with residential dwelling units above. A small portion of the addition will be located within the required setback for a primary and secondary street. Petitioner also seeks relief from the facade transparency regulations for the proposed facade on Marion Street. Art. 8.000, Sec. 8.22.3 (Non-Conforming Structure). Art. 17.000, Sec. 17.705.3 (Table of Site Plan Standards). Sec. 17.705.4.4 (Façade Transparency). Art. 10.000, Sec. 10.30 (Variance).",
+      "sponsors": [],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [
+        {
+          "date": "2026-04-30",
+          "action": "Virtual Public Hearing scheduled at 6:30 P.M. before the Board of Zoning Appeal"
+        }
+      ],
+      "tags": [
+        "doc.kind:HR",
+        "doc.item_id:bza-1204609",
+        "doc.meeting_date:2026-04-30",
+        "geo.scope:corridor",
+        "geo.corridor:cambridge_st",
+        "housing.tenure:any",
+        "topic.area:housing_zoning",
+        "topic.area:small_business",
+        "work.audience:small_business_owners",
+        "civic.flag:public_comment_open"
+      ],
+      "rationale": {
+        "doc.kind:HR": "Item is a scheduled public hearing before the Board of Zoning Appeal (treated as HR — Hearing Schedule)",
+        "doc.item_id:bza-1204609": "Header line 'CASE NO. BZA-1204609'",
+        "doc.meeting_date:2026-04-30": "Cover page: 'Virtual Public Meeting, THURSDAY – APRIL 30, 2026'",
+        "geo.scope:corridor": "Specific street address named: 723-731 Cambridge Street (also references Marion Street)",
+        "geo.corridor:cambridge_st": "Street name in case header: '723-731 CAMBRIDGE STREET'",
+        "housing.tenure:any": "Building contains 'residential dwelling units above' that would be affected by the three-story vertical addition; tenure not specified",
+        "topic.area:housing_zoning": "Variance from non-conforming structure, setback, and facade-transparency zoning rules to add residential stories",
+        "topic.area:small_business": "Existing 'ground floor retail' is part of the mixed-use structure being altered",
+        "work.audience:small_business_owners": "Ground-floor retail tenants on Cambridge Street are directly affected by construction atop their building",
+        "civic.flag:public_comment_open": "Cover page invites public comment: 'Interested persons may provide comments to the Board of Zoning Appeal'"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-08_Agenda_2149.pdf",
+        "page": 1,
+        "anchor": "BZA-1204609"
+      }
+    }
+  ]
+}

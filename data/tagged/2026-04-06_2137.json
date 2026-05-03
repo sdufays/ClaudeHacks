@@ -1,0 +1,93 @@
+{
+  "meetingId": 2137,
+  "meetingDate": "2026-04-06",
+  "meetingType": "Roundtable/Working Meeting",
+  "sourceFiles": [
+    "scrape/city_council/2026-04-07_Agenda_2137.pdf",
+    "scrape/city_council/2026-04-07_FinalActions_2137.pdf"
+  ],
+  "items": [
+    {
+      "itemId": "COF-2026-54",
+      "meetingId": 2137,
+      "meetingDate": "2026-04-06",
+      "docKind": "COF",
+      "title": "Deputy City Manager presentation on City-owned Property",
+      "summary": "Deputy City Manager Kathy Watkins transmitted a presentation about City-owned property to frame a Roundtable/Working Meeting on the best future uses of those properties and the processes used to redevelop them. The Council received the presentation as part of the working session; no formal vote was taken.",
+      "body": "A communication was received from Deputy City Manager, Kathy Watkins, transmitting a presentation regarding City-owned Property.\nCOF 2026-54",
+      "sponsors": [],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [
+        {
+          "date": "2026-04-06",
+          "action": "Presented at Roundtable/Working Meeting on best future uses of City-owned properties and associated redevelopment processes"
+        }
+      ],
+      "tags": [
+        "doc.kind:COF",
+        "doc.item_id:cof-2026-54",
+        "doc.meeting_date:2026-04-06",
+        "geo.scope:citywide",
+        "topic.area:housing_zoning"
+      ],
+      "rationale": {
+        "doc.kind:COF": "Section 'COMMUNICATIONS FROM OTHER CITY OFFICERS' on both agenda and final actions",
+        "doc.item_id:cof-2026-54": "Bold ID line 'COF 2026-54' at end of entry",
+        "doc.meeting_date:2026-04-06": "Cover page lists 'APRIL 06, 2026' as the meeting date (filename publish date is April 7)",
+        "geo.scope:citywide": "City-owned properties discussed at a citywide policy level; no specific neighborhood named",
+        "topic.area:housing_zoning": "Roundtable purpose is 'best future uses of City-owned properties and associated redevelopment processes' — land use / redevelopment frame"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-07_Agenda_2137.pdf",
+        "page": 1,
+        "anchor": "VII.1"
+      }
+    },
+    {
+      "itemId": "AR-2026-10",
+      "meetingId": 2137,
+      "meetingDate": "2026-04-06",
+      "docKind": "AR",
+      "title": "Awaiting Report on best future uses for City-owned properties accepted",
+      "summary": "An Awaiting Report (originally #31842) directing City staff to prepare a Council discussion on the best future uses of City-owned properties and the processes for redevelopment. Listed in the Final Actions for this Roundtable meeting and accepted at the April 13, 2026 Roundtable meeting.",
+      "body": "Work with relevant departments to prepare for a Council discussion on best future uses for City-owned properties and the processes for redevelopment. Original Awaiting Report #31842\nAccepted in Council Roundtable meeting April 13, 2026\nAR 2026-10",
+      "sponsors": [],
+      "status": "report_accepted",
+      "vote": null,
+      "amendments": [],
+      "history": [
+        {
+          "date": "2026-04-06",
+          "action": "Listed in Final Actions for Roundtable/Working Meeting on City-owned properties"
+        },
+        {
+          "date": "2026-04-13",
+          "action": "Accepted in Council Roundtable meeting"
+        }
+      ],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-10",
+        "doc.meeting_date:2026-04-06",
+        "doc.status:report_accepted",
+        "geo.scope:citywide",
+        "topic.area:housing_zoning"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section 'AWAITING REPORT LIST' in Final Actions",
+        "doc.item_id:ar-2026-10": "Bold ID line 'AR 2026-10' at end of entry",
+        "doc.meeting_date:2026-04-06": "Cover page lists 'APRIL 06, 2026' as the meeting date",
+        "doc.status:report_accepted": "'Accepted in Council Roundtable meeting April 13, 2026'",
+        "geo.scope:citywide": "Concerns City-owned properties as a category, with no specific site named",
+        "topic.area:housing_zoning": "Discussion frame is 'best future uses for City-owned properties and the processes for redevelopment'"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-07_FinalActions_2137.pdf",
+        "page": 1,
+        "anchor": "VI.AR"
+      }
+    }
+  ]
+}

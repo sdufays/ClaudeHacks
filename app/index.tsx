@@ -8,6 +8,7 @@ import {
   Pressable,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { Redirect } from 'expo-router';
 import { useChat } from '@ai-sdk/react';
 import { DefaultChatTransport, UIMessage } from 'ai';
 
@@ -24,8 +25,12 @@ import {
   MOCK_ACTIONS,
 } from '@/lib/mock';
 import { colors, fonts, spacing, radius } from '@/lib/theme';
+import { isSignedIn } from '@/lib/session';
 
 export default function HomeScreen() {
+  if (!isSignedIn()) {
+    return <Redirect href="/login" />;
+  }
   const insets = useSafeAreaInsets();
   const [chatOpen, setChatOpen] = useState(false);
   const [profileModalOpen, setProfileModalOpen] = useState(false);

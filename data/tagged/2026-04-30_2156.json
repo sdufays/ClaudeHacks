@@ -1,0 +1,60 @@
+{
+  "meetingId": 2156,
+  "meetingDate": "2026-04-30",
+  "meetingType": "Joint Public Hearing — Economic Development and University Relations Committee and Finance Committee",
+  "sourceFiles": [
+    "scrape/city_council/2026-04-30_Packet_2156.pdf"
+  ],
+  "items": [
+    {
+      "itemId": "COM-2026-20",
+      "meetingId": 2156,
+      "meetingDate": "2026-04-30",
+      "docKind": "COM",
+      "title": "Harvard 'Harvard in the Community' presentation to joint EDUR + Finance hearing on PILOT agreement",
+      "summary": "The Economic Development and University Relations Committee and the Finance Committee held a joint public hearing with Harvard University to discuss the Harvard Payment in Lieu of Taxes (PILOT) agreement. As part of that hearing, the committees received a 'Harvard in the Community' presentation from Thomas J. Lucey of Harvard Public Affairs & Communications outlining Harvard's CPS partnerships, housing collaborations, employment of Cambridge residents, public-realm investments in Harvard Square, and direct payments to the City. No Council vote was taken; the presentation was received as a communication.",
+      "body": "A presentation has been received from Thomas J. Lucey Senior Director of Government & Community Relations Harvard Public Affairs & Communications entitled \"Harvard in Community\".\nCOM 2026-20\n\nUpdated Call of meeting: The Economic Development and University Relations Committee and Finance Committee will hold a joint public hearing with Harvard University to discuss and receive an update on the Harvard University Payment in Lieu of Taxes (PILOT) agreement.",
+      "sponsors": [],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [
+        {
+          "date": "2026-04-30",
+          "action": "FIRST IN COUNCIL — presentation received at joint EDUR + Finance Committee public hearing on Harvard PILOT agreement"
+        }
+      ],
+      "tags": [
+        "doc.kind:COM",
+        "doc.item_id:com-2026-20",
+        "doc.meeting_date:2026-04-30",
+        "geo.scope:citywide",
+        "topic.area:schools",
+        "household.kids:k12",
+        "household.school:cps",
+        "work.employer:university",
+        "work.audience:cambridge_workers",
+        "fiscal.kind:property_tax",
+        "civic.flag:public_comment_open"
+      ],
+      "rationale": {
+        "doc.kind:COM": "Section II. COMMUNICATIONS; bold ID line 'COM 2026-20' on attestation page",
+        "doc.item_id:com-2026-20": "Bold ID line 'COM 2026-20 FIRST IN COUNCIL April 30, 2026'",
+        "doc.meeting_date:2026-04-30": "Cover page header 'AGENDA APRIL 30, 2026' confirms meeting date",
+        "geo.scope:citywide": "Harvard's community engagement, employment, and PILOT impact span all of Cambridge; no single neighborhood is the subject",
+        "topic.area:schools": "Multiple slides on 'Partnering with Cambridge Public Schools', Project TEACH, CRLS, Cambridge Harvard Summer Academy",
+        "household.kids:k12": "'Harvard's educational programs are available in every CPS school for all CPS grade levels' and CRLS / 7th-grader programs",
+        "household.school:cps": "'Partnering with Cambridge Public Schools' — programs in every CPS school",
+        "work.employer:university": "'Harvard has been the largest employer in Cambridge for 25 consecutive years'",
+        "work.audience:cambridge_workers": "'4,413 Cambridge residents directly employed by Harvard; $517M in wages, salaries, and benefits paid to Cambridge residents in FY25'",
+        "fiscal.kind:property_tax": "Joint hearing subject is the Harvard 'Payment in Lieu of Taxes (PILOT) agreement' — payments substituting for property tax on Harvard's tax-exempt land",
+        "civic.flag:public_comment_open": "'will hold a joint public hearing with Harvard University' — public hearing scheduled at this meeting"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-30_Packet_2156.pdf",
+        "page": 1,
+        "anchor": "II.1"
+      }
+    }
+  ]
+}

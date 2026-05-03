@@ -1,0 +1,2521 @@
+{
+  "meetingId": 2142,
+  "meetingDate": "2026-04-27",
+  "meetingType": "Regular Meeting",
+  "sourceFiles": [
+    "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+    "scrape/city_council/2026-04-29_FinalActions_2142.pdf"
+  ],
+  "items": [
+    {
+      "itemId": "CMA-2026-93",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "FY2027 budget submission and appropriation orders for General, Water, and Public Investment Funds",
+      "summary": "The City Manager submitted the FY2027 budget along with appropriation orders for the General Fund, Water Fund, and Public Investment Fund. The Council referred the budget to the Finance Committee for review.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to submission of the FY2027 budget and appropriation orders for the General Fund, Water Fund, and Public Investment Fund.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-93",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "geo.scope:citywide",
+        "fiscal.kind:appropriation",
+        "fiscal.kind:water_sewer",
+        "fiscal.amount_bucket:above_5m",
+        "topic.area:public_health",
+        "civic.councillor_vote:al_zubi:yea",
+        "civic.councillor_vote:azeem:yea",
+        "civic.councillor_vote:flaherty:yea",
+        "civic.councillor_vote:mcgovern:yea",
+        "civic.councillor_vote:nolan:yea",
+        "civic.councillor_vote:simmons:yea",
+        "civic.councillor_vote:sobrinho_wheeler:yea",
+        "civic.councillor_vote:zusy:yea",
+        "civic.councillor_vote:siddiqui:yea"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.item_id:cma-2026-93": "CMA 2026-93",
+        "doc.meeting_date:2026-04-27": "AGENDA APRIL 27, 2026 cover page",
+        "doc.status:referred": "RESULT: Referred to the Finance Committee [9-0-0]",
+        "geo.scope:citywide": "FY2027 budget applies citywide",
+        "fiscal.kind:appropriation": "appropriation orders for the General Fund",
+        "fiscal.kind:water_sewer": "Water Fund appropriation order",
+        "fiscal.amount_bucket:above_5m": "annual city budget exceeds $5M",
+        "topic.area:public_health": "city budget covers public services and health",
+        "civic.councillor_vote:al_zubi:yea": "YEAS: Councillor Al-Zubi"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 1,
+        "anchor": "V.1"
+      }
+    },
+    {
+      "itemId": "CMA-2026-95",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Borrow $10M for Massachusetts Avenue improvements between Bigelow and Sidney Street",
+      "summary": "The City Manager requested authorization to borrow $10,000,000 to design and construct improvements along Massachusetts Avenue between Bigelow Street and Sidney Street. Passed to a second reading and referred to the Finance Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation and authorization to borrow $10,000,000.00 to provide funds for the design and construction of improvements along Massachusetts Avenue and vicinity between Bigelow Street and Sindey Street.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-95",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:second_reading",
+        "geo.scope:corridor",
+        "geo.corridor:mass_ave",
+        "transport.mode:drive",
+        "transport.mode:bike",
+        "transport.mode:walk",
+        "transport.subject:complete_streets",
+        "fiscal.kind:appropriation",
+        "fiscal.amount_bucket:above_5m",
+        "topic.area:transit",
+        "civic.councillor_vote:al_zubi:yea",
+        "civic.councillor_vote:azeem:yea",
+        "civic.councillor_vote:flaherty:yea",
+        "civic.councillor_vote:mcgovern:yea",
+        "civic.councillor_vote:nolan:yea",
+        "civic.councillor_vote:simmons:yea",
+        "civic.councillor_vote:sobrinho_wheeler:yea",
+        "civic.councillor_vote:zusy:yea",
+        "civic.councillor_vote:siddiqui:yea"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "doc.stage:second_reading": "Passed to a Second Reading",
+        "geo.scope:corridor": "improvements along Massachusetts Avenue",
+        "geo.corridor:mass_ave": "Massachusetts Avenue between Bigelow Street and Sidney Street",
+        "transport.subject:complete_streets": "design and construction of improvements along Massachusetts Avenue",
+        "fiscal.kind:appropriation": "appropriation and authorization to borrow $10,000,000",
+        "fiscal.amount_bucket:above_5m": "$10,000,000 borrowing authorization"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 1,
+        "anchor": "V.2"
+      }
+    },
+    {
+      "itemId": "CMA-2026-96",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Borrow $13M for reconstruction of City streets and sidewalks",
+      "summary": "The City Manager requested authorization to borrow $13,000,000 for reconstruction of various City streets and sidewalks. Passed to a second reading and referred to the Finance Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation and authorization to borrow $13,000,000 to provide funds for the reconstruction of various City streets and sidewalks.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-96",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:second_reading",
+        "geo.scope:citywide",
+        "transport.mode:drive",
+        "transport.mode:walk",
+        "transport.subject:sidewalk",
+        "transport.subject:complete_streets",
+        "fiscal.kind:appropriation",
+        "fiscal.amount_bucket:above_5m",
+        "topic.area:transit"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "geo.scope:citywide": "various City streets and sidewalks (no specific location)",
+        "transport.subject:sidewalk": "reconstruction of various City streets and sidewalks",
+        "fiscal.amount_bucket:above_5m": "$13,000,000 borrowing"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 2,
+        "anchor": "V.3"
+      }
+    },
+    {
+      "itemId": "CMA-2026-98",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Borrow $12M to replace and modernize the City's ERP system",
+      "summary": "The City Manager requested authorization to borrow $12,000,000 to replace and modernize the City's Enterprise Resource Planning (ERP) system. Passed to a second reading and referred to the Finance Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation and authorization to borrow $12,000,000 to provide funds to replace and modernize the City's Enterprise Resource Planning (ERP) system.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-98",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:second_reading",
+        "geo.scope:citywide",
+        "fiscal.kind:appropriation",
+        "fiscal.amount_bucket:above_5m"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "geo.scope:citywide": "City-wide ERP system replacement",
+        "fiscal.amount_bucket:above_5m": "$12,000,000 borrowing"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 2,
+        "anchor": "V.4"
+      }
+    },
+    {
+      "itemId": "CMA-2026-99",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Borrow $14M for remediation and improvements at Gold Star Mothers Park",
+      "summary": "The City Manager requested authorization to borrow $14,000,000 for remediation and improvements at Gold Star Mothers Park. Passed to a second reading and referred to the Finance Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation and authorization to borrow $14,000,000 to provide funds for remediation and improvements at Gold Star Mothers Park.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-99",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:second_reading",
+        "geo.scope:landmark",
+        "geo.landmark:gold_star_mothers_park",
+        "fiscal.kind:appropriation",
+        "fiscal.amount_bucket:above_5m",
+        "topic.area:parks"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "geo.landmark:gold_star_mothers_park": "improvements at Gold Star Mothers Park",
+        "fiscal.amount_bucket:above_5m": "$14,000,000 borrowing",
+        "topic.area:parks": "Park remediation and improvements"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 2,
+        "anchor": "V.5"
+      }
+    },
+    {
+      "itemId": "CMA-2026-100",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Borrow $28.5M for Municipal Facilities Improvement Plan",
+      "summary": "The City Manager requested authorization to borrow $28,500,000 for the Municipal Facilities Improvement Plan. Passed to a second reading and referred to the Finance Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation and authorization to borrow $28,500,000 to provide funds for the Municipal Facilities Improvement Plan.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-100",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:second_reading",
+        "geo.scope:citywide",
+        "fiscal.kind:appropriation",
+        "fiscal.amount_bucket:above_5m"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "geo.scope:citywide": "Municipal Facilities Improvement Plan covers multiple buildings",
+        "fiscal.amount_bucket:above_5m": "$28,500,000 borrowing"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 2,
+        "anchor": "V.6"
+      }
+    },
+    {
+      "itemId": "CMA-2026-101",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Borrow $12.795M to finance school building upgrades",
+      "summary": "The City Manager requested authorization to borrow $12,795,000 for financing school building upgrades. Passed to a second reading and referred to the Finance Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation and authorization to borrow $12,795,000 to provide funds for financing school building upgrades.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-101",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:second_reading",
+        "geo.scope:citywide",
+        "household.kids:k12",
+        "household.school:cps",
+        "fiscal.kind:appropriation",
+        "fiscal.amount_bucket:above_5m",
+        "topic.area:schools"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "household.kids:k12": "school building upgrades affect K-12 students",
+        "household.school:cps": "Cambridge Public Schools building upgrades",
+        "topic.area:schools": "school building upgrades",
+        "fiscal.amount_bucket:above_5m": "$12,795,000 borrowing"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 2,
+        "anchor": "V.7"
+      }
+    },
+    {
+      "itemId": "CMA-2026-102",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Borrow $8.375M for Baldwin neighborhood surface, sewer, and drainage improvements",
+      "summary": "The City Manager requested authorization to borrow $8,375,000 for design and construction of surface enhancements and sewer and drainage infrastructure improvements in the Baldwin neighborhood. Passed to a second reading and referred to the Finance Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation and authorization to borrow $8,375,000 to provide funds for the design and construction of surface enhancements and sewer and drainage infrastructure improvements in the Baldwin neighborhood.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-102",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:second_reading",
+        "geo.scope:neighborhood",
+        "geo.landmark:baldwin",
+        "transport.subject:sidewalk",
+        "fiscal.kind:appropriation",
+        "fiscal.kind:water_sewer",
+        "fiscal.amount_bucket:above_5m"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "geo.scope:neighborhood": "improvements in the Baldwin neighborhood",
+        "geo.landmark:baldwin": "Baldwin neighborhood referenced as project area",
+        "fiscal.kind:water_sewer": "sewer and drainage infrastructure improvements",
+        "fiscal.amount_bucket:above_5m": "$8,375,000 borrowing"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 2,
+        "anchor": "V.8"
+      }
+    },
+    {
+      "itemId": "CMA-2026-103",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Borrow $500K for Climate Change Program — flooding and extreme heat protection",
+      "summary": "The City Manager requested authorization to borrow $500,000 for the City's Climate Change Program to improve protection against flooding and extreme heat. Passed to a second reading and referred to the Finance Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation and authorization to borrow $500,000 to provide funds for the City's Climate Change Program to improve protection against flooding and extreme heat.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-103",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:second_reading",
+        "geo.scope:citywide",
+        "fiscal.kind:appropriation",
+        "fiscal.amount_bucket:100k_500k",
+        "topic.area:climate",
+        "topic.area:public_health"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "topic.area:climate": "City's Climate Change Program",
+        "topic.area:public_health": "protection against flooding and extreme heat",
+        "fiscal.amount_bucket:100k_500k": "$500,000 borrowing"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 2,
+        "anchor": "V.9"
+      }
+    },
+    {
+      "itemId": "CMA-2026-104",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Borrow $7.5M for sewer Combined Sewer Overflow Control Program",
+      "summary": "The City Manager requested authorization to borrow $7,500,000 for the sewer Combined Sewer Overflow (CSO) Control Program. Passed to a second reading and referred to the Finance Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation and authorization to borrow $7,500,000 to provide funds for the sewer Combined Sewer Overflow Control Program.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-104",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:second_reading",
+        "geo.scope:citywide",
+        "housing.tenure:any",
+        "fiscal.kind:appropriation",
+        "fiscal.kind:water_sewer",
+        "fiscal.amount_bucket:above_5m",
+        "topic.area:climate",
+        "topic.area:public_health"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "fiscal.kind:water_sewer": "sewer Combined Sewer Overflow Control Program",
+        "topic.area:public_health": "CSO control protects water quality",
+        "fiscal.amount_bucket:above_5m": "$7,500,000 borrowing"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 2,
+        "anchor": "V.10"
+      }
+    },
+    {
+      "itemId": "CMA-2026-105",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Borrow $1M for Harvard Square sewer separation and stormwater management",
+      "summary": "The City Manager requested authorization to borrow $1,000,000 for the design and construction of the Harvard Square sewer separation and stormwater management program. Passed to a second reading and referred to the Finance Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation and authorization to borrow $1,000,000 to provide funds for design and construction of the Harvard Square sewer separation and stormwater management program.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-105",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:second_reading",
+        "geo.scope:landmark",
+        "geo.landmark:harvard_square",
+        "fiscal.kind:appropriation",
+        "fiscal.kind:water_sewer",
+        "fiscal.amount_bucket:1m_5m",
+        "topic.area:climate"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "geo.landmark:harvard_square": "Harvard Square sewer separation and stormwater management program",
+        "fiscal.kind:water_sewer": "sewer separation and stormwater management",
+        "fiscal.amount_bucket:1m_5m": "$1,000,000 borrowing"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 2,
+        "anchor": "V.11"
+      }
+    },
+    {
+      "itemId": "CMA-2026-106",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Borrow $310K to replace Ozone generators at the Water Department",
+      "summary": "The City Manager requested authorization to borrow $310,000 for the replacement of Ozone generators at the Water Department. Passed to a second reading and referred to the Finance Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation and authorization to borrow $310,000 to provide funds for the replacement of Ozone generators at the Water Department.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-106",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:second_reading",
+        "geo.scope:citywide",
+        "housing.tenure:any",
+        "fiscal.kind:appropriation",
+        "fiscal.kind:water_sewer",
+        "fiscal.amount_bucket:100k_500k",
+        "topic.area:public_health"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "fiscal.kind:water_sewer": "replacement of Ozone generators at the Water Department",
+        "topic.area:public_health": "ozone generators treat drinking water",
+        "fiscal.amount_bucket:100k_500k": "$310,000 borrowing"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 3,
+        "anchor": "V.12"
+      }
+    },
+    {
+      "itemId": "CMA-2026-107",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Borrow $2M for water works construction and water distribution repairs",
+      "summary": "The City Manager requested authorization to borrow $2,000,000 for water works construction projects and repairs and replacement of water distribution infrastructure. Passed to a second reading and referred to the Finance Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation and authorization to borrow $2,000,000 to provide funds for water works construction projects for repairs and replacement of water distribution infrastructure.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-107",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:second_reading",
+        "geo.scope:citywide",
+        "housing.tenure:any",
+        "fiscal.kind:appropriation",
+        "fiscal.kind:water_sewer",
+        "fiscal.amount_bucket:1m_5m",
+        "topic.area:public_health"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Passed to a Second Reading and Referred to the Finance Committee [9-0-0]",
+        "fiscal.kind:water_sewer": "water works construction projects",
+        "fiscal.amount_bucket:1m_5m": "$2,000,000 borrowing"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 3,
+        "anchor": "V.13"
+      }
+    },
+    {
+      "itemId": "CMA-2026-91",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Response to Awaiting Report 26-20: major capital initiatives at or above $15M, FY21–FY26",
+      "summary": "The City Manager responded to Awaiting Report Item 26-20 with a report on major capital initiatives at or above $15,000,000 for FY21 through FY26. Referred to the Finance Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to Awaiting Report Item Number 26-20 regarding a report on major capital initiatives at or above $15,000,000 for the period from FY21 to FY26.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Referred to the Finance Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-91",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "geo.scope:citywide",
+        "fiscal.amount_bucket:above_5m"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Referred to the Finance Committee [9-0-0]",
+        "fiscal.amount_bucket:above_5m": "major capital initiatives at or above $15,000,000"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 3,
+        "anchor": "V.14"
+      }
+    },
+    {
+      "itemId": "CMA-2026-92",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Response to Awaiting Report 26-23 on the Cambridge Preschool Program",
+      "summary": "The City Manager responded to Awaiting Report Item 26-23 regarding the Cambridge Preschool Program. Referred to the Human Services & Veterans Committee.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to a response to Awaiting Report Item Number 26-23 regarding the Cambridge Preschool Program.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Referred to the Human Services & Veterans Committee [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-92",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "geo.scope:citywide",
+        "household.kids:under_5",
+        "household.composition:parent",
+        "topic.area:schools",
+        "demo.income:means_tested"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Referred to the Human Services & Veterans Committee [9-0-0]",
+        "household.kids:under_5": "Cambridge Preschool Program",
+        "topic.area:schools": "preschool program is early-childhood education",
+        "demo.income:means_tested": "preschool program serves income-qualifying families"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 3,
+        "anchor": "V.15"
+      }
+    },
+    {
+      "itemId": "CMA-2026-94",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Re-appointments to the Cambridge Library Board of Trustees",
+      "summary": "The City Manager submitted re-appointments to the Cambridge Library Board of Trustees. Approved and CMA Placed on File unanimously.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the re-appointments for the Cambridge Library Board of Trustees.",
+      "sponsors": [],
+      "status": "approved",
+      "vote": {
+        "result": "Approved and CMA Placed on File [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-94",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:approved",
+        "geo.scope:citywide",
+        "topic.area:arts"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:approved": "RESULT: Approved and CMA Placed on File [9-0-0]",
+        "topic.area:arts": "Library Board of Trustees oversees a cultural institution"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 3,
+        "anchor": "V.16"
+      }
+    },
+    {
+      "itemId": "CMA-2026-97",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Family Policy Council appointment and reappointment",
+      "summary": "The City Manager submitted a Family Policy Council appointment and reappointment. Approved and CMA Placed on File unanimously.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to a Family Policy Council appointment and reappointment.",
+      "sponsors": [],
+      "status": "approved",
+      "vote": {
+        "result": "Approved and CMA Placed on File [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-97",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:approved",
+        "geo.scope:citywide",
+        "household.composition:parent"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:approved": "RESULT: Approved and CMA Placed on File [9-0-0]",
+        "household.composition:parent": "Family Policy Council scope is families"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 3,
+        "anchor": "V.17"
+      }
+    },
+    {
+      "itemId": "CMA-2026-114",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Appointment of Fiqir Worku to the Human Rights Commission",
+      "summary": "The City Manager submitted the appointment of Fiqir Worku to the Human Rights Commission. Approved and CMA Placed on File unanimously.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appointment of Fiqir Worku to the Human Rights Commission.",
+      "sponsors": [],
+      "status": "approved",
+      "vote": {
+        "result": "Approved and CMA Placed on File [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-114",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:approved",
+        "geo.scope:citywide",
+        "topic.area:civil_liberties"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:approved": "RESULT: Approved and CMA Placed on File [9-0-0]",
+        "topic.area:civil_liberties": "appointment to the Human Rights Commission"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 3,
+        "anchor": "V.18"
+      }
+    },
+    {
+      "itemId": "CMA-2026-117",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Peace Commission Appointments",
+      "summary": "The City Manager submitted Peace Commission appointments. Approved and CMA Placed on File unanimously.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to Peace Commission Appointments.",
+      "sponsors": [],
+      "status": "approved",
+      "vote": {
+        "result": "Approved and CMA Placed on File [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-117",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:approved",
+        "geo.scope:citywide",
+        "topic.area:civil_liberties"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:approved": "RESULT: Approved and CMA Placed on File [9-0-0]",
+        "topic.area:civil_liberties": "Peace Commission appointments — civil liberties body"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 3,
+        "anchor": "V.19"
+      }
+    },
+    {
+      "itemId": "CMA-2026-108",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Appropriate $1,100 FY26 Mass Cultural Council grant to Arts Council salaries",
+      "summary": "The City Manager requested appropriation of a $1,100 FY26 Mass Cultural Council Cultural Investment Portfolio grant to the Grant Fund Arts Council salaries and wages account. Order Adopted and CMA Placed on File unanimously.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation of the FY26 Mass Cultural Council Cultural Investment Portfolio grant made by the Massachusetts Cultural Council (MCC) in the amount of $1,100 to the Grant Fund Arts Council salaries and wages account.",
+      "sponsors": [],
+      "status": "adopted",
+      "vote": {
+        "result": "Order Adopted and CMA Placed on File [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-108",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:adopted",
+        "geo.scope:citywide",
+        "fiscal.kind:appropriation",
+        "fiscal.amount_bucket:under_100k",
+        "topic.area:arts"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:adopted": "RESULT: Order Adopted and CMA Placed on File [9-0-0]",
+        "topic.area:arts": "Cultural Investment Portfolio grant to Arts Council",
+        "fiscal.amount_bucket:under_100k": "$1,100 grant"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 3,
+        "anchor": "V.20"
+      }
+    },
+    {
+      "itemId": "CMA-2026-109",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Appropriate $5,000 to Arts Council Other Ordinary Maintenance",
+      "summary": "The City Manager requested appropriation of $5,000 to the Grant Fund Arts Council Other Ordinary Maintenance account. Order Adopted and CMA Placed on File unanimously.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation of $5,000 to the Grant Fund Arts Council Other Ordinary Maintenance account.",
+      "sponsors": [],
+      "status": "adopted",
+      "vote": {
+        "result": "Order Adopted and CMA Placed on File [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-109",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:adopted",
+        "geo.scope:citywide",
+        "fiscal.kind:appropriation",
+        "fiscal.amount_bucket:under_100k",
+        "topic.area:arts"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:adopted": "RESULT: Order Adopted and CMA Placed on File [9-0-0]",
+        "topic.area:arts": "Grant Fund Arts Council appropriation",
+        "fiscal.amount_bucket:under_100k": "$5,000 appropriation"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 4,
+        "anchor": "V.21"
+      }
+    },
+    {
+      "itemId": "CMA-2026-110",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Appropriate $29,376.89 Shannon Grant for Human Service Programs",
+      "summary": "The City Manager requested appropriation of a $29,376.89 Shannon Grant from the Metropolitan Mayors Coalition/Shannon Community Safety Initiative through the Executive Office of Public Safety to the Grant Fund Human Service Programs accounts. Order Adopted and CMA Placed on File unanimously.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to the appropriation of the Shannon Grant received from the Metropolitan Mayors Coalition/Shannon Community Safety Initiative through the Executive Office of Public Safety in the amount of $29,376.89 to the Grant Fund Human Service Programs Salary and Wages account ($28,800.00) and to the Grant Fund Human Service Programs Other Ordinary Maintenance account ($576.89).",
+      "sponsors": [],
+      "status": "adopted",
+      "vote": {
+        "result": "Order Adopted and CMA Placed on File [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-110",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:adopted",
+        "geo.scope:citywide",
+        "fiscal.kind:appropriation",
+        "fiscal.amount_bucket:under_100k",
+        "topic.area:public_safety",
+        "demo.age:youth"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:adopted": "RESULT: Order Adopted and CMA Placed on File [9-0-0]",
+        "topic.area:public_safety": "Shannon Community Safety Initiative",
+        "demo.age:youth": "Shannon grants typically fund youth violence prevention",
+        "fiscal.amount_bucket:under_100k": "$29,376.89 grant"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 4,
+        "anchor": "V.22"
+      }
+    },
+    {
+      "itemId": "CMA-2026-112",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Mass Ave Active Use zoning petition (referred to Ordinance Committee and Planning Board)",
+      "summary": "The City Manager submitted a Mass Ave Active Use zoning petition. Adopted as a City Council Zoning Petition and referred to the Ordinance Committee and Planning Board for hearing and report.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to a Mass Ave Active Use zoning petition.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Adopted as a City Council Zoning Petition and Referred to the Ordinance Committee and Planning Board for Hearing and Report [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [{"date": "2026-04-27", "action": "Filed as ORD 2026-05 (Massachusetts Avenue Active Use Zoning petition); referred to Ordinance Committee and Planning Board"}],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-112",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "geo.scope:corridor",
+        "geo.corridor:mass_ave",
+        "housing.tenure:any",
+        "work.audience:small_business_owners",
+        "topic.area:housing_zoning",
+        "topic.area:small_business",
+        "civic.flag:public_comment_open"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Adopted as a City Council Zoning Petition and Referred to the Ordinance Committee and Planning Board",
+        "geo.corridor:mass_ave": "Mass Ave Active Use zoning petition",
+        "topic.area:housing_zoning": "zoning petition",
+        "topic.area:small_business": "active use zoning shapes ground-floor commercial use",
+        "civic.flag:public_comment_open": "Referred to Ordinance Committee and Planning Board for Hearing and Report"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 4,
+        "anchor": "V.23"
+      }
+    },
+    {
+      "itemId": "CMA-2026-113",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Cambridge Street Active Use zoning petition (referred to Ordinance Committee and Planning Board)",
+      "summary": "The City Manager submitted a Cambridge Street Active Use zoning petition. Adopted as a City Council Zoning Petition and referred to the Ordinance Committee and Planning Board for hearing and report.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to a Cambridge Street Active Use zoning petition.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Adopted as a City Council Zoning Petition and Referred to the Ordinance Committee and Planning Board for Hearing and Report [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [{"date": "2026-04-27", "action": "Filed as ORD 2026-06 (Cambridge Street Active Use Zoning petition); referred to Ordinance Committee and Planning Board"}],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-113",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "geo.scope:corridor",
+        "geo.corridor:cambridge_st",
+        "housing.tenure:any",
+        "work.audience:small_business_owners",
+        "topic.area:housing_zoning",
+        "topic.area:small_business",
+        "civic.flag:public_comment_open"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:referred": "RESULT: Adopted as a City Council Zoning Petition and Referred to the Ordinance Committee and Planning Board",
+        "geo.corridor:cambridge_st": "Cambridge Street Active Use zoning petition",
+        "topic.area:housing_zoning": "zoning petition",
+        "topic.area:small_business": "active use zoning shapes ground-floor commercial use",
+        "civic.flag:public_comment_open": "Referred to Ordinance Committee and Planning Board for Hearing and Report"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 4,
+        "anchor": "V.24"
+      }
+    },
+    {
+      "itemId": "CMA-2026-111",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CMA",
+      "title": "Surveillance Technology Impact Report (STIR) — SMS Non-Emergency Alert Notifications",
+      "summary": "The City Manager submitted a Surveillance Technology Impact Report for SMS Non-Emergency Alert Notifications requested by the Communications & Community Engagement Department (per Final Actions). Approved and CMA Placed on File unanimously.",
+      "body": "A communication transmitted from Yi-An Huang, City Manager, relative to a Surveillance Technology Impact Report (STIR) for SMS Non-Emergency Alert Notifications requested by the Cambridge Police Department.",
+      "sponsors": [],
+      "status": "approved",
+      "vote": {
+        "result": "Approved and CMA Placed on File [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": ["Final Actions identifies requesting department as Communications & Community Engagement Department, not Cambridge Police Department as on the Agenda"],
+      "history": [],
+      "tags": [
+        "doc.kind:CMA",
+        "doc.item_id:cma-2026-111",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:approved",
+        "geo.scope:citywide",
+        "topic.area:civil_liberties",
+        "topic.area:public_safety"
+      ],
+      "rationale": {
+        "doc.kind:CMA": "Section V. CITY MANAGER'S AGENDA",
+        "doc.status:approved": "RESULT: Approved and CMA Placed on File [9-0-0]",
+        "topic.area:civil_liberties": "Surveillance Technology Impact Report (STIR)",
+        "topic.area:public_safety": "SMS Non-Emergency Alert Notifications"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 4,
+        "anchor": "V.25"
+      }
+    },
+    {
+      "itemId": "POR-2026-78",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "POR",
+      "title": "Report back in 90 days on worker-cooperative support, succession planning, and vendor outreach",
+      "summary": "A policy order asking the City Manager to report back within 90 days on updates to succession-planning and employee-ownership materials, the worker-cooperative technical-assistance referral pipeline, guidance on below-threshold quote-seeking from worker-owned cooperatives, and other low-cost steps to expand support for worker-owned cooperatives. Adopted 8-0-1 (Simmons absent).",
+      "body": "That the City Manager is requested to report back to the City Council within ninety (90) with a brief written update describing: (a) the updates made to succession-planning and employee-ownership materials; (b) the status of the worker-cooperative technical-assistance referral pipeline; (c) any guidance issued or planned regarding below-threshold quote-seeking from worker-owned cooperatives and related vendor-outreach steps; and (d) any additional low-cost, staff-feasible next steps the City Manager recommends for expanding support for worker-owned cooperatives in Cambridge.",
+      "sponsors": ["al_zubi", "sobrinho_wheeler", "siddiqui", "nolan"],
+      "status": "adopted",
+      "vote": {
+        "result": "Adopted [8-0-1]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": ["simmons"],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-78",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:adopted",
+        "doc.sponsor:al_zubi",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:nolan",
+        "geo.scope:citywide",
+        "work.audience:small_business_owners",
+        "work.employer:small_business",
+        "topic.area:small_business",
+        "civic.councillor_vote:al_zubi:yea",
+        "civic.councillor_vote:azeem:yea",
+        "civic.councillor_vote:flaherty:yea",
+        "civic.councillor_vote:mcgovern:yea",
+        "civic.councillor_vote:nolan:yea",
+        "civic.councillor_vote:sobrinho_wheeler:yea",
+        "civic.councillor_vote:zusy:yea",
+        "civic.councillor_vote:siddiqui:yea",
+        "civic.councillor_vote:simmons:absent"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VI. POLICY ORDERS",
+        "doc.status:adopted": "RESULT: Adopted [8-0-1]",
+        "doc.sponsor:al_zubi": "COUNCILLOR AL-ZUBI",
+        "doc.sponsor:sobrinho_wheeler": "COUNCILLOR SOBRINHO-WHEELER",
+        "doc.sponsor:siddiqui": "MAYOR SIDDIQUI",
+        "doc.sponsor:nolan": "COUNCILLOR NOLAN",
+        "work.audience:small_business_owners": "expanding support for worker-owned cooperatives in Cambridge",
+        "topic.area:small_business": "worker-owned cooperatives are small businesses",
+        "civic.councillor_vote:simmons:absent": "ABSENT: Councillor Simmons"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 4,
+        "anchor": "VI.1"
+      }
+    },
+    {
+      "itemId": "POR-2026-79",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "POR",
+      "title": "Endorse May Day Strong national day of action on May 1, 2026",
+      "summary": "A policy order endorsing the May Day Strong national day of action on May 1, 2026 as an expression of Cambridge's support for workers' rights, economic justice, and peaceful civic engagement. Adopted 8-0-1 (Simmons absent).",
+      "body": "That the City Council go on record endorsing the May Day Strong national day of action on May 1, 2026, as an expression of Cambridge's support for workers' rights, economic justice, and the tradition of peaceful civic engagement.",
+      "sponsors": ["al_zubi", "sobrinho_wheeler", "siddiqui", "mcgovern"],
+      "status": "adopted",
+      "vote": {
+        "result": "Adopted [8-0-1]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": ["simmons"],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-79",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:adopted",
+        "doc.sponsor:al_zubi",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:mcgovern",
+        "geo.scope:citywide",
+        "topic.area:civil_liberties",
+        "civic.councillor_vote:al_zubi:yea",
+        "civic.councillor_vote:azeem:yea",
+        "civic.councillor_vote:flaherty:yea",
+        "civic.councillor_vote:mcgovern:yea",
+        "civic.councillor_vote:nolan:yea",
+        "civic.councillor_vote:sobrinho_wheeler:yea",
+        "civic.councillor_vote:zusy:yea",
+        "civic.councillor_vote:siddiqui:yea",
+        "civic.councillor_vote:simmons:absent"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VI. POLICY ORDERS",
+        "doc.status:adopted": "RESULT: Adopted [8-0-1]",
+        "topic.area:civil_liberties": "support for workers' rights, economic justice, and peaceful civic engagement",
+        "civic.councillor_vote:simmons:absent": "ABSENT: Councillor Simmons"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 5,
+        "anchor": "VI.2"
+      }
+    },
+    {
+      "itemId": "POR-2026-80",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "POR",
+      "title": "Encourage MassDOT to improve Museum Way / Charles River Dam Road intersection",
+      "summary": "A policy order encouraging MassDOT to implement infrastructure improvements at the Museum Way and Charles River Dam Road intersection. Adopted unanimously 9-0-0.",
+      "body": "That the City Council encourage MassDOT to implement infrastructure improvements to the Museum Way and Charles River Dam Road intersection.",
+      "sponsors": ["zusy", "sobrinho_wheeler", "nolan", "azeem"],
+      "status": "adopted",
+      "vote": {
+        "result": "Adopted [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-80",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:adopted",
+        "doc.sponsor:zusy",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:nolan",
+        "doc.sponsor:azeem",
+        "geo.scope:corridor",
+        "geo.corridor:museum_way",
+        "geo.neighborhood:east_cambridge",
+        "transport.mode:drive",
+        "transport.mode:bike",
+        "transport.mode:walk",
+        "transport.subject:traffic_calming",
+        "transport.subject:crosswalk",
+        "topic.area:transit",
+        "topic.area:public_safety"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VI. POLICY ORDERS",
+        "doc.status:adopted": "RESULT: Adopted [9-0-0]",
+        "geo.corridor:museum_way": "Museum Way and Charles River Dam Road intersection",
+        "geo.neighborhood:east_cambridge": "Museum Way is in East Cambridge",
+        "transport.subject:traffic_calming": "infrastructure improvements to an intersection"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 5,
+        "anchor": "VI.3"
+      }
+    },
+    {
+      "itemId": "POR-2026-81",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "POR",
+      "title": "Develop accessible Neighbors' Guide to the Multi-Family Housing (MFH) Ordinance",
+      "summary": "A policy order asking the City Manager to direct relevant departments to develop an accessible 'Neighbors' Guide to the MFH Ordinance.' Adopted unanimously 9-0-0.",
+      "body": "That the City Manager is requested to direct appropriate departments to develop an accessible \"Neighbors' Guide to the MFH Ordinance.\"",
+      "sponsors": ["zusy", "nolan", "siddiqui", "flaherty"],
+      "status": "adopted",
+      "vote": {
+        "result": "Adopted [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-81",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:adopted",
+        "doc.sponsor:zusy",
+        "doc.sponsor:nolan",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:flaherty",
+        "geo.scope:citywide",
+        "housing.tenure:any",
+        "housing.type:multi_5plus",
+        "topic.area:housing_zoning"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VI. POLICY ORDERS",
+        "doc.status:adopted": "RESULT: Adopted [9-0-0]",
+        "housing.type:multi_5plus": "Multi-Family Housing Ordinance affects multi-unit buildings",
+        "topic.area:housing_zoning": "Neighbors' Guide to the MFH (Multi-Family Housing) Ordinance"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 5,
+        "anchor": "VI.4"
+      }
+    },
+    {
+      "itemId": "POR-2026-82",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "POR",
+      "title": "Explore commissioning a citywide housing needs study from a research institution",
+      "summary": "A policy order asking the City Manager to explore commissioning a housing needs study through a qualified research institution to establish an evidence-based understanding of housing conditions, resident needs, and measurable goals. Charter Right exercised by Councillor Simmons.",
+      "body": "That the City Manager is requested to work with relevant staff to explore options for commissioning a housing needs study through a qualified research institution, to establish a clear evidence-based understanding of existing housing conditions, resident needs, and measurable housing goals to guide future decision-making.",
+      "sponsors": ["zusy", "siddiqui", "flaherty"],
+      "status": "charter_right_exercised",
+      "vote": {
+        "result": "Charter Right Exercised by Councillor Simmons",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [{"date": "2026-04-27", "action": "Charter Right Exercised by Councillor Simmons in Council April 27, 2026"}],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-82",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:charter_right_exercised",
+        "doc.sponsor:zusy",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:flaherty",
+        "geo.scope:citywide",
+        "housing.tenure:any",
+        "topic.area:housing_zoning"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VI. POLICY ORDERS",
+        "doc.status:charter_right_exercised": "CHARTER RIGHT EXERCISED BY COUNCILLOR SIMMONS IN COUNCIL APRIL 27, 2026",
+        "topic.area:housing_zoning": "housing needs study to guide future decision-making",
+        "housing.tenure:any": "study covers existing housing conditions overall"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 5,
+        "anchor": "VI.5"
+      }
+    },
+    {
+      "itemId": "POR-2026-76",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "POR",
+      "title": "Halt Garden Street reconfiguration restoring two-way motor-vehicle traffic",
+      "summary": "A policy order on the Charter Right calendar asking the City Manager to direct CDOT and other relevant departments to halt any further design, engineering, procurement, or construction activities related to reconfiguring Garden Street to restore two-way motor-vehicle traffic. Adopted on a 5-4 vote.",
+      "body": "That the City Manager is requested to direct the Cambridge Department of Transportation (CDOT) and any other relevant departments to halt any further design, engineering, procurement, or construction activities related to implementing a reconfiguration of Garden Street to restore two-way motor-vehicle traffic.",
+      "sponsors": [],
+      "status": "adopted",
+      "vote": {
+        "result": "Adopted [5-4-0]",
+        "yeas": ["al_zubi", "azeem", "mcgovern", "sobrinho_wheeler", "siddiqui"],
+        "nays": ["flaherty", "nolan", "simmons", "zusy"],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [{"date": "2026-04-13", "action": "Charter Right Exercised by Councillor Flaherty in Council April 13, 2026"}, {"date": "2026-04-27", "action": "Adopted [5-4-0]"}],
+      "tags": [
+        "doc.kind:POR",
+        "doc.item_id:por-2026-76",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:adopted",
+        "doc.stage:carryover",
+        "geo.scope:corridor",
+        "geo.corridor:garden_st",
+        "transport.mode:drive",
+        "transport.mode:bike",
+        "transport.subject:bike_lane",
+        "transport.subject:traffic_calming",
+        "transport.subject:complete_streets",
+        "topic.area:transit",
+        "civic.councillor_vote:al_zubi:yea",
+        "civic.councillor_vote:azeem:yea",
+        "civic.councillor_vote:mcgovern:yea",
+        "civic.councillor_vote:sobrinho_wheeler:yea",
+        "civic.councillor_vote:siddiqui:yea",
+        "civic.councillor_vote:flaherty:nay",
+        "civic.councillor_vote:nolan:nay",
+        "civic.councillor_vote:simmons:nay",
+        "civic.councillor_vote:zusy:nay"
+      ],
+      "rationale": {
+        "doc.kind:POR": "Section VII. CALENDAR — CHARTER RIGHT",
+        "doc.status:adopted": "RESULT: Adopted [5-4-0]",
+        "doc.stage:carryover": "CHARTER RIGHT EXERCISED BY COUNCILLOR FLAHERTY IN COUNCIL APRIL 13, 2026",
+        "geo.corridor:garden_st": "reconfiguration of Garden Street",
+        "transport.subject:bike_lane": "Garden Street reconfiguration relates to separated bike lanes",
+        "civic.councillor_vote:flaherty:nay": "NAYS: Councillor Flaherty"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 6,
+        "anchor": "VII.CR.1"
+      }
+    },
+    {
+      "itemId": "ORD-2026-03",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "ORD",
+      "title": "Chapter 2.129 Welcoming Community Ordinance — ordained 9-0",
+      "summary": "Chapter 2.129 Welcoming Community Ordinance, eligible to be ordained April 20, 2026 after passing to a second reading on March 30, was ordained unanimously 9-0-0.",
+      "body": "Chapter 2.129 Welcoming Community Ordinance. PASSED TO A SECOND READING IN COUNCIL MARCH 30, 2026. ELIGIBLE TO BE ORDAINED APRIL 20, 2026.",
+      "sponsors": [],
+      "status": "ordained",
+      "vote": {
+        "result": "Ordained [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [{"date": "2026-03-30", "action": "Passed to a Second Reading in Council March 30, 2026"}, {"date": "2026-04-20", "action": "Eligible to be Ordained April 20, 2026"}, {"date": "2026-04-27", "action": "Ordained [9-0-0]"}],
+      "tags": [
+        "doc.kind:ORD",
+        "doc.item_id:ord-2026-03",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:ordained",
+        "doc.stage:unfinished_business",
+        "doc.stage:second_reading",
+        "geo.scope:citywide",
+        "topic.area:immigration",
+        "topic.area:civil_liberties",
+        "civic.councillor_vote:al_zubi:yea",
+        "civic.councillor_vote:azeem:yea",
+        "civic.councillor_vote:flaherty:yea",
+        "civic.councillor_vote:mcgovern:yea",
+        "civic.councillor_vote:nolan:yea",
+        "civic.councillor_vote:simmons:yea",
+        "civic.councillor_vote:sobrinho_wheeler:yea",
+        "civic.councillor_vote:zusy:yea",
+        "civic.councillor_vote:siddiqui:yea"
+      ],
+      "rationale": {
+        "doc.kind:ORD": "Section VII. CALENDAR — UNFINISHED BUSINESS (ordinance)",
+        "doc.status:ordained": "RESULT: Ordained [9-0-0]",
+        "doc.stage:unfinished_business": "Listed under UNFINISHED BUSINESS section of agenda",
+        "doc.stage:second_reading": "ELIGIBLE TO BE ORDAINED APRIL 20, 2026 following second reading",
+        "topic.area:immigration": "Welcoming Community Ordinance protects immigrant residents",
+        "topic.area:civil_liberties": "Welcoming Community Ordinance limits cooperation with federal immigration enforcement"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 6,
+        "anchor": "VII.UB.1"
+      }
+    },
+    {
+      "itemId": "ORD-2026-05",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "ORD",
+      "title": "Massachusetts Avenue Active Use Zoning petition — referred to Ordinance Committee and Planning Board",
+      "summary": "The Massachusetts Avenue Active Use Zoning petition (filed alongside CMA 2026-112) was referred to the Ordinance Committee and Planning Board for hearing and report. Vote 9-0-0.",
+      "body": "Massachusetts Avenue Active Use Zoning petition.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Referred to the Ordinance Committee and Planning Board for Hearing and Report [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:ORD",
+        "doc.item_id:ord-2026-05",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:first_reading",
+        "geo.scope:corridor",
+        "geo.corridor:mass_ave",
+        "housing.tenure:any",
+        "work.audience:small_business_owners",
+        "topic.area:housing_zoning",
+        "topic.area:small_business",
+        "civic.flag:public_comment_open"
+      ],
+      "rationale": {
+        "doc.kind:ORD": "Filed as ORD 2026-05 (Massachusetts Avenue Active Use Zoning petition)",
+        "doc.status:referred": "RESULT: Referred to the Ordinance Committee and Planning Board for Hearing and Report",
+        "geo.corridor:mass_ave": "Massachusetts Avenue Active Use Zoning petition",
+        "civic.flag:public_comment_open": "Referred to Ordinance Committee and Planning Board for Hearing and Report"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_FinalActions_2142.pdf",
+        "page": 7,
+        "anchor": "V.23a"
+      }
+    },
+    {
+      "itemId": "ORD-2026-06",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "ORD",
+      "title": "Cambridge Street Active Use Zoning petition — referred to Ordinance Committee and Planning Board",
+      "summary": "The Cambridge Street Active Use Zoning petition (filed alongside CMA 2026-113) was referred to the Ordinance Committee and Planning Board for hearing and report. Vote 9-0-0.",
+      "body": "Cambridge Street Active Use Zoning petition.",
+      "sponsors": [],
+      "status": "referred",
+      "vote": {
+        "result": "Referred to the Ordinance Committee and Planning Board for Hearing and Report [9-0-0]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:ORD",
+        "doc.item_id:ord-2026-06",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:referred",
+        "doc.stage:first_reading",
+        "geo.scope:corridor",
+        "geo.corridor:cambridge_st",
+        "housing.tenure:any",
+        "work.audience:small_business_owners",
+        "topic.area:housing_zoning",
+        "topic.area:small_business",
+        "civic.flag:public_comment_open"
+      ],
+      "rationale": {
+        "doc.kind:ORD": "Filed as ORD 2026-06 (Cambridge Street Active Use Zoning petition)",
+        "doc.status:referred": "RESULT: Referred to the Ordinance Committee and Planning Board for Hearing and Report",
+        "geo.corridor:cambridge_st": "Cambridge Street Active Use Zoning petition",
+        "civic.flag:public_comment_open": "Referred to Ordinance Committee and Planning Board for Hearing and Report"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_FinalActions_2142.pdf",
+        "page": 8,
+        "anchor": "V.24a"
+      }
+    },
+    {
+      "itemId": "COM-2026-18",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "COM",
+      "title": "Communications for April 27, 2026 Regular City Council Meeting",
+      "summary": "Public communications received for the April 27, 2026 Regular City Council Meeting. Placed on File 8-0-1 (Vice Mayor Azeem absent).",
+      "body": "Communications for April 27, 2026 Regular City Council Meeting.",
+      "sponsors": [],
+      "status": "placed_on_file",
+      "vote": {
+        "result": "Placed on File [8-0-1]",
+        "yeas": ["al_zubi", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": ["azeem"],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:COM",
+        "doc.item_id:com-2026-18",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:placed_on_file",
+        "geo.scope:citywide",
+        "civic.councillor_vote:azeem:absent"
+      ],
+      "rationale": {
+        "doc.kind:COM": "Section VIII. COMMUNICATIONS",
+        "doc.status:placed_on_file": "RESULT: Placed on File [8-0-1]",
+        "civic.councillor_vote:azeem:absent": "ABSENT: Vice Mayor Azeem"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 6,
+        "anchor": "VIII.1"
+      }
+    },
+    {
+      "itemId": "RES-2026-65",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "RES",
+      "title": "Resolution on the retirement of Mary Greene from the City of Cambridge",
+      "summary": "A resolution honoring the retirement of Mary Greene from the City of Cambridge. Adopted 8-0-1 (Vice Mayor Azeem absent).",
+      "body": "Resolution on the retirement of Mary Greene from the City of Cambridge.",
+      "sponsors": ["siddiqui", "al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy"],
+      "status": "adopted",
+      "vote": {
+        "result": "Adopted [8-0-1]",
+        "yeas": ["al_zubi", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": ["azeem"],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:RES",
+        "doc.item_id:res-2026-65",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:adopted",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:al_zubi",
+        "doc.sponsor:azeem",
+        "doc.sponsor:flaherty",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:nolan",
+        "doc.sponsor:simmons",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:zusy",
+        "geo.scope:citywide",
+        "civic.councillor_vote:azeem:absent"
+      ],
+      "rationale": {
+        "doc.kind:RES": "Section IX. RESOLUTIONS",
+        "doc.status:adopted": "RESULT: Adopted [8-0-1]",
+        "doc.sponsor:siddiqui": "MAYOR SIDDIQUI",
+        "civic.councillor_vote:azeem:absent": "ABSENT: Vice Mayor Azeem"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 6,
+        "anchor": "IX.1"
+      }
+    },
+    {
+      "itemId": "RES-2026-67",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "RES",
+      "title": "Resolution for National Library Week",
+      "summary": "A resolution recognizing National Library Week. Adopted 8-0-1 (Vice Mayor Azeem absent).",
+      "body": "Resolution for National Library Week.",
+      "sponsors": ["siddiqui", "al_zubi", "azeem", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy"],
+      "status": "adopted",
+      "vote": {
+        "result": "Adopted [8-0-1]",
+        "yeas": ["al_zubi", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": ["azeem"],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:RES",
+        "doc.item_id:res-2026-67",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:adopted",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:al_zubi",
+        "doc.sponsor:azeem",
+        "doc.sponsor:flaherty",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:nolan",
+        "doc.sponsor:simmons",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:zusy",
+        "geo.scope:citywide",
+        "topic.area:arts",
+        "civic.councillor_vote:azeem:absent"
+      ],
+      "rationale": {
+        "doc.kind:RES": "Section IX. RESOLUTIONS",
+        "doc.status:adopted": "RESULT: Adopted [8-0-1]",
+        "topic.area:arts": "Resolution for National Library Week — recognizing libraries as cultural institutions",
+        "civic.councillor_vote:azeem:absent": "ABSENT: Vice Mayor Azeem"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 6,
+        "anchor": "IX.2"
+      }
+    },
+    {
+      "itemId": "CC-2026-45",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CC",
+      "title": "Government Operations Committee report on 2026 City Manager's Annual Goals and Review Process",
+      "summary": "The Government Operations, Rules, and Claims Committee held a public hearing on March 24, 2026 to discuss the 2026 City Manager's Annual Goals and Review Process. Report Accepted and Placed on File 8-0-1 (Vice Mayor Azeem absent).",
+      "body": "The Government Operations, Rules, and Claims Committee held a public hearing on Tuesday, March 24, 2026 to discuss the 2026 City Manager's Annual Goals and Review Process.",
+      "sponsors": [],
+      "status": "report_accepted",
+      "vote": {
+        "result": "Report Accepted and Placed on File [8-0-1]",
+        "yeas": ["al_zubi", "flaherty", "mcgovern", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": ["azeem"],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CC",
+        "doc.item_id:cc-2026-45",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:report_accepted",
+        "geo.scope:citywide",
+        "civic.councillor_vote:azeem:absent"
+      ],
+      "rationale": {
+        "doc.kind:CC": "Section X. COMMITTEE REPORTS",
+        "doc.status:report_accepted": "RESULT: Report Accepted and Placed on File [8-0-1]",
+        "civic.councillor_vote:azeem:absent": "ABSENT: Vice Mayor Azeem"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 6,
+        "anchor": "X.1"
+      }
+    },
+    {
+      "itemId": "CC-2026-46",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "CC",
+      "title": "Ordinance Committee report on Community Benefits Ordinance amendments",
+      "summary": "The Ordinance Committee held a public hearing on March 30, 2026 to review the Community Benefits Ordinance and discuss potential updates including allowing allocation of funding to community organizations for capital projects. Voted favorably to forward the proposed amendments to the full City Council. Report Accepted and Placed on File 7-0-2 (Azeem and McGovern absent).",
+      "body": "The Ordinance Committee held a public hearing on Monday, March 30, 2026 to review the Community Benefits Ordinance and discuss potential updates including allowing the allocation of funding to community organizations for capital projects. The Ordinance Committee voted favorably to forward the proposed amendments to the Community Benefits Ordinance to the full City Council with a favorable recommendation.",
+      "sponsors": [],
+      "status": "report_accepted",
+      "vote": {
+        "result": "Report Accepted and Placed on File [7-0-2]",
+        "yeas": ["al_zubi", "flaherty", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": ["azeem", "mcgovern"],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:CC",
+        "doc.item_id:cc-2026-46",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:report_accepted",
+        "geo.scope:citywide",
+        "topic.area:housing_zoning",
+        "civic.councillor_vote:azeem:absent",
+        "civic.councillor_vote:mcgovern:absent"
+      ],
+      "rationale": {
+        "doc.kind:CC": "Section X. COMMITTEE REPORTS",
+        "doc.status:report_accepted": "RESULT: Report Accepted and Placed on File [7-0-2]",
+        "topic.area:housing_zoning": "Community Benefits Ordinance ties to development mitigation and zoning",
+        "civic.councillor_vote:azeem:absent": "ABSENT: Vice Mayor Azeem",
+        "civic.councillor_vote:mcgovern:absent": "ABSENT: Councillor McGovern"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 7,
+        "anchor": "X.2"
+      }
+    },
+    {
+      "itemId": "ORD-2026-04",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "ORD",
+      "title": "Chapter 2.127 Community Benefits Advisory Committee Ordinance — passed to second reading as amended",
+      "summary": "Chapter 2.127 Community Benefits Advisory Committee Ordinance, forwarded by the Ordinance Committee with proposed amendments allowing allocation of community benefits funding to community organizations for capital projects. Passed to a Second Reading as Amended 7-0-2 (Azeem and McGovern absent).",
+      "body": "Chapter 2.127 Community Benefits Advisory Committee Ordinance.",
+      "sponsors": [],
+      "status": "adopted_amended",
+      "vote": {
+        "result": "Passed to a Second Reading as Amended [7-0-2]",
+        "yeas": ["al_zubi", "flaherty", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": ["azeem", "mcgovern"],
+        "present": []
+      },
+      "amendments": ["Amended in Ordinance Committee to allow allocation of funding to community organizations for capital projects"],
+      "history": [{"date": "2026-04-27", "action": "Passed to a Second Reading as Amended [7-0-2]"}],
+      "tags": [
+        "doc.kind:ORD",
+        "doc.item_id:ord-2026-04",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:adopted_amended",
+        "doc.stage:second_reading",
+        "geo.scope:citywide",
+        "topic.area:housing_zoning",
+        "fiscal.kind:appropriation",
+        "civic.councillor_vote:azeem:absent",
+        "civic.councillor_vote:mcgovern:absent"
+      ],
+      "rationale": {
+        "doc.kind:ORD": "Section X. COMMITTEE REPORTS — Chapter 2.127 Community Benefits Advisory Committee Ordinance",
+        "doc.status:adopted_amended": "RESULT: Passed to a Second Reading as Amended [7-0-2]",
+        "doc.stage:second_reading": "Passed to a Second Reading",
+        "topic.area:housing_zoning": "Community Benefits Ordinance governs developer mitigation funds",
+        "fiscal.kind:appropriation": "allowing the allocation of funding to community organizations for capital projects",
+        "civic.councillor_vote:azeem:absent": "ABSENT: Vice Mayor Azeem",
+        "civic.councillor_vote:mcgovern:absent": "ABSENT: Councillor McGovern"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 7,
+        "anchor": "X.2.A"
+      }
+    },
+    {
+      "itemId": "COF-2026-62",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "COF",
+      "title": "Interim City Clerk update on legislative activity",
+      "summary": "A communication from Interim City Clerk Paula Crane providing an update regarding legislative activity. Placed on File 8-0-1 (Councillor McGovern absent).",
+      "body": "A communication was received from Interim City Clerk Paula Crane, regarding an update regarding legislative activity.",
+      "sponsors": [],
+      "status": "placed_on_file",
+      "vote": {
+        "result": "Placed on File [8-0-1]",
+        "yeas": ["al_zubi", "azeem", "flaherty", "nolan", "simmons", "sobrinho_wheeler", "zusy", "siddiqui"],
+        "nays": [],
+        "absent": ["mcgovern"],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:COF",
+        "doc.item_id:cof-2026-62",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:placed_on_file",
+        "geo.scope:citywide",
+        "civic.councillor_vote:mcgovern:absent"
+      ],
+      "rationale": {
+        "doc.kind:COF": "Section XI. COMMUNICATIONS FROM OTHER CITY OFFICERS",
+        "doc.status:placed_on_file": "RESULT: Placed on File [8-0-1]",
+        "civic.councillor_vote:mcgovern:absent": "ABSENT: Councillor McGovern"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 7,
+        "anchor": "XI.1"
+      }
+    },
+    {
+      "itemId": "AR-2026-02",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: open city-owned parking lots (incl. Tobin/Darby Vassal) for after-hours use",
+      "summary": "An awaiting-report item from Councillor Nolan asking the City Manager to work with School Department, DPW, and other departments to make city-owned parking lots, with a focus on school complexes including the still-under-construction Tobin/Darby Vassal complex, available for after-hours use by residents.",
+      "body": "That the City Manager is requested to work with the School Department, the Department of Public Works, and other relevant departments to ensure that all city owned parking lots, with a focus on school complexes, including the still under construction parking at Tobin/Darby Vassal school complex, could be made available for after-hours use by residents. Original Awaiting Report Item AR-25-29",
+      "sponsors": ["nolan"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [{"date": "prior", "action": "Original Awaiting Report Item AR-25-29"}],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-02",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:nolan",
+        "geo.scope:school_zone",
+        "geo.school_zone:tobin_vassal",
+        "transport.mode:drive",
+        "transport.subject:parking",
+        "household.school:cps",
+        "topic.area:transit"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII/XIII. AWAITING REPORT LIST",
+        "doc.sponsor:nolan": "Councillor Nolan",
+        "geo.school_zone:tobin_vassal": "Tobin/Darby Vassal school complex",
+        "transport.subject:parking": "city owned parking lots ... made available for after-hours use",
+        "household.school:cps": "focus on school complexes (Cambridge Public Schools)"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 7,
+        "anchor": "AR.1"
+      }
+    },
+    {
+      "itemId": "AR-2026-04",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: outreach to condo owners and short-term rental operators",
+      "summary": "An awaiting-report item asking the City Manager to seek input from the community and conduct direct outreach to condo owners and short-term rental operators, then develop additional recommendations based on the Ordinance Committee discussion.",
+      "body": "The City Manager is requested to work with all relevant departments to seek input from the community as well as direct outreach to condo owners and short-term rental operators and develop additional recommendations based on the discussion in the Ordinance Committee. Original Awaiting Report Item AR-25-51",
+      "sponsors": ["nolan", "sobrinho_wheeler", "mcgovern", "siddiqui"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [{"date": "prior", "action": "Original Awaiting Report Item AR-25-51"}],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-04",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:nolan",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:siddiqui",
+        "geo.scope:citywide",
+        "housing.tenure:any",
+        "housing.type:condo",
+        "topic.area:housing_zoning"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. APPENDED INFORMATION — AWAITING REPORT LIST",
+        "doc.sponsor:nolan": "Councillor Nolan",
+        "housing.type:condo": "direct outreach to condo owners",
+        "topic.area:housing_zoning": "short-term rental regulation under Ordinance Committee"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 7,
+        "anchor": "AR.2"
+      }
+    },
+    {
+      "itemId": "AR-2026-06",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: home rule petition for Real Estate Transfer Fee",
+      "summary": "An awaiting-report item asking that the City review the previous home rule petition and prepare a new petition allowing Cambridge to enact a Real Estate Transfer Fee, to be sent to the state legislature.",
+      "body": "Review the previous home rule petition and prepare a new petition that would allow Cambridge to enact a Real Estate Transfer Fee to be sent to the state legislature. Original Awaiting Report AR-25-69",
+      "sponsors": ["nolan", "siddiqui", "sobrinho_wheeler", "mcgovern"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [{"date": "prior", "action": "Original Awaiting Report AR-25-69"}],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-06",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:nolan",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:mcgovern",
+        "geo.scope:citywide",
+        "housing.tenure:any",
+        "fiscal.kind:transfer_fee",
+        "topic.area:housing_zoning",
+        "civic.flag:home_rule_petition"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "fiscal.kind:transfer_fee": "Real Estate Transfer Fee",
+        "civic.flag:home_rule_petition": "home rule petition ... to be sent to the state legislature",
+        "topic.area:housing_zoning": "Real Estate Transfer Fee policy area"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 7,
+        "anchor": "AR.3"
+      }
+    },
+    {
+      "itemId": "AR-2026-07",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: restrict on-street resident parking permits in new transit-oriented developments",
+      "summary": "An awaiting-report item on restricting eligibility for on-street resident parking permits in new transit-oriented developments.",
+      "body": "Restricting Eligibility for On-Street Resident Parking Permits in New Transit-Oriented Developments. Original Awaiting Report 31839",
+      "sponsors": ["zusy", "azeem", "nolan"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [{"date": "prior", "action": "Original Awaiting Report 31839"}],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-07",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:zusy",
+        "doc.sponsor:azeem",
+        "doc.sponsor:nolan",
+        "geo.scope:citywide",
+        "housing.tenure:rent",
+        "transport.mode:drive",
+        "transport.mode:transit",
+        "transport.subject:parking",
+        "fiscal.kind:permit_fee",
+        "topic.area:housing_zoning",
+        "topic.area:transit"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "transport.subject:parking": "On-Street Resident Parking Permits",
+        "topic.area:transit": "Transit-Oriented Developments",
+        "topic.area:housing_zoning": "ties parking eligibility to residential development type"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 8,
+        "anchor": "AR.4"
+      }
+    },
+    {
+      "itemId": "AR-2026-14",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: comprehensive review of safety and security at City Hall",
+      "summary": "An awaiting-report item asking the City Manager to conduct a comprehensive review of existing safety and security measures at Cambridge City Hall, including physical access controls, visitor screening, on-site security staffing and training, emergency response and evacuation protocols, and surveillance systems.",
+      "body": "That the City Manager conduct a comprehensive review of existing safety and security measures at Cambridge City Hall, including an assessment of physical access controls, visitor screening practices, on-site security staffing and training, emergency response and evacuation protocols, and the use of security technologies such as surveillance systems and alarm monitoring.",
+      "sponsors": ["flaherty", "simmons"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-14",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:flaherty",
+        "doc.sponsor:simmons",
+        "geo.scope:landmark",
+        "geo.landmark:city_hall",
+        "topic.area:public_safety",
+        "topic.area:civil_liberties"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "geo.landmark:city_hall": "Cambridge City Hall",
+        "topic.area:public_safety": "safety and security measures at Cambridge City Hall",
+        "topic.area:civil_liberties": "use of security technologies such as surveillance systems"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 8,
+        "anchor": "AR.5"
+      }
+    },
+    {
+      "itemId": "AR-2026-16",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: third-party guarantors / co-signers for Inclusionary Housing applicants",
+      "summary": "An awaiting-report item asking CDD to examine the feasibility, legal considerations, and administrative requirements of permitting qualified third-party guarantors or co-signers for applicants to Inclusionary Housing units.",
+      "body": "The City Manager is requested to direct the Community Development Department (CDD) to examine the feasibility, legal considerations, and administrative requirements of permitting qualified third-party guarantors or co-signers for applicants to Inclusionary Housing units and provide recommendations as to whether such a policy could responsibly expand access to these units.",
+      "sponsors": ["azeem", "mcgovern", "sobrinho_wheeler", "simmons"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-16",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:azeem",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:simmons",
+        "geo.scope:citywide",
+        "housing.tenure:rent",
+        "housing.affordability:inclusionary",
+        "demo.income:low",
+        "topic.area:housing_zoning"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "housing.affordability:inclusionary": "applicants to Inclusionary Housing units",
+        "demo.income:low": "Inclusionary Housing serves income-qualified renters",
+        "housing.tenure:rent": "Inclusionary Housing units are rental units"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 8,
+        "anchor": "AR.6"
+      }
+    },
+    {
+      "itemId": "AR-2026-18",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: review digital equity and internet access programs",
+      "summary": "An awaiting-report item asking the City to review its digital equity work to date — including the prior study's recommendations and steps since — to update the evaluation of existing internet access programs and report back by June 2026.",
+      "body": "The City Manager is requested to direct the appropriate departments to review the city's digital equity work to date, including the study's recommendations and all steps taken since the study conclusion in order to update the evaluation of existing internet access programs, assessing whether residents' digital needs are or could be better provided for and to propose how we can better meet their needs and to report back to the Council by June 2026 on internet access programs.",
+      "sponsors": ["zusy", "nolan", "sobrinho_wheeler", "azeem"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-18",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:zusy",
+        "doc.sponsor:nolan",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:azeem",
+        "geo.scope:citywide",
+        "demo.income:low",
+        "topic.area:civil_liberties"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "demo.income:low": "digital equity work primarily addresses low-income residents' internet access",
+        "topic.area:civil_liberties": "digital equity is a civic-access issue"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 8,
+        "anchor": "AR.7"
+      }
+    },
+    {
+      "itemId": "AR-2026-19",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: improve consistency of meeting information on the City's website",
+      "summary": "An awaiting-report item asking the City Manager to assess opportunities to improve the consistency of how meeting information is posted and accessed on the City's website.",
+      "body": "That the City Manager is requested to assess opportunities to improve the consistency of how meeting information is posted and accessed on the City's website.",
+      "sponsors": ["simmons", "zusy", "sobrinho_wheeler"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-19",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:simmons",
+        "doc.sponsor:zusy",
+        "doc.sponsor:sobrinho_wheeler",
+        "geo.scope:citywide",
+        "topic.area:civil_liberties",
+        "civic.flag:first_timer_friendly"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "civic.flag:first_timer_friendly": "improve consistency of how meeting information is posted and accessed",
+        "topic.area:civil_liberties": "open-government / public access to meeting info"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 8,
+        "anchor": "AR.8"
+      }
+    },
+    {
+      "itemId": "AR-2026-20",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: consolidated capital lifecycle reconciliation prior to FY27 Capital Budget",
+      "summary": "An awaiting-report item requesting that the City Manager produce and deliver a consolidated capital lifecycle reconciliation for all major capital initiatives prior to adoption of the FY27 Capital Budget. Final Actions show: Report Accepted and Placed on File.",
+      "body": "That the City Manager be and hereby is requested to produce and deliver to the City Council, prior to the adoption of the FY27 Capital Budget, a consolidated capital lifecycle reconciliation for all major capital initiatives.",
+      "sponsors": ["simmons", "zusy", "flaherty"],
+      "status": "report_accepted",
+      "vote": {
+        "result": "Report Accepted and Placed on File",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-20",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:report_accepted",
+        "doc.sponsor:simmons",
+        "doc.sponsor:zusy",
+        "doc.sponsor:flaherty",
+        "geo.scope:citywide",
+        "fiscal.kind:appropriation",
+        "fiscal.amount_bucket:above_5m"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "doc.status:report_accepted": "RESULT: Report Accepted and Placed on File",
+        "fiscal.kind:appropriation": "FY27 Capital Budget adoption",
+        "fiscal.amount_bucket:above_5m": "all major capital initiatives (city capital budget exceeds $5M)"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 8,
+        "anchor": "AR.9"
+      }
+    },
+    {
+      "itemId": "AR-2026-22",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: simplify processes for paying election workers",
+      "summary": "An awaiting-report item asking the City Manager to work with the Election Commissioners to review IRS guidance and consult with other municipalities to simplify processes for paying election workers.",
+      "body": "That the City Manager is requested to work with relevant City departments as well as the Election Commissioners to review guidance from the IRS and consult with other municipalities in order to simplify our processes for paying election workers.",
+      "sponsors": ["nolan", "sobrinho_wheeler", "mcgovern", "zusy"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-22",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:nolan",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:zusy",
+        "geo.scope:citywide",
+        "topic.area:civil_liberties",
+        "work.audience:cambridge_workers"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "topic.area:civil_liberties": "election worker pay processes are voting-administration",
+        "work.audience:cambridge_workers": "election workers are paid Cambridge workers"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 8,
+        "anchor": "AR.10"
+      }
+    },
+    {
+      "itemId": "AR-2026-23",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: expand free early child care offerings, including means-tested models",
+      "summary": "An awaiting-report item asking the City Manager to work with City Council and departments to expand free early child care offerings, including models for means-tested programming and exploration of state or foundation funding. Final Actions show: Report Accepted and Placed on File.",
+      "body": "That the City Manager is requested to work with the City Council and relevant City departments on the process by which Cambridge can expand free early child care offerings, including models for means-tested programming, and exploration of non-City funding sources, from the state or foundations.",
+      "sponsors": ["nolan", "mcgovern", "siddiqui"],
+      "status": "report_accepted",
+      "vote": {
+        "result": "Report Accepted and Placed on File",
+        "yeas": [],
+        "nays": [],
+        "absent": [],
+        "present": []
+      },
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-23",
+        "doc.meeting_date:2026-04-27",
+        "doc.status:report_accepted",
+        "doc.sponsor:nolan",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:siddiqui",
+        "geo.scope:citywide",
+        "household.kids:under_5",
+        "household.composition:parent",
+        "topic.area:schools",
+        "demo.income:low",
+        "demo.income:means_tested"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "doc.status:report_accepted": "RESULT: Report Accepted and Placed on File",
+        "household.kids:under_5": "expand free early child care offerings",
+        "topic.area:schools": "early childhood education",
+        "demo.income:means_tested": "models for means-tested programming",
+        "demo.income:low": "free early child care primarily benefits low-income families"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 8,
+        "anchor": "AR.11"
+      }
+    },
+    {
+      "itemId": "AR-2026-25",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: discontinue all official City posting and engagement on X within 60 days",
+      "summary": "An awaiting-report item directing all City departments, boards, commissions, and offices to discontinue all official posting and engagement on X within 60 days, with an explanation included for why the City will no longer use X.",
+      "body": "That the City Manager be and hereby is requested to instruct all City departments, boards, commissions, and offices to discontinue all official posting and engagement on X within 60 days; and to include an explanation of why the City will no longer use X.",
+      "sponsors": ["al_zubi", "nolan"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-25",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:al_zubi",
+        "doc.sponsor:nolan",
+        "geo.scope:citywide",
+        "topic.area:civil_liberties"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "topic.area:civil_liberties": "discontinue all official posting and engagement on X (government communications/free speech)"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 9,
+        "anchor": "AR.12"
+      }
+    },
+    {
+      "itemId": "AR-2026-26",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: harmonize Harvard / MASCO institutional bus protocols with public-facing commitments",
+      "summary": "An awaiting-report item asking CDD and the Transportation Department to meet with Harvard's Office of Community Relations and the Longwood Collective (MASCO) to harmonize institutional bus protocols with public-facing commitments.",
+      "body": "That the City Manager is requested to direct the Community Development Department and the Transportation Department to meet with Harvard's Office of Community Relations and the Longwood Collective (MASCO) to harmonize institutional bus protocols with public-facing commitments.",
+      "sponsors": ["al_zubi", "siddiqui", "sobrinho_wheeler", "nolan"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-26",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:al_zubi",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:nolan",
+        "geo.scope:citywide",
+        "transport.mode:transit",
+        "transport.subject:bus_route",
+        "work.employer:university",
+        "topic.area:transit"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "transport.subject:bus_route": "institutional bus protocols",
+        "work.employer:university": "Harvard's Office of Community Relations",
+        "transport.mode:transit": "shuttle bus services"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 9,
+        "anchor": "AR.13"
+      }
+    },
+    {
+      "itemId": "AR-2026-27",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: study requiring single-stall public bathrooms to be gender-neutral",
+      "summary": "An awaiting-report item asking the City to examine and report back on whether Cambridge can require single-stall public bathrooms to be gender-neutral.",
+      "body": "That the City Manager is requested to direct relevant City departments and staff to examine and report back on whether the city can require single-stall public bathrooms to be gender-neutral.",
+      "sponsors": ["mcgovern", "siddiqui", "simmons", "al_zubi", "flaherty", "nolan", "azeem"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-27",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:simmons",
+        "doc.sponsor:al_zubi",
+        "doc.sponsor:flaherty",
+        "doc.sponsor:nolan",
+        "doc.sponsor:azeem",
+        "geo.scope:citywide",
+        "topic.area:civil_liberties",
+        "demo.gender:trans",
+        "demo.gender:non_binary"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "demo.gender:trans": "gender-neutral single-stall bathrooms primarily affect trans residents",
+        "demo.gender:non_binary": "gender-neutral facilities are a primary access point for non-binary residents",
+        "topic.area:civil_liberties": "bathroom access is a civil-rights issue"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 9,
+        "anchor": "AR.14"
+      }
+    },
+    {
+      "itemId": "AR-2026-28",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: review legal landscape for regulating large data centers in Cambridge",
+      "summary": "An awaiting-report item asking the City to review the current legal landscape and provide recommendations for regulating construction of large data centers in Cambridge.",
+      "body": "That the City Manager is requested to work with relevant departments to review the current legal landscape and provide recommendations for how to regulate construction of large data centers in Cambridge.",
+      "sponsors": ["nolan", "siddiqui", "mcgovern", "zusy"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-28",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:nolan",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:mcgovern",
+        "doc.sponsor:zusy",
+        "geo.scope:citywide",
+        "topic.area:housing_zoning",
+        "topic.area:climate",
+        "work.employer:tech"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "topic.area:housing_zoning": "regulate construction of large data centers",
+        "topic.area:climate": "data centers have major energy/water footprint",
+        "work.employer:tech": "data centers are tech-sector facilities"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 9,
+        "anchor": "AR.15"
+      }
+    },
+    {
+      "itemId": "AR-2026-29",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: raise resident parking permit fee to $75 ($25 subsidized); cap at 2; remove senior exemption",
+      "summary": "An awaiting-report item proposing to raise the residential parking permit fee to $75 with a $25 subsidized fee for residents in affordable housing, SNAP enrollees, or low-income residents; remove the senior exemption; and cap permits at two cars per household (down from four).",
+      "body": "That the City Manager is requested to work with relevant City departments to raise the fee of the parking permit program for all residents to $75, consider how to include a self-identified check off option so as not to increase administrative costs for a subsidized fee of $25 for residents who live in affordable housing, are enrolled in a program such as SNAP or are low income, remove the senior exemption for the residential parking permit program and lower the number of cars that individual residents are allowed to get a residential parking permit for from four to two.",
+      "sponsors": ["nolan", "zusy", "sobrinho_wheeler", "mcgovern"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-29",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:nolan",
+        "doc.sponsor:zusy",
+        "doc.sponsor:sobrinho_wheeler",
+        "doc.sponsor:mcgovern",
+        "geo.scope:citywide",
+        "housing.tenure:any",
+        "housing.affordability:inclusionary",
+        "transport.mode:drive",
+        "transport.subject:parking",
+        "fiscal.kind:parking_fee",
+        "fiscal.kind:permit_fee",
+        "demo.age:senior_65plus",
+        "demo.income:low",
+        "demo.income:means_tested"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "transport.subject:parking": "residential parking permit program",
+        "demo.age:senior_65plus": "remove the senior exemption for the residential parking permit program",
+        "demo.income:low": "subsidized fee of $25 for residents who ... are low income",
+        "demo.income:means_tested": "enrolled in a program such as SNAP",
+        "housing.affordability:inclusionary": "residents who live in affordable housing",
+        "fiscal.kind:parking_fee": "raise the fee of the parking permit program",
+        "fiscal.kind:permit_fee": "permit program fee"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 9,
+        "anchor": "AR.16"
+      }
+    },
+    {
+      "itemId": "AR-2026-30",
+      "meetingId": 2142,
+      "meetingDate": "2026-04-27",
+      "docKind": "AR",
+      "title": "Awaiting Report: report on artificial-turf installation decision and pause construction pending report",
+      "summary": "An awaiting-report item asking the City Manager to report on how the decision to install artificial turf was made, the rationale, the process for addressing community concerns and public health considerations, and to ensure construction does not move forward until the report is delivered.",
+      "body": "That the City Manager be and hereby is requested work with relevant City departments to provide a report on how the decision to install artificial turf was made, the rationale for artificial turf, and what process was taken to ensure community concerns and public health considerations were fully addressed, and to ensure that construction will not move forward until a report is delivered.",
+      "sponsors": ["nolan", "siddiqui", "mcgovern"],
+      "status": null,
+      "vote": null,
+      "amendments": [],
+      "history": [],
+      "tags": [
+        "doc.kind:AR",
+        "doc.item_id:ar-2026-30",
+        "doc.meeting_date:2026-04-27",
+        "doc.sponsor:nolan",
+        "doc.sponsor:siddiqui",
+        "doc.sponsor:mcgovern",
+        "geo.scope:citywide",
+        "topic.area:parks",
+        "topic.area:public_health",
+        "topic.area:climate"
+      ],
+      "rationale": {
+        "doc.kind:AR": "Section XII. AWAITING REPORT LIST",
+        "topic.area:parks": "decision to install artificial turf at city fields",
+        "topic.area:public_health": "public health considerations were fully addressed",
+        "topic.area:climate": "artificial turf raises environmental concerns"
+      },
+      "citation": {
+        "sourceFile": "scrape/city_council/2026-04-29_Agenda_2142.pdf",
+        "page": 9,
+        "anchor": "AR.17"
+      }
+    }
+  ]
+}
