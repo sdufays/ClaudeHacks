@@ -4,6 +4,25 @@
  * Owner of breaking changes: coordinate via main.
  */
 
+import type {
+  DEMO_GENDER_VALUES,
+  DEMO_LANGUAGE_VALUES,
+  DEMO_RACE_VALUES,
+  DEMO_TENURE_IN_CITY_VALUES,
+  GEO_NEIGHBORHOOD_VALUES,
+  GEO_ZIP_VALUES,
+  HOUSEHOLD_COMPOSITION_VALUES,
+  HOUSEHOLD_PETS_VALUES,
+  HOUSEHOLD_SCHOOL_VALUES,
+  HOUSING_LANDLORD_SIZE_VALUES,
+  HOUSING_TYPE_VALUES,
+  TOPIC_VALUES,
+  TRANSPORT_ACCESSIBILITY_VALUES,
+  TRANSPORT_MODE_VALUES,
+  WORK_EMPLOYER_VALUES,
+  WORK_STUDENT_VALUES,
+} from "../tagging/vocabulary";
+
 // ---------- Profile ----------
 
 export type HousingStatus = "rent" | "own" | "other";
@@ -151,3 +170,100 @@ export interface AgentResponse {
   /** Set when the balance-checker rewrote the draft */
   balanced?: boolean;
 }
+
+// ---------- User profile schema ----------
+
+// Full schema — see user-profile.md for prose justification of each field.
+export interface UserProfile {
+  // 1. Auth & identity
+  email: string;
+  displayName: string;
+
+  // 2. Address & location
+  streetAddress: string;
+  unit?: string;
+  zip: (typeof GEO_ZIP_VALUES)[number];
+  neighborhood: (typeof GEO_NEIGHBORHOOD_VALUES)[number];
+  yearsAtAddress?: "<1" | "1-5" | "5-15" | "15+";
+
+  // 3. Housing
+  housingStatus: "rent" | "own" | "other";
+  housingType?: (typeof HOUSING_TYPE_VALUES)[number];
+  landlordType?: (typeof HOUSING_LANDLORD_SIZE_VALUES)[number] | "prefer_not_to_say";
+
+  // 4. Commute & transportation
+  primaryCommute: (typeof TRANSPORT_MODE_VALUES)[number] | "mixed" | "wfh" | "n/a";
+  secondaryCommute?: (typeof TRANSPORT_MODE_VALUES)[number] | "mixed" | "wfh" | "n/a";
+  transitLines?: string[]; // free strings normalized to slugs (e.g. "red", "bus_77")
+  accessibilityNeeds?: (typeof TRANSPORT_ACCESSIBILITY_VALUES)[number][];
+
+  // 5. Household
+  composition?: (typeof HOUSEHOLD_COMPOSITION_VALUES)[number];
+  householdSize?: number;
+  childrenAgeBuckets?: ("0-4" | "5-10" | "11-13" | "14-18")[];
+  schoolEnrollment?: (typeof HOUSEHOLD_SCHOOL_VALUES)[number][];
+  pets?: (typeof HOUSEHOLD_PETS_VALUES)[number][];
+
+  // 6. Issue interests (max 5)
+  topics?: (typeof TOPIC_VALUES)[number][];
+
+  // 7. Demographics — all optional, all "prefer not to say" allowed
+  ageBracket?: "18-24" | "25-34" | "35-44" | "45-54" | "55-64" | "65-74" | "75+";
+  gender?: (typeof DEMO_GENDER_VALUES)[number] | "self_describe" | "prefer_not_to_say";
+  raceEthnicity?: ((typeof DEMO_RACE_VALUES)[number] | "self_describe")[];
+  incomeBracket?:
+    | "<25k"
+    | "25-50k"
+    | "50-75k"
+    | "75-100k"
+    | "100-150k"
+    | "150-250k"
+    | "250k+";
+  yearsInCambridge?: (typeof DEMO_TENURE_IN_CITY_VALUES)[number] | "<1" | "1-5" | "5-15" | "15+";
+  primaryLanguage?: "english" | (typeof DEMO_LANGUAGE_VALUES)[number];
+  educationLevel?:
+    | "high_school_or_less"
+    | "some_college"
+    | "associates"
+    | "bachelors"
+    | "graduate";
+
+  // 8. Civic engagement
+  voterRegistered?: "yes" | "no" | "not_eligible" | "prefer_not_to_say";
+  priorEngagement?: (
+    | "attended_meeting"
+    | "submitted_comment"
+    | "contacted_councillor"
+    | "volunteered_campaign"
+    | "voted_municipal"
+    | "none"
+  )[];
+
+  // 9. Workplace
+  worksInCambridge?: "yes" | "no" | "hybrid" | "not_employed";
+  workplaceZip?: string;
+  employerType?: (typeof WORK_EMPLOYER_VALUES)[number];
+  studentStatus?: (typeof WORK_STUDENT_VALUES)[number] | "not_a_student";
+
+  // 10. Consent
+  consentSentimentSharing: boolean;
+  consentNeighborhoodAggregation: boolean;
+  consentDataRetention: boolean;
+  consentEmailDigest?: boolean;
+}
+
+// Lean tier — what we actually need for the demo persona.
+export type UserProfileLean = Pick<
+  UserProfile,
+  | "email"
+  | "displayName"
+  | "streetAddress"
+  | "zip"
+  | "neighborhood"
+  | "housingStatus"
+  | "primaryCommute"
+  | "topics"
+  | "consentSentimentSharing"
+  | "consentNeighborhoodAggregation"
+  | "consentDataRetention"
+>;
