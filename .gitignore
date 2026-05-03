@@ -44,3 +44,8 @@ app-example
 
 # Worktree clones (live elsewhere on disk)
 trees/
+
+# Web (Next.js) project — node_modules and build artifacts
+web/node_modules
+web/.next
+web/next-env.d.ts

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(aws ecs describe-task-definition*)",
+      "Bash(aws ecs describe-tasks*)",
+      "Bash(aws secretsmanager get-secret-value*)",
+      "Bash(aws sts get-caller-identity*)",
+      "Bash(defaults read*)",
+      "Bash(docker info*)",
+      "Bash(npx tsc --noEmit*)",
+      "Bash(vercel inspect*)",
+      "Bash(vercel logs*)",
+      "Bash(vercel ls*)",
+      "Bash(xcrun simctl list*)"
+    ]
+  }
+}
