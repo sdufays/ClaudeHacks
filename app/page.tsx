@@ -1,16 +1,14 @@
+import Link from "next/link";
 import { Eyebrow, NavyHero, AccentStripe, TopicPill } from "@/components/design";
+import { LandingCta } from "@/components/landing/landing-cta";
 
-/**
- * Placeholder landing — proves the design system is wired up.
- * Real chat surface is built by the UI worktree (trees/ui/).
- */
 export default function Home() {
   return (
     <main className="mx-auto max-w-3xl px-6 py-16 sm:px-10 sm:py-24">
-      <Eyebrow>Civic Signal · Cambridge</Eyebrow>
+      <Eyebrow>Civic Signal &middot; Cambridge</Eyebrow>
 
       <h1 className="mt-6 font-serif text-5xl leading-[1.05] tracking-tight sm:text-6xl">
-        What your government is doing —<br />
+        What your government is doing &mdash;<br />
         and what it means for you.
       </h1>
 
@@ -20,8 +18,12 @@ export default function Home() {
         We don&rsquo;t tell you how to vote.
       </p>
 
-      <NavyHero className="mt-12 p-10">
-        <Eyebrow tone="dark">Tonight&rsquo;s briefing · Demo</Eyebrow>
+      <div className="mt-8">
+        <LandingCta />
+      </div>
+
+      <NavyHero className="mt-14 p-10">
+        <Eyebrow tone="dark">A peek at this week&rsquo;s briefing</Eyebrow>
         <h2 className="mt-5 font-serif text-3xl leading-[1.1] text-headline-dark sm:text-4xl">
           The first billion-dollar city budget is on the table.
         </h2>
@@ -39,7 +41,7 @@ export default function Home() {
 
       <div className="mt-12 space-y-6">
         <AccentStripe topic="housing">
-          <Eyebrow>Policy Order · Jan 27, 2026</Eyebrow>
+          <Eyebrow>Policy Order &middot; Jan 27, 2026</Eyebrow>
           <h3 className="mt-2 font-serif text-2xl">
             Cambridge Street upzoning passes 6&ndash;3
           </h3>
@@ -50,7 +52,7 @@ export default function Home() {
         </AccentStripe>
 
         <AccentStripe topic="civil_liberties">
-          <Eyebrow>Ordinance · Apr 28, 2026</Eyebrow>
+          <Eyebrow>Ordinance &middot; Apr 28, 2026</Eyebrow>
           <h3 className="mt-2 font-serif text-2xl">
             Sanctuary-city amendments adopted unanimously
           </h3>
@@ -60,8 +62,13 @@ export default function Home() {
         </AccentStripe>
       </div>
 
-      <div className="mt-16 border-t border-muted-light/15 pt-6 font-sans text-sm text-muted-light">
-        Scaffold preview · Real chat surface ships from <code>trees/ui</code>.
+      <div className="mt-16 border-t border-muted-light/15 pt-8 flex flex-wrap gap-x-6 gap-y-2 font-sans text-sm">
+        <Link href="/onboarding" className="text-accent-brand-light font-bold hover:underline">
+          Set up your profile &rarr;
+        </Link>
+        <Link href="/digest" className="text-muted-light hover:text-body-light">
+          See this week&rsquo;s briefing
+        </Link>
       </div>
     </main>
   );

@@ -2,27 +2,23 @@ import { Eyebrow } from "@/components/design/eyebrow";
 import { NavyHero } from "@/components/design/navy-hero";
 import { TopicPill } from "@/components/design/topic-pill";
 import { DigestList } from "@/components/chat/digest-list";
-import { ChatComposer } from "@/components/chat/chat-composer";
-import { Sidebar } from "@/components/sidebar/sidebar";
+import { Chat } from "@/components/chat/chat";
+import { SidebarClient } from "@/components/sidebar/sidebar-client";
 import {
-  DEMO_PROFILE,
-  MOCK_ITEMS,
-  MOCK_RELEVANCE,
-  MOCK_ACTIONS,
-} from "@/lib/mock";
+  COUNCIL_ITEMS,
+  RELEVANCE_LINES,
+  ACTIONS_BY_ITEM,
+} from "@/lib/cambridge-data";
 
-// Build lookup maps
 const relevanceMap = Object.fromEntries(
-  MOCK_RELEVANCE.map((r) => [r.itemId, r]),
+  RELEVANCE_LINES.map((r) => [r.itemId, r]),
 );
 
-// Count items with high relevance (score >= 0.7)
-const highRelevanceCount = MOCK_RELEVANCE.filter((r) => r.score >= 0.7).length;
+const highRelevanceCount = RELEVANCE_LINES.filter((r) => r.score >= 0.7).length;
 
 export default function DigestPage() {
   return (
     <div className="min-h-screen bg-mesh-light">
-      {/* Top header */}
       <header className="border-b border-muted-light/10 bg-card-white/80 backdrop-blur-sm">
         <div className="mx-auto max-w-[1120px] px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
@@ -36,38 +32,34 @@ export default function DigestPage() {
       </header>
 
       <main className="mx-auto max-w-[1120px] px-6 py-10">
-        {/* 2-column shell: sidebar (320px) + content */}
         <div className="flex flex-col-reverse gap-8 lg:flex-row lg:items-start lg:gap-12">
-          {/* Content column */}
           <div className="flex-1 min-w-0 space-y-8">
-            {/* Navy hero */}
             <NavyHero shape="card" className="p-10">
               <Eyebrow tone="dark">Tonight&rsquo;s Briefing</Eyebrow>
               <h1 className="mt-5 font-serif text-3xl leading-[1.1] text-headline-dark sm:text-4xl">
-                This week in Cambridge &mdash; {MOCK_ITEMS.length} items,{" "}
+                This week in Cambridge &mdash; {COUNCIL_ITEMS.length} items,{" "}
                 {highRelevanceCount}{" "}
                 {highRelevanceCount === 1 ? "affects" : "affect"} you directly
               </h1>
               <p className="mt-4 max-w-xl font-sans text-sm leading-relaxed text-body-dark/80">
-                Cambridge&rsquo;s first billion-dollar budget is in public hearings.
-                You can speak at Wednesday&rsquo;s 6pm session at City Hall.
+                Garden Street keeps its bike lanes 5&ndash;4, the Cambridge
+                Street upzoning is final, and the city&rsquo;s first $1B budget
+                heads to Finance Committee this week.
               </p>
               <div className="mt-5 flex flex-wrap gap-2">
                 <TopicPill topic="housing" tone="dark" />
                 <TopicPill topic="transit" tone="dark" />
                 <TopicPill topic="zoning" tone="dark" />
-                <TopicPill topic="civil_liberties" tone="dark" />
+                <TopicPill topic="climate" tone="dark" />
               </div>
             </NavyHero>
 
-            {/* Digest */}
             <DigestList
-              items={MOCK_ITEMS}
+              items={COUNCIL_ITEMS}
               relevanceMap={relevanceMap}
-              actionsMap={MOCK_ACTIONS}
+              actionsMap={ACTIONS_BY_ITEM}
             />
 
-            {/* Chat */}
             <div className="bg-card-white rounded-card shadow-card-soft p-6 space-y-4">
               <div className="space-y-1">
                 <h2 className="font-serif text-xl text-headline-light">
@@ -77,13 +69,12 @@ export default function DigestPage() {
                   Every answer cites the source. We don&rsquo;t tell you what to think.
                 </p>
               </div>
-              <ChatComposer />
+              <Chat />
             </div>
           </div>
 
-          {/* Sidebar — 320px wide on desktop */}
           <div className="w-full lg:w-[320px] lg:shrink-0">
-            <Sidebar profile={DEMO_PROFILE} reactionCount={0} />
+            <SidebarClient reactionCount={0} />
           </div>
         </div>
       </main>
