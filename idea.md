@@ -1,4 +1,6 @@
-# Idea: Civic Pulse (working name)
+# Idea: Civic Signal
+
+> Product name locked: **Civic Signal**. iOS bundle id (reserved): `com.dufays.civicsignal`. Today the build ships as a web app on Next.js; the bundle id is held for a future native version.
 
 > Keep people engaged with their local government — without telling them how to vote. And give the government a clean signal back about what residents actually think.
 

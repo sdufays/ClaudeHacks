@@ -1,4 +1,4 @@
-# Presentation notes — Civic Pulse demo anchors
+# Presentation notes — Civic Signal demo anchors
 
 ## 🔥 Co-anchor: Cambridge's first billion-dollar budget — FY27 (proposed Apr 29, 2026)
 
