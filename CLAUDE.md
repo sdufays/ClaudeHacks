@@ -18,8 +18,8 @@ Whatever the domain ends up being (governance, health, neuroscience, etc.), the 
 ```
 User → Next.js chat UI
         ↓
-    Orchestrator (Sonnet 4.6 via AI Gateway)
-        ├── 3–4 specialized sub-agents (Haiku 4.5)
+    Orchestrator (Opus 4.7 via AI Gateway)
+        ├── 3–4 specialized sub-agents (Sonnet 4.6)
         └── retrieval layer (hosted embeddings + in-memory store)
         ↓
     Streamed response with citations
@@ -28,7 +28,7 @@ User → Next.js chat UI
 ### Tech stack
 
 - **Frontend:** Next.js 16 App Router, TypeScript, Tailwind, shadcn/ui.
-- **AI:** Vercel AI SDK v6 + AI Gateway. `"anthropic/claude-sonnet-4-6"` for orchestrator, `"anthropic/claude-haiku-4-5"` for sub-agents. Plain `"provider/model"` strings — no provider-specific packages.
+- **AI:** Vercel AI SDK v6 + AI Gateway. `"anthropic/claude-opus-4-7"` for orchestrator, `"anthropic/claude-sonnet-4-6"` for sub-agents. Plain `"provider/model"` strings — no provider-specific packages. Quality over latency for a one-shot demo; drop sub-agents to Haiku 4.5 only if a parallel fan-out gets noticeably slow.
 - **Retrieval:** Hosted embeddings via AI Gateway (`openai/text-embedding-3-small`). In-memory vector store for ~30 docs is fine. Swap to Upstash if persistence matters.
 - **Open-source model option:** SAM 3 / SAM 3D, TimesFM 2.5, BGE-M3, or TRIBE v2 if the track calls for one. Pull weights pre-1pm — they're heavy.
 - **Deploy:** Vercel. `vercel deploy` from main; preview links per worktree.
@@ -95,7 +95,7 @@ When the track drops, decide in this order:
 
 1. **Domain & corpus** — what content does retrieval search over? Pre-stage 20–30 source documents into `data/corpus/`.
 2. **Orchestrator prompt** — what's the agent's job? Frame in one sentence.
-3. **Sub-agents** — typically 3–4 specialists (intake / retrieval / output, or domain-specific). Each gets a Haiku call.
+3. **Sub-agents** — typically 3–4 specialists (intake / retrieval / output, or domain-specific). Each gets a Sonnet call.
 4. **Sidebar contents** — what live context sits next to the chat?
 5. **Demo flow** — what does a judge see in 2 minutes? Write the script before writing code.
 
