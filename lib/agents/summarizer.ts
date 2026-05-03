@@ -8,7 +8,7 @@
  */
 
 import { generateText } from "ai";
-import { createGateway } from "@ai-sdk/gateway";
+import { anthropicModel } from "@/lib/agents/gateway";
 import type { Item, SearchResult, Citation } from "@/lib/types/shared";
 
 const SYSTEM_PROMPT = `You are a plain-English summarizer for Cambridge, MA city council activity.
@@ -54,9 +54,7 @@ ${sourcesText || "No sources provided — say so and decline to speculate."}`;
 }
 
 function getModel() {
-  const apiKey = process.env.AI_GATEWAY_API_KEY;
-  const gw = createGateway({ apiKey: apiKey ?? undefined });
-  return gw("anthropic/claude-sonnet-4-6");
+  return anthropicModel("claude-sonnet-4-6");
 }
 
 export async function summarize(

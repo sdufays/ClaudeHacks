@@ -6,7 +6,7 @@
  */
 
 import { embedMany } from "ai";
-import { createGateway } from "@ai-sdk/gateway";
+import { openAIEmbeddingModel } from "@/lib/agents/gateway";
 import type { CorpusDoc, CorpusChunk } from "@/lib/types/shared";
 
 // ---------- Chunking ----------
@@ -99,11 +99,10 @@ function mockEmbedding(text: string): number[] {
 // ---------- Real embedding via AI Gateway ----------
 
 function getGatewayEmbeddingModel() {
-  const apiKey = process.env.AI_GATEWAY_API_KEY;
+  const apiKey = process.env.AI_GATEWAY_API_KEY ?? process.env.OPENAI_API_KEY;
   if (!apiKey) return null;
   try {
-    const gw = createGateway({ apiKey });
-    return gw.embeddingModel("openai/text-embedding-3-small");
+    return openAIEmbeddingModel("text-embedding-3-small");
   } catch {
     return null;
   }

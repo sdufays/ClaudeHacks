@@ -8,7 +8,7 @@
  */
 
 import { generateText } from "ai";
-import { createGateway } from "@ai-sdk/gateway";
+import { anthropicModel } from "@/lib/agents/gateway";
 import type { Item, SearchResult, Action } from "@/lib/types/shared";
 
 const SYSTEM_PROMPT = `You are a civic-action extractor for Cambridge, MA city council activity.
@@ -59,9 +59,7 @@ Return JSON only. Do not invent dates, times, locations, or contacts not present
 }
 
 function getModel() {
-  const apiKey = process.env.AI_GATEWAY_API_KEY;
-  const gw = createGateway({ apiKey: apiKey ?? undefined });
-  return gw("anthropic/claude-sonnet-4-6");
+  return anthropicModel("claude-sonnet-4-6");
 }
 
 export async function extractActions(

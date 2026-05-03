@@ -8,7 +8,7 @@
  */
 
 import { generateText } from "ai";
-import { createGateway } from "@ai-sdk/gateway";
+import { anthropicModel } from "@/lib/agents/gateway";
 import type { Item } from "@/lib/types/shared";
 
 const SYSTEM_PROMPT = `You are a neutrality reviewer for civic information about Cambridge, MA city council activity.
@@ -49,9 +49,7 @@ Return JSON only.`;
 }
 
 function getModel() {
-  const apiKey = process.env.AI_GATEWAY_API_KEY;
-  const gw = createGateway({ apiKey: apiKey ?? undefined });
-  return gw("anthropic/claude-sonnet-4-6");
+  return anthropicModel("claude-sonnet-4-6");
 }
 
 export async function reviewForBalance(
